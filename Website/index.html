@@ -71,6 +71,25 @@
             </div>
         </div>
 
+        <!-- Champions Section -->
+        <div id="champions-section" class="text-center mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Season Champions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Eastern Conference</h3>
+                    <p id="east-champion" class="text-2xl text-blue-600 font-bold mt-1">-</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Overall Champion</h3>
+                    <p id="overall-champion" class="text-2xl text-yellow-500 font-bold mt-1">-</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700">Western Conference</h3>
+                    <p id="west-champion" class="text-2xl text-blue-600 font-bold mt-1">-</p>
+                </div>
+            </div>
+        </div>
+
         <!-- Standings Tables -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             <!-- Eastern Conference Table -->
@@ -306,21 +325,66 @@
                 });
             }
 
+            // Function to populate the champions section
+            function populateChampions(eastStandings, westStandings, decisiveMatches) {
+                const eastChampEl = document.getElementById('east-champion');
+                const westChampEl = document.getElementById('west-champion');
+                const overallChampEl = document.getElementById('overall-champion');
+
+                let eastChamp = "-";
+                let westChamp = "-";
+                let overallChamp = "-";
+
+                // Get East Champion
+                if (eastStandings.length > 1) {
+                    eastChamp = eastStandings[1][0]; // First team in the standings
+                }
+                
+                // Get West Champion
+                if (westStandings.length > 1) {
+                    westChamp = westStandings[1][0]; // First team in the standings
+                }
+
+                // Get Overall Champion from decisive matches
+                if (decisiveMatches.length > 1 && eastChamp !== "-" && westChamp !== "-") {
+                    const headers = decisiveMatches[0].map(h => h.trim());
+                    const winnerIndex = headers.indexOf('Winner');
+                    const matchIndex = headers.indexOf('Match');
+
+                    if (winnerIndex !== -1 && matchIndex !== -1) {
+                        const finalMatch = decisiveMatches.slice(1).find(row => {
+                            const matchText = row[matchIndex];
+                            return matchText.includes(eastChamp) && matchText.includes(westChamp);
+                        });
+
+                        if (finalMatch) {
+                            overallChamp = finalMatch[winnerIndex];
+                        }
+                    }
+                }
+                
+                eastChampEl.textContent = eastChamp;
+                westChampEl.textContent = westChamp;
+                overallChampEl.textContent = overallChamp;
+            }
+
             // Main function to load all data for a given year
             async function loadAllData(year) {
                 seasonTitle.textContent = `MLS '96 Cup - ${year} Season`;
                 
-                const [eastStandings, westStandings, eastMatches, westMatches] = await Promise.all([
+                const [eastStandings, westStandings, eastMatches, westMatches, decisiveMatches] = await Promise.all([
                     fetchCsvData(`${year}/eastern_standings_${year}.csv`),
                     fetchCsvData(`${year}/western_standings_${year}.csv`),
                     fetchCsvData(`${year}/eastern_matches_${year}.csv`),
-                    fetchCsvData(`${year}/western_matches_${year}.csv`)
+                    fetchCsvData(`${year}/western_matches_${year}.csv`),
+                    fetchCsvData(`${year}/decisive_matches_${year}.csv`)
                 ]);
 
                 populateStandings('east-standings', eastStandings);
                 populateStandings('west-standings', westStandings);
                 populateMatches('east-matches', eastMatches);
                 populateMatches('west-matches', westMatches);
+                populateChampions(eastStandings, westStandings, decisiveMatches);
             }
 
             // --- Initial Page Setup ---
