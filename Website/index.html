@@ -89,7 +89,29 @@
                     <p id="west-champion" class="text-2xl text-blue-600 font-bold mt-1">-</p>
                 </div>
             </div>
+             <!-- Decisive Matches Toggle Button -->
+            <div class="mt-6">
+                <button id="toggle-decisive-table" class="bg-gray-200 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-300 transition">
+                    Show Decisive Matchup Table
+                </button>
+            </div>
         </div>
+
+        <!-- Decisive Matches Table (Initially Hidden) -->
+        <div id="decisive-table-container" class="hidden mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Decisive Matchups</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-left border-collapse">
+                    <thead id="decisive-table-head" class="bg-gray-50">
+                        <!-- Header will be populated by JS -->
+                    </thead>
+                    <tbody id="decisive-table-body" class="divide-y">
+                        <!-- Body will be populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
 
         <!-- Standings Tables -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -172,6 +194,11 @@
             
             const yearSelector = document.getElementById('year-selector');
             const seasonTitle = document.getElementById('season-title');
+            const toggleButton = document.getElementById('toggle-decisive-table');
+            const decisiveTableContainer = document.getElementById('decisive-table-container');
+
+            const easternTeams = ["New England Revolution", "New York Red Bulls", "D.C. United", "Columbus Crew", "Chicago Fire FC"];
+            const westernTeams = ["LA Galaxy", "San Jose Earthquakes", "Colorado Rapids", "Sporting Kansas City", "FC Dallas"];
 
             // Function to populate the year selector dropdown
             function populateYearSelector() {
@@ -381,6 +408,65 @@
                 overallChampDetailsEl.innerHTML = champDetails;
             }
 
+            // Function to populate the decisive matches table
+            function populateDecisiveTable(decisiveMatches) {
+                const tableHead = document.getElementById('decisive-table-head');
+                const tableBody = document.getElementById('decisive-table-body');
+                
+                tableHead.innerHTML = '';
+                tableBody.innerHTML = '';
+
+                if (decisiveMatches.length < 2) {
+                    toggleButton.style.display = 'none';
+                    return;
+                }
+                toggleButton.style.display = 'inline-block';
+
+                const headers = decisiveMatches[0].map(h => h.trim());
+                const rows = decisiveMatches.slice(1);
+                const headerMap = {
+                    date: headers.indexOf('Date'),
+                    match: headers.indexOf('Match'),
+                    score: headers.indexOf('Score'),
+                    winner: headers.indexOf('Winner')
+                };
+
+                // Create Header
+                const headerRow = document.createElement('tr');
+                headerRow.innerHTML = `<th class="px-4 py-2 border">West \\ East</th>`;
+                easternTeams.forEach(team => {
+                    headerRow.innerHTML += `<th class="px-4 py-2 border">${team}</th>`;
+                });
+                tableHead.appendChild(headerRow);
+
+                // Create Body Rows
+                westernTeams.forEach(westTeam => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td class="px-4 py-2 border font-semibold">${westTeam}</td>`;
+                    easternTeams.forEach(eastTeam => {
+                        const matchData = rows.find(r => {
+                            const matchText = r[headerMap.match];
+                            return matchText.includes(westTeam) && matchText.includes(eastTeam);
+                        });
+
+                        if (matchData) {
+                            const date = new Date(matchData[headerMap.date]).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                            const score = matchData[headerMap.score];
+                            const winner = matchData[headerMap.winner];
+                            row.innerHTML += `
+                                <td class="px-4 py-2 border text-sm">
+                                    <p class="font-bold">${winner}</p>
+                                    <p class="text-gray-600">${score}</p>
+                                    <p class="text-gray-400">${date}</p>
+                                </td>`;
+                        } else {
+                            row.innerHTML += `<td class="px-4 py-2 border text-center text-gray-400">-</td>`;
+                        }
+                    });
+                    tableBody.appendChild(row);
+                });
+            }
+
             // Main function to load all data for a given year
             async function loadAllData(year) {
                 seasonTitle.textContent = `MLS '96 Cup - ${year} Season`;
@@ -398,6 +484,7 @@
                 populateMatches('east-matches', eastMatches);
                 populateMatches('west-matches', westMatches);
                 populateChampions(eastStandings, westStandings, decisiveMatches);
+                populateDecisiveTable(decisiveMatches);
             }
 
             // --- Initial Page Setup ---
@@ -414,6 +501,13 @@
             const mobileMenu = document.getElementById('mobile-menu');
             mobileMenuButton.addEventListener('click', () => {
                 mobileMenu.classList.toggle('hidden');
+            });
+
+            // Decisive table toggle
+            toggleButton.addEventListener('click', () => {
+                const isHidden = decisiveTableContainer.classList.contains('hidden');
+                decisiveTableContainer.classList.toggle('hidden');
+                toggleButton.textContent = isHidden ? 'Hide Decisive Matchup Table' : 'Show Decisive Matchup Table';
             });
         });
     </script>
