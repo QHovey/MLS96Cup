@@ -406,10 +406,12 @@
                 westChampEl.textContent = westChamp;
                 overallChampEl.textContent = overallChamp;
                 overallChampDetailsEl.innerHTML = champDetails;
+
+                return { eastChamp, westChamp };
             }
 
             // Function to populate the decisive matches table
-            function populateDecisiveTable(decisiveMatches) {
+            function populateDecisiveTable(decisiveMatches, eastChamp, westChamp) {
                 const tableHead = document.getElementById('decisive-table-head');
                 const tableBody = document.getElementById('decisive-table-body');
                 
@@ -449,18 +451,23 @@
                             return matchText.includes(westTeam) && matchText.includes(eastTeam);
                         });
 
+                        let cellClass = "px-4 py-2 border text-sm";
+                        if (westTeam === westChamp && eastTeam === eastChamp) {
+                            cellClass += " bg-yellow-200";
+                        }
+
                         if (matchData) {
-                            const date = new Date(matchData[headerMap.date]).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                            const date = new Date(matchData[headerMap.date]).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
                             const score = matchData[headerMap.score];
                             const winner = matchData[headerMap.winner];
                             row.innerHTML += `
-                                <td class="px-4 py-2 border text-sm">
+                                <td class="${cellClass}">
                                     <p class="font-bold">${winner}</p>
                                     <p class="text-gray-600">${score}</p>
                                     <p class="text-gray-400">${date}</p>
                                 </td>`;
                         } else {
-                            row.innerHTML += `<td class="px-4 py-2 border text-center text-gray-400">-</td>`;
+                            row.innerHTML += `<td class="${cellClass} text-center text-gray-400">-</td>`;
                         }
                     });
                     tableBody.appendChild(row);
@@ -483,8 +490,8 @@
                 populateStandings('west-standings', westStandings);
                 populateMatches('east-matches', eastMatches);
                 populateMatches('west-matches', westMatches);
-                populateChampions(eastStandings, westStandings, decisiveMatches);
-                populateDecisiveTable(decisiveMatches);
+                const champions = populateChampions(eastStandings, westStandings, decisiveMatches);
+                populateDecisiveTable(decisiveMatches, champions.eastChamp, champions.westChamp);
             }
 
             // --- Initial Page Setup ---
