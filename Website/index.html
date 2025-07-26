@@ -82,6 +82,7 @@
                 <div>
                     <h3 class="text-xl font-semibold text-gray-700">Overall Champion</h3>
                     <p id="overall-champion" class="text-2xl text-yellow-500 font-bold mt-1">-</p>
+                    <p id="overall-champion-details" class="text-sm text-gray-500 mt-1">&nbsp;</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold text-gray-700">Western Conference</h3>
@@ -330,10 +331,12 @@
                 const eastChampEl = document.getElementById('east-champion');
                 const westChampEl = document.getElementById('west-champion');
                 const overallChampEl = document.getElementById('overall-champion');
+                const overallChampDetailsEl = document.getElementById('overall-champion-details');
 
                 let eastChamp = "-";
                 let westChamp = "-";
                 let overallChamp = "-";
+                let champDetails = "&nbsp;"; // Use non-breaking space to maintain height
 
                 // Get East Champion
                 if (eastStandings.length > 1) {
@@ -350,6 +353,8 @@
                     const headers = decisiveMatches[0].map(h => h.trim());
                     const winnerIndex = headers.indexOf('Winner');
                     const matchIndex = headers.indexOf('Match');
+                    const scoreIndex = headers.indexOf('Score');
+                    const dateIndex = headers.indexOf('Date');
 
                     if (winnerIndex !== -1 && matchIndex !== -1) {
                         const finalMatch = decisiveMatches.slice(1).find(row => {
@@ -359,6 +364,13 @@
 
                         if (finalMatch) {
                             overallChamp = finalMatch[winnerIndex];
+                            const rawDate = finalMatch[dateIndex];
+                            const dateParts = rawDate.split('-');
+                            const decisiveDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+                            const formattedDate = decisiveDate.toLocaleDateString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric'
+                            });
+                            champDetails = `${formattedDate} (${finalMatch[scoreIndex]})`;
                         }
                     }
                 }
@@ -366,6 +378,7 @@
                 eastChampEl.textContent = eastChamp;
                 westChampEl.textContent = westChamp;
                 overallChampEl.textContent = overallChamp;
+                overallChampDetailsEl.innerHTML = champDetails;
             }
 
             // Main function to load all data for a given year
