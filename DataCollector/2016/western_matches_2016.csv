@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+raMy7WGNqd,2016-05-22 23:00:00 UTC,1,1,kaDQ0wRqEv,0KPqjA456v,315VrXb59x,wvq9p1Y5Wn,LeVq3j5WOJ,4JMA4X9QKg,97,2016,12,27167,False,FullTime,2016-05-25 12:34:19 UTC,LA Galaxy,San Jose Earthquakes
+2lqRXWzxMr,2016-06-26 02:00:00 UTC,1,1,0KPqjA456v,kaDQ0wRqEv,315VrXb59x,Oa5wY94Q14,4JMA4X9QKg,LeVq3j5WOJ,101,2016,15,50816,False,FullTime,2018-04-05 05:49:10 UTC,San Jose Earthquakes,LA Galaxy
+aDQ0Yn7EME,2016-08-14 02:30:00 UTC,1,1,kaDQ0wRqEv,pzeQZ6xQKw,Oa5w9R9Q14,wvq9p1Y5Wn,LeVq3j5WOJ,4wM4vOAqjB,100,2016,22,25667,False,FullTime,2016-08-18 23:01:02 UTC,LA Galaxy,Colorado Rapids
+gpMOXwG15z,2016-03-13 00:00:00 UTC,1,0,pzeQZ6xQKw,kaDQ0wRqEv,zeQZlGK5Kw,9z5ka6gQA3,4wM4vOAqjB,LeVq3j5WOJ,99,2016,2,17474,False,FullTime,2016-03-17 17:46:33 UTC,Colorado Rapids,LA Galaxy
+4wM4rk3lqj,2016-06-03 02:30:00 UTC,0,0,kaDQ0wRqEv,Z2vQ1xlqrA,9vQ202r5K6,wvq9p1Y5Wn,LeVq3j5WOJ,N6MmpyLQEG,96,2016,14,19651,False,FullTime,2016-06-09 17:18:55 UTC,LA Galaxy,Sporting Kansas City
+KPqja2VP56,2016-09-18 18:00:00 UTC,2,2,Z2vQ1xlqrA,kaDQ0wRqEv,odMXjR0qYL,NPqxy6XQ9d,N6MmpyLQEG,LeVq3j5WOJ,98,2016,27,19480,False,FullTime,2016-10-03 20:59:55 UTC,Sporting Kansas City,LA Galaxy
+NPqxYB2kQ9,2016-10-23 20:00:00 UTC,0,0,kaDQ0wRqEv,mKAqBBmqbg,jYQJnoVQGR,wvq9p1Y5Wn,LeVq3j5WOJ,gjMNk8v5Kp,98,2016,32,27167,False,FullTime,2016-10-25 13:39:34 UTC,LA Galaxy,FC Dallas
+7VqG1pyAMv,2016-10-02 01:00:00 UTC,1,0,mKAqBBmqbg,kaDQ0wRqEv,Pk5LRpDQOW,eVq3alGMWO,gjMNk8v5Kp,LeVq3j5WOJ,96,2016,29,15968,False,FullTime,2016-10-05 18:05:16 UTC,FC Dallas,LA Galaxy
+NWMWWn2LMl,2016-03-06 20:00:00 UTC,1,0,0KPqjA456v,pzeQZ6xQKw,EGMPLlxMaY,Vj58W84M8n,4JMA4X9QKg,4wM4vOAqjB,96,2016,1,18000,False,FullTime,2016-03-10 22:56:14 UTC,San Jose Earthquakes,Colorado Rapids
+Pk5LXvdZ5O,2016-10-14 01:00:00 UTC,2,1,pzeQZ6xQKw,0KPqjA456v,KAqB3m7Qbg,9z5ka6gQA3,4wM4vOAqjB,4JMA4X9QKg,97,2016,31,13516,False,FullTime,2016-10-16 01:43:42 UTC,Colorado Rapids,San Jose Earthquakes
+XVqKvZJw50,2016-09-25 02:30:00 UTC,1,2,0KPqjA456v,Z2vQ1xlqrA,jYQJnnZQGR,Vj58W84M8n,4JMA4X9QKg,N6MmpyLQEG,99,2016,28,18000,False,FullTime,2016-09-27 22:02:10 UTC,San Jose Earthquakes,Sporting Kansas City
+9vQ2ERDoqK,2016-10-23 20:00:00 UTC,2,0,Z2vQ1xlqrA,0KPqjA456v,Pk5LRpDQOW,NPqxy6XQ9d,N6MmpyLQEG,4JMA4X9QKg,93,2016,32,20371,False,FullTime,2016-10-26 15:41:13 UTC,Sporting Kansas City,San Jose Earthquakes
+315VBObG59,2016-07-09 02:30:00 UTC,0,1,0KPqjA456v,mKAqBBmqbg,Oa5w9R9Q14,Vj58W84M8n,4JMA4X9QKg,gjMNk8v5Kp,97,2016,17,18000,False,FullTime,2016-07-13 09:55:20 UTC,San Jose Earthquakes,FC Dallas
+ljqEa07Oqx,2016-04-10 01:00:00 UTC,2,2,mKAqBBmqbg,0KPqjA456v,0Oq6037M6D,eVq3alGMWO,gjMNk8v5Kp,4JMA4X9QKg,97,2016,6,13386,False,FullTime,2016-04-12 13:50:31 UTC,FC Dallas,San Jose Earthquakes
+aDQ0YnZEME,2016-07-17 01:00:00 UTC,1,0,pzeQZ6xQKw,Z2vQ1xlqrA,Pk5LRpDQOW,9z5ka6gQA3,4wM4vOAqjB,N6MmpyLQEG,97,2016,18,18461,False,FullTime,2016-07-19 13:25:54 UTC,Colorado Rapids,Sporting Kansas City
+0x5gbdVLM7,2016-04-14 00:30:00 UTC,1,2,Z2vQ1xlqrA,pzeQZ6xQKw,KAqB3m7Qbg,NPqxy6XQ9d,N6MmpyLQEG,4wM4vOAqjB,97,2016,7,19168,False,FullTime,2016-04-14 22:55:25 UTC,Sporting Kansas City,Colorado Rapids
+ljqEa0vYqx,2016-07-24 01:00:00 UTC,1,1,pzeQZ6xQKw,mKAqBBmqbg,315VrXb59x,9z5ka6gQA3,4wM4vOAqjB,gjMNk8v5Kp,95,2016,19,18178,False,FullTime,2016-08-01 13:48:14 UTC,Colorado Rapids,FC Dallas
+Pk5LXvwZ5O,2016-09-11 01:00:00 UTC,0,1,mKAqBBmqbg,pzeQZ6xQKw,KAqB3m7Qbg,eVq3alGMWO,gjMNk8v5Kp,4wM4vOAqjB,99,2016,26,14468,False,FullTime,2016-09-14 21:52:43 UTC,FC Dallas,Colorado Rapids
+jYQJX4Nd5G,2016-06-19 21:00:00 UTC,2,0,Z2vQ1xlqrA,mKAqBBmqbg,KPqjb74q6v,NPqxy6XQ9d,N6MmpyLQEG,gjMNk8v5Kp,100,2016,14,18927,False,FullTime,2016-06-21 22:03:51 UTC,Sporting Kansas City,FC Dallas
+odMXgoNGQY,2016-08-14 01:00:00 UTC,2,2,mKAqBBmqbg,Z2vQ1xlqrA,gjMNk4v5Kp,eVq3alGMWO,gjMNk8v5Kp,N6MmpyLQEG,99,2016,22,13408,False,FullTime,2016-08-18 22:58:53 UTC,FC Dallas,Sporting Kansas City

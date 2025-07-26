@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+BLMvXYw7qx,2021-08-21 02:30:00 UTC,1,2,kaDQ0wRqEv,0KPqjA456v,gjMNk4v5Kp,wvq9p1Y5Wn,Xj5Yx60Mbd,2vQ10jwqrA,97,2021,21,17568,False,FullTime,2021-08-23 11:08:19 UTC,LA Galaxy,San Jose Earthquakes
+eVq3J8Nj5W,2021-06-27 02:00:00 UTC,1,3,0KPqjA456v,kaDQ0wRqEv,gjMNk4v5Kp,Vj58W84M8n,2vQ10jwqrA,Xj5Yx60Mbd,97,2021,10,18000,False,FullTime,2021-06-29 12:22:18 UTC,San Jose Earthquakes,LA Galaxy
+Vj58gxVrM8,2021-08-18 02:30:00 UTC,1,2,kaDQ0wRqEv,pzeQZ6xQKw,zeQZl7D5Kw,wvq9p1Y5Wn,Xj5Yx60Mbd,0Oq6VPgq6D,102,2021,20,15101,False,FullTime,2021-08-20 12:51:40 UTC,LA Galaxy,Colorado Rapids
+Vj58gx4wM8,2021-09-11 19:30:00 UTC,1,1,pzeQZ6xQKw,kaDQ0wRqEv,9vQ2mPaqK6,9z5ka6gQA3,0Oq6VPgq6D,Xj5Yx60Mbd,100,2021,24,11736,False,FullTime,2021-09-14 10:14:44 UTC,Colorado Rapids,LA Galaxy
+gjMN3LOB5K,2021-07-05 02:30:00 UTC,0,2,kaDQ0wRqEv,Z2vQ1xlqrA,KPqjDeNM6v,wvq9p1Y5Wn,Xj5Yx60Mbd,N6MmpyLQEG,101,2021,11,23556,False,FullTime,2021-07-06 07:27:34 UTC,LA Galaxy,Sporting Kansas City
+zeQZV2RzQK,2021-10-28 00:30:00 UTC,2,0,Z2vQ1xlqrA,kaDQ0wRqEv,0Oq6037M6D,NPqxy6XQ9d,N6MmpyLQEG,Xj5Yx60Mbd,95,2021,33,18711,False,FullTime,2021-10-30 08:40:00 UTC,Sporting Kansas City,LA Galaxy
+odMX9ena5Y,2021-10-24 02:00:00 UTC,2,2,kaDQ0wRqEv,mKAqBBmqbg,EGMPPnAMaY,wvq9p1Y5Wn,Xj5Yx60Mbd,2vQ1m6bQrA,101,2021,32,15136,False,FullTime,2021-10-27 07:40:24 UTC,LA Galaxy,FC Dallas
+KAqBPWKZMb,2021-07-25 00:30:00 UTC,4,0,mKAqBBmqbg,kaDQ0wRqEv,zeQZl7D5Kw,eVq3alGMWO,eV5DNVJQKn,Xj5Yx60Mbd,98,2021,15,14812,False,FullTime,2021-07-27 10:52:37 UTC,FC Dallas,LA Galaxy
+9z5kKoxY5A,2021-09-05 02:00:00 UTC,0,1,0KPqjA456v,pzeQZ6xQKw,odMX96a5YL,Vj58W84M8n,2vQ10jwqrA,0Oq6VPgq6D,99,2021,23,14142,False,FullTime,2021-09-07 07:10:03 UTC,San Jose Earthquakes,Colorado Rapids
+4JMAVBjD5K,2021-07-18 01:00:00 UTC,1,1,pzeQZ6xQKw,0KPqjA456v,9vQ2mPaqK6,9z5ka6gQA3,0Oq6VPgq6D,2vQ10jwqrA,98,2021,13,14664,False,FullTime,2021-07-20 15:31:21 UTC,Colorado Rapids,San Jose Earthquakes
+KAqBPW1WMb,2021-05-23 02:00:00 UTC,1,3,0KPqjA456v,Z2vQ1xlqrA,vzqoWjkqap,Vj58W84M8n,2vQ10jwqrA,N6MmpyLQEG,97,2021,6,0,False,FullTime,2021-05-24 14:14:27 UTC,San Jose Earthquakes,Sporting Kansas City
+Oa5wXrBYq1,2021-07-22 00:30:00 UTC,1,1,Z2vQ1xlqrA,0KPqjA456v,odMX96a5YL,NPqxy6XQ9d,N6MmpyLQEG,2vQ10jwqrA,101,2021,14,17872,False,FullTime,2021-07-24 13:45:45 UTC,Sporting Kansas City,San Jose Earthquakes
+OlMlaRwy5L,2021-11-07 23:00:00 UTC,1,1,0KPqjA456v,mKAqBBmqbg,2lqRymD5r0,Vj58W84M8n,2vQ10jwqrA,2vQ1m6bQrA,99,2021,35,0,False,FullTime,2021-11-11 07:49:35 UTC,San Jose Earthquakes,FC Dallas
+gjMN3LJ45K,2021-09-12 00:30:00 UTC,1,1,mKAqBBmqbg,0KPqjA456v,wvq9vKlQWn,eVq3alGMWO,eV5DNVJQKn,2vQ10jwqrA,102,2021,24,15237,False,FullTime,2021-09-15 09:31:13 UTC,FC Dallas,San Jose Earthquakes
+Oa5wXrwWq1,2021-08-08 01:00:00 UTC,0,0,pzeQZ6xQKw,Z2vQ1xlqrA,EGMPLlxMaY,9z5ka6gQA3,0Oq6VPgq6D,N6MmpyLQEG,97,2021,18,11753,False,FullTime,2021-08-10 05:18:46 UTC,Colorado Rapids,Sporting Kansas City
+Oa5wXr3Xq1,2021-08-29 01:00:00 UTC,1,1,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZlGK5Kw,NPqxy6XQ9d,N6MmpyLQEG,0Oq6VPgq6D,98,2021,22,19883,False,FullTime,2021-08-31 14:33:42 UTC,Sporting Kansas City,Colorado Rapids
+eVq3J8Kj5W,2021-07-22 01:00:00 UTC,2,0,pzeQZ6xQKw,mKAqBBmqbg,4JMAYlPMKg,9z5ka6gQA3,0Oq6VPgq6D,eV5DNVJQKn,97,2021,14,8321,False,FullTime,2021-07-24 13:50:32 UTC,Colorado Rapids,FC Dallas
+eV5DNDbOQK,2021-04-18 00:00:00 UTC,0,0,mKAqBBmqbg,pzeQZ6xQKw,7VqG6KX5vW,eVq3alGMWO,eV5DNVJQKn,0Oq6VPgq6D,94,2021,1,8621,False,FullTime,2021-04-20 14:04:14 UTC,FC Dallas,Colorado Rapids
+2vQ1lrKwqr,2021-08-01 00:30:00 UTC,1,2,Z2vQ1xlqrA,mKAqBBmqbg,KPqjDeNM6v,NPqxy6XQ9d,N6MmpyLQEG,eV5DNVJQKn,101,2021,16,19975,False,FullTime,2021-08-04 06:45:13 UTC,Sporting Kansas City,FC Dallas
+9Yqd8BLoqv,2021-09-30 00:00:00 UTC,1,3,mKAqBBmqbg,Z2vQ1xlqrA,9z5kJ7gMA3,eVq3alGMWO,2vQ1m6bQrA,N6MmpyLQEG,96,2021,28,12387,False,FullTime,2021-10-03 09:20:27 UTC,FC Dallas,Sporting Kansas City

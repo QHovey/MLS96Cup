@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+OlMleWD45L,2013-05-11 23:30:00 UTC,1,1,19vQ2095K6,a2lqRX2Mr0,odMXjR0qYL,wvq9p775Wn,9z5kJ0jMA3,aDQ009EQEv,97,2013,11,16440,False,FullTime,,New England Revolution,New York Red Bulls
+7vQ7BRmeqD,2013-10-05 23:00:00 UTC,2,2,a2lqRX2Mr0,19vQ2095K6,zeQZlGK5Kw,NWMW84L5lz,aDQ009EQEv,9z5kJ0jMA3,102,2013,31,25219,False,FullTime,,New York Red Bulls,New England Revolution
+0x5gLx9mq7,2013-09-21 23:30:00 UTC,2,1,19vQ2095K6,EKXMeX3Q64,xW5pgWYMg1,wvq9p775Wn,9z5kJ0jMA3,vzqoAjJMap,96,2013,29,19187,False,FullTime,,New England Revolution,D.C. United
+OlMleWYw5L,2013-07-27 23:00:00 UTC,1,2,EKXMeX3Q64,19vQ2095K6,gOMnB7AMwN,jYQJ1PBqGR,vzqoAjJMap,9z5kJ0jMA3,96,2013,21,14122,False,FullTime,,D.C. United,New England Revolution
+zeQZXLgg5K,2013-10-19 23:30:00 UTC,3,2,19vQ2095K6,mvzqoLZQap,a35r6KG5L6,wvq9p775Wn,9z5kJ0jMA3,kRQaRD1MKZ,97,2013,33,26548,False,FullTime,2014-10-17 01:59:11 UTC,New England Revolution,Columbus Crew
+0x5gLxymq7,2013-10-27 20:00:00 UTC,0,1,mvzqoLZQap,19vQ2095K6,9vQ202r5K6,p6qbeb850G,kRQaRD1MKZ,9z5kJ0jMA3,103,2013,34,17505,False,FullTime,,Columbus Crew,New England Revolution
+7VqG0X6dQv,2013-08-17 23:30:00 UTC,2,0,19vQ2095K6,X0Oq66zq6D,jYQJnnZQGR,wvq9p775Wn,9z5kJ0jMA3,gOMnBPJMwN,97,2013,24,14630,False,FullTime,,New England Revolution,Chicago Fire FC
+4JMAo1AYqK,2013-09-15 00:30:00 UTC,3,2,X0Oq66zq6D,19vQ2095K6,e7MzPKXqr0,9YqdkYR5vJ,gOMnBPJMwN,9z5kJ0jMA3,98,2013,28,17104,False,FullTime,,Chicago Fire FC,New England Revolution
+Pk5Le3x7qO,2013-09-01 00:00:00 UTC,2,1,a2lqRX2Mr0,EKXMeX3Q64,Oa5w9R9Q14,NWMW84L5lz,aDQ009EQEv,vzqoAjJMap,99,2013,26,17372,False,FullTime,,New York Red Bulls,D.C. United
+9YqdoeG75v,2013-04-13 23:00:00 UTC,0,2,EKXMeX3Q64,a2lqRX2Mr0,9z5kJ7gMA3,jYQJ1PBqGR,vzqoAjJMap,aDQ009EQEv,96,2013,7,18019,False,FullTime,,D.C. United,New York Red Bulls
+KAqBNrGmqb,2013-05-26 21:00:00 UTC,2,2,a2lqRX2Mr0,mvzqoLZQap,2lqRNx4qr0,NWMW84L5lz,aDQ009EQEv,315VavvM9x,98,2013,13,14840,False,FullTime,,New York Red Bulls,Columbus Crew
+N6MmogwPqE,2013-08-10 23:30:00 UTC,2,0,mvzqoLZQap,a2lqRX2Mr0,vzqoWjkqap,p6qbeb850G,315VavvM9x,aDQ009EQEv,97,2013,23,19080,False,FullTime,2014-10-17 01:28:21 UTC,Columbus Crew,New York Red Bulls
+NWMWlkYN5l,2013-10-27 21:00:00 UTC,5,2,a2lqRX2Mr0,X0Oq66zq6D,e7MzPKXqr0,NWMW84L5lz,aDQ009EQEv,gOMnBPJMwN,97,2013,34,25219,False,FullTime,,New York Red Bulls,Chicago Fire FC
+a35ryo2oML,2013-04-07 21:00:00 UTC,3,1,X0Oq66zq6D,a2lqRX2Mr0,vzqoWjkqap,9YqdkYR5vJ,gOMnBPJMwN,aDQ009EQEv,96,2013,6,12557,False,FullTime,2014-10-15 17:11:39 UTC,Chicago Fire FC,New York Red Bulls
+NWMWlk4D5l,2013-03-23 19:30:00 UTC,1,2,EKXMeX3Q64,mvzqoLZQap,vzqoWjkqap,jYQJ1PBqGR,vzqoAjJMap,315VavvM9x,98,2013,4,11034,False,FullTime,,D.C. United,Columbus Crew
+KAqBNr4mqb,2013-04-27 23:30:00 UTC,3,0,mvzqoLZQap,EKXMeX3Q64,4wM40nzMjB,p6qbeb850G,315VavvM9x,vzqoAjJMap,97,2013,9,14090,False,FullTime,,Columbus Crew,D.C. United
+Pk5Le3E7qO,2013-10-05 00:00:00 UTC,0,3,EKXMeX3Q64,X0Oq66zq6D,odMXjR0qYL,jYQJ1PBqGR,vzqoAjJMap,gOMnBPJMwN,97,2013,31,13949,False,FullTime,,D.C. United,Chicago Fire FC
+EGMPZGPyqa,2013-07-21 00:30:00 UTC,4,1,X0Oq66zq6D,EKXMeX3Q64,zeQZlGK5Kw,9YqdkYR5vJ,gOMnBPJMwN,vzqoAjJMap,95,2013,20,17190,False,FullTime,,Chicago Fire FC,D.C. United
+eVq3x6AGQW,2013-09-21 23:30:00 UTC,3,0,mvzqoLZQap,X0Oq66zq6D,Oa5w9R9Q14,p6qbeb850G,kRQaRD1MKZ,gOMnBPJMwN,97,2013,29,19010,False,FullTime,,Columbus Crew,Chicago Fire FC
+4JMAo162qK,2013-04-21 00:30:00 UTC,1,0,X0Oq66zq6D,mvzqoLZQap,gOMnB7AMwN,9YqdkYR5vJ,gOMnBPJMwN,315VavvM9x,97,2013,8,12813,False,FullTime,,Chicago Fire FC,Columbus Crew

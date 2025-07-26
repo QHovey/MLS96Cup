@@ -19,12 +19,12 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         asa_client (AmericanSoccerAnalysis): The API client instance.
 
     Returns:
-        tuple: (top_team_name, standings_df, calculation_matches_df, all_matches_df) or (None, None, None, None)
+        tuple: (top_team_name, standings_df, matches_df_for_calc) or (None, None, None)
     """
     print(f"\n{'='*20} {conference_name.upper()} CONFERENCE ANALYSIS ({season}) {'='*20}")
     if len(team_list) < 2:
         print("Error: Please provide at least two teams in the list.")
-        return None, None, None, None
+        return None, None, None
 
     try:
         # 1. Find the team IDs for all teams in the input list
@@ -40,7 +40,7 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         
         if len(team_ids) < 2:
             print("Error: Not enough valid teams found to perform an analysis.")
-            return None, None, None, None
+            return None, None, None
             
         print(f"Found IDs for {len(team_ids)} teams.")
         team_id_list = list(team_ids.values())
@@ -49,11 +49,6 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         print(f"Fetching Regular Season game data for the {season} {league.upper()} season...")
         all_games = pd.DataFrame(asa_client.get_games(leagues=[league], seasons=[season], stages=['Regular Season']))
         
-        # Create a dataframe with ALL matches between the teams for export
-        all_matches_condition = (all_games['home_team_id'].isin(team_id_list)) & (all_games['away_team_id'].isin(team_id_list))
-        all_h2h_matches_df = all_games[all_matches_condition].copy()
-
-
         # 3. Advanced Match Filtering Logic for STANDINGS CALCULATION
         print("Filtering for the most recent home and away match for each team pairing (for standings)...")
         games_to_keep = []
@@ -74,7 +69,7 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
 
         if not games_to_keep:
             print(f"\nNo matches found between the specified teams in the {season} {league.upper()} regular season.")
-            return None, None, None, None
+            return None, None, None
 
         matches_df_for_calc = pd.concat(games_to_keep).drop_duplicates().reset_index(drop=True)
 
@@ -147,11 +142,7 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         standings_df = pd.DataFrame(sorted_table)
         standings_df = standings_df[['team_name', 'games_played', 'points', 'goals_scored', 'goals_conceded', 'goal_differential']]
         
-        # Add team names to the full match list for export
-        all_h2h_matches_df = pd.merge(all_h2h_matches_df, all_teams[['team_id', 'team_name']], left_on='home_team_id', right_on='team_id').rename(columns={'team_name': 'home_team'}).drop('team_id', axis=1)
-        all_h2h_matches_df = pd.merge(all_h2h_matches_df, all_teams[['team_id', 'team_name']], left_on='away_team_id', right_on='team_id').rename(columns={'team_name': 'away_team'}).drop('team_id', axis=1)
-
-        return sorted_table[0]['team_name'], standings_df, all_h2h_matches_df
+        return sorted_table[0]['team_name'], standings_df, matches_df_for_calc
 
     except Exception as e:
         print(f"\nAn unexpected error occurred in {conference_name} analysis: {e}")
@@ -241,26 +232,26 @@ if __name__ == '__main__':
         all_teams_df = pd.DataFrame(client.get_teams(leagues=[LEAGUE]))
 
         if not all_teams_df.empty:
-            _, eastern_standings, eastern_all_matches = calculate_h2h_points(eastern_teams, LEAGUE, SEASON, "Eastern", all_teams_df, client)
-            _, western_standings, western_all_matches = calculate_h2h_points(western_teams, LEAGUE, SEASON, "Western", all_teams_df, client)
+            _, eastern_standings, eastern_calc_matches = calculate_h2h_points(eastern_teams, LEAGUE, SEASON, "Eastern", all_teams_df, client)
+            _, western_standings, western_calc_matches = calculate_h2h_points(western_teams, LEAGUE, SEASON, "Western", all_teams_df, client)
 
             # Export conference data to CSV in the year's subfolder
             if eastern_standings is not None:
                 filepath = os.path.join(SEASON, f'eastern_standings_{SEASON}.csv')
                 eastern_standings.to_csv(filepath, index=False)
                 print(f"\nEastern conference standings saved to {filepath}")
-            if eastern_all_matches is not None:
+            if eastern_calc_matches is not None:
                 filepath = os.path.join(SEASON, f'eastern_matches_{SEASON}.csv')
-                eastern_all_matches.to_csv(filepath, index=False)
-                print(f"All Eastern conference matches saved to {filepath}")
+                eastern_calc_matches.to_csv(filepath, index=False)
+                print(f"Eastern conference matches used for standings saved to {filepath}")
             if western_standings is not None:
                 filepath = os.path.join(SEASON, f'western_standings_{SEASON}.csv')
                 western_standings.to_csv(filepath, index=False)
                 print(f"Western conference standings saved to {filepath}")
-            if western_all_matches is not None:
+            if western_calc_matches is not None:
                 filepath = os.path.join(SEASON, f'western_matches_{SEASON}.csv')
-                western_all_matches.to_csv(filepath, index=False)
-                print(f"All Western conference matches saved to {filepath}")
+                western_calc_matches.to_csv(filepath, index=False)
+                print(f"Western conference matches used for standings saved to {filepath}")
 
             # Find and export decisive matches
             print(f"\n{'='*20} ALL EAST VS. WEST DECISIVE MATCHUPS {'='*20}")

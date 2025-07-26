@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
+4wM447egMj,2018-05-26 03:00:00 UTC,1,0,kaDQ0wRqEv,0KPqjA456v,315VrXb59x,wvq9p1Y5Wn,KXMeab1M64,odMXaYo5YL,94,2018,13,23118,False,FullTime,2018-09-12 14:00:17 UTC,,,LA Galaxy,San Jose Earthquakes
+4wM447rkMj,2018-07-01 02:00:00 UTC,3,3,0KPqjA456v,kaDQ0wRqEv,9YqdEL9QvJ,Oa5wY94Q14,odMXaYo5YL,KXMeab1M64,96,2018,18,50743,False,FullTime,2018-07-03 18:33:12 UTC,,,San Jose Earthquakes,LA Galaxy
+jYQJwPdPMG,2018-08-15 02:30:00 UTC,2,2,kaDQ0wRqEv,pzeQZ6xQKw,315VrXb59x,wvq9p1Y5Wn,KXMeab1M64,kRQa99OQKZ,98,2018,27,16231,False,FullTime,2019-03-09 01:41:29 UTC,,,LA Galaxy,Colorado Rapids
+gOMnV1VOMw,2018-08-05 01:00:00 UTC,2,1,pzeQZ6xQKw,kaDQ0wRqEv,4wM40nzMjB,9z5ka6gQA3,kRQa99OQKZ,KXMeab1M64,101,2018,23,17837,False,FullTime,2018-08-09 17:20:22 UTC,,,Colorado Rapids,LA Galaxy
+0x5gOKW757,2018-04-09 01:00:00 UTC,0,2,kaDQ0wRqEv,Z2vQ1xlqrA,KAqB3m7Qbg,wvq9p1Y5Wn,KXMeab1M64,N6MmpyLQEG,95,2018,6,25846,False,FullTime,2018-04-11 05:51:15 UTC,,,LA Galaxy,Sporting Kansas City
+jYQJwPRyMG,2018-10-07 00:30:00 UTC,1,1,Z2vQ1xlqrA,kaDQ0wRqEv,9z5kJ7gMA3,NPqxy6XQ9d,N6MmpyLQEG,4JMA4X9QKg,103,2018,32,20092,False,FullTime,2018-10-10 13:09:24 UTC,,,Sporting Kansas City,LA Galaxy
+Oa5wbeKBM1,2018-05-31 02:30:00 UTC,2,3,kaDQ0wRqEv,mKAqBBmqbg,Pk5LRpDQOW,wvq9p1Y5Wn,KXMeab1M64,gjMNk8v5Kp,101,2018,14,18003,False,FullTime,2018-06-03 02:27:36 UTC,,,LA Galaxy,FC Dallas
+315V2N1759,2018-05-12 19:30:00 UTC,3,2,mKAqBBmqbg,kaDQ0wRqEv,9YqdEL9QvJ,eVq3alGMWO,gjMNk8v5Kp,KXMeab1M64,99,2018,11,18355,False,FullTime,2018-05-15 21:29:41 UTC,,,FC Dallas,LA Galaxy
+9YqdglN95v,2018-10-21 21:00:00 UTC,0,0,0KPqjA456v,pzeQZ6xQKw,kRQa9k8QKZ,Vj58W84M8n,2lqREgJ5r0,kRQa99OQKZ,96,2018,34,17474,False,FullTime,2018-10-23 20:55:28 UTC,,,San Jose Earthquakes,Colorado Rapids
+gpMOGDGEMz,2018-08-12 01:00:00 UTC,2,1,pzeQZ6xQKw,0KPqjA456v,,9z5ka6gQA3,kRQa99OQKZ,odMXaYo5YL,98,2018,24,15383,False,FullTime,2018-08-13 19:05:24 UTC,,,Colorado Rapids,San Jose Earthquakes
+OlMlP1b0ML,2018-09-16 02:30:00 UTC,1,5,0KPqjA456v,Z2vQ1xlqrA,gOMnB7AMwN,Vj58W84M8n,odMXaYo5YL,N6MmpyLQEG,95,2018,29,16682,False,FullTime,2018-09-20 00:44:38 UTC,,,San Jose Earthquakes,Sporting Kansas City
+KPqjNlwNq6,2018-03-18 00:30:00 UTC,3,2,Z2vQ1xlqrA,0KPqjA456v,vzqoWjkqap,NPqxy6XQ9d,N6MmpyLQEG,odMXaYo5YL,97,2018,3,18868,False,FullTime,2018-03-20 16:46:08 UTC,,,Sporting Kansas City,San Jose Earthquakes
+9vQ2y74eqK,2018-08-30 02:30:00 UTC,4,3,0KPqjA456v,mKAqBBmqbg,4wM40nzMjB,Vj58W84M8n,odMXaYo5YL,gjMNk8v5Kp,98,2018,27,15648,False,FullTime,2018-08-31 20:56:25 UTC,,,San Jose Earthquakes,FC Dallas
+vzqox1xZQa,2018-08-05 00:00:00 UTC,1,3,mKAqBBmqbg,0KPqjA456v,gOMnB7AMwN,eVq3alGMWO,gjMNk8v5Kp,odMXaYo5YL,98,2018,23,17282,False,FullTime,2018-08-05 09:36:27 UTC,,,FC Dallas,San Jose Earthquakes
+zeQZ4NeN5K,2018-03-25 01:00:00 UTC,2,2,pzeQZ6xQKw,Z2vQ1xlqrA,4wM40nzMjB,9z5ka6gQA3,kRQa99OQKZ,N6MmpyLQEG,99,2018,4,17424,False,FullTime,2019-05-07 20:34:10 UTC,,,Colorado Rapids,Sporting Kansas City
+N6MmV1Gv5E,2018-05-06 00:30:00 UTC,1,0,Z2vQ1xlqrA,pzeQZ6xQKw,gjMNk4v5Kp,NPqxy6XQ9d,N6MmpyLQEG,kRQa99OQKZ,96,2018,10,20553,False,FullTime,2018-05-07 18:07:43 UTC,,,Sporting Kansas City,Colorado Rapids
+9vQ2y7J1qK,2018-10-28 20:30:00 UTC,2,1,pzeQZ6xQKw,mKAqBBmqbg,jYQJnoVQGR,9z5ka6gQA3,kRQa99OQKZ,gjMNk8v5Kp,100,2018,35,15172,False,FullTime,2018-10-30 22:14:00 UTC,,,Colorado Rapids,FC Dallas
+jYQJwPgWMG,2018-04-08 00:00:00 UTC,1,1,mKAqBBmqbg,pzeQZ6xQKw,ljqExYw5x0,eVq3alGMWO,gjMNk8v5Kp,kRQa99OQKZ,98,2018,6,13147,False,FullTime,2019-05-07 20:36:11 UTC,,,FC Dallas,Colorado Rapids
+Xj5YEeEw5b,2018-07-29 01:00:00 UTC,2,3,Z2vQ1xlqrA,mKAqBBmqbg,Pk5LRpDQOW,NPqxy6XQ9d,N6MmpyLQEG,gjMNk8v5Kp,102,2018,22,20758,False,FullTime,2018-07-31 19:07:26 UTC,,,Sporting Kansas City,FC Dallas
+Pk5LBN8mQO,2018-10-21 21:00:00 UTC,0,3,mKAqBBmqbg,Z2vQ1xlqrA,KAqB3m7Qbg,eVq3alGMWO,gjMNk8v5Kp,N6MmpyLQEG,99,2018,34,19096,False,FullTime,2018-10-23 20:58:43 UTC,,,FC Dallas,Sporting Kansas City

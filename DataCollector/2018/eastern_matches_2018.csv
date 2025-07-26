@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
+2lqRn8X2qr,2018-06-02 23:30:00 UTC,2,1,19vQ2095K6,a2lqRX2Mr0,9YqdEL9QvJ,wvq9p775Wn,4JMAEj1MKg,Xj5Yre0qbd,97,2018,14,21576,False,FullTime,2018-06-08 17:15:13 UTC,,,New England Revolution,New York Red Bulls
+xW5pelLGqg,2018-07-21 23:00:00 UTC,2,0,a2lqRX2Mr0,19vQ2095K6,e7MzPKXqr0,NWMW84L5lz,vzqo2dv5ap,4JMAEj1MKg,99,2018,21,16027,False,FullTime,2018-07-24 13:11:55 UTC,,,New York Red Bulls,New England Revolution
+4JMApGZlQK,2018-06-30 23:30:00 UTC,3,2,19vQ2095K6,EKXMeX3Q64,vzqoWjkqap,wvq9p775Wn,4JMAEj1MKg,vzqoAjJMap,99,2018,18,19371,False,FullTime,2018-07-03 03:00:27 UTC,,,New England Revolution,D.C. United
+aDQ0y74PME,2018-08-19 23:30:00 UTC,2,0,EKXMeX3Q64,19vQ2095K6,EGMPLlxMaY,xW5pwORMg1,vzqoAjJMap,4JMAEj1MKg,99,2018,25,20198,False,FullTime,2018-08-22 17:23:26 UTC,,,D.C. United,New England Revolution
+9YqdgldO5v,2018-05-19 23:30:00 UTC,0,1,19vQ2095K6,mvzqoLZQap,4wM40nzMjB,wvq9p775Wn,4JMAEj1MKg,0x5gN9PM7O,96,2018,12,14087,False,FullTime,2018-05-25 08:59:03 UTC,,,New England Revolution,Columbus Crew
+7vQ7dpedMD,2018-04-21 23:30:00 UTC,2,2,mvzqoLZQap,19vQ2095K6,jYQJnoVQGR,p6qbeb850G,0x5gN9PM7O,4JMAEj1MKg,96,2018,8,11264,False,FullTime,2018-04-24 05:56:09 UTC,,,Columbus Crew,New England Revolution
+4wM447VpMj,2018-09-22 23:30:00 UTC,2,2,19vQ2095K6,X0Oq66zq6D,odMX96a5YL,wvq9p775Wn,4JMAEj1MKg,ljqExEA5x0,98,2018,30,24388,False,FullTime,2018-09-25 16:38:21 UTC,,,New England Revolution,Chicago Fire FC
+0x5gOKbb57,2018-06-10 00:30:00 UTC,1,1,X0Oq66zq6D,19vQ2095K6,315VrXb59x,9YqdkYR5vJ,ljqExEA5x0,4JMAEj1MKg,99,2018,15,14415,False,FullTime,2018-06-13 02:29:36 UTC,,,Chicago Fire FC,New England Revolution
+N6MmV1AZ5E,2018-08-26 23:00:00 UTC,1,0,a2lqRX2Mr0,EKXMeX3Q64,gOMnB7AMwN,NWMW84L5lz,vzqo2dv5ap,vzqoAjJMap,100,2018,26,22324,False,FullTime,2018-08-28 15:16:51 UTC,,,New York Red Bulls,D.C. United
+odMX2NlWqY,2018-09-16 17:00:00 UTC,3,3,EKXMeX3Q64,a2lqRX2Mr0,,xW5pwORMg1,vzqoAjJMap,vzqo2dv5ap,105,2018,29,18331,False,FullTime,2018-09-18 17:08:54 UTC,,,D.C. United,New York Red Bulls
+eVq3d7dyQW,2018-07-28 23:00:00 UTC,2,3,a2lqRX2Mr0,mvzqoLZQap,4wM40nzMjB,NWMW84L5lz,vzqo2dv5ap,0x5gN9PM7O,99,2018,22,16459,False,FullTime,2018-07-30 17:14:43 UTC,,,New York Red Bulls,Columbus Crew
+7VqG791Wqv,2018-06-09 21:00:00 UTC,1,1,mvzqoLZQap,a2lqRX2Mr0,,p6qbeb850G,0x5gN9PM7O,Xj5Yre0qbd,100,2018,15,11246,False,FullTime,2018-06-11 14:39:46 UTC,,,Columbus Crew,New York Red Bulls
+9YqdglWO5v,2018-04-21 19:30:00 UTC,1,2,a2lqRX2Mr0,X0Oq66zq6D,KAqB3m7Qbg,NWMW84L5lz,Xj5Yre0qbd,ljqExEA5x0,99,2018,8,18784,False,FullTime,2018-04-25 21:24:34 UTC,,,New York Red Bulls,Chicago Fire FC
+0Oq6djdAM6,2018-08-12 00:30:00 UTC,0,1,X0Oq66zq6D,a2lqRX2Mr0,7VqG6KX5vW,9YqdkYR5vJ,ljqExEA5x0,vzqo2dv5ap,98,2018,24,18064,False,FullTime,2018-08-14 08:30:18 UTC,,,Chicago Fire FC,New York Red Bulls
+wvq9d7j35W,2018-04-14 23:00:00 UTC,1,0,EKXMeX3Q64,mvzqoLZQap,e7MzPKXqr0,a35rBv45L6,vzqoAjJMap,0x5gN9PM7O,99,2018,7,12396,False,FullTime,2018-04-18 21:21:20 UTC,,,D.C. United,Columbus Crew
+BLMvmx68Qx,2018-03-24 22:00:00 UTC,3,1,mvzqoLZQap,EKXMeX3Q64,Pk5LRpDQOW,p6qbeb850G,0x5gN9PM7O,vzqoAjJMap,95,2018,4,8443,False,FullTime,2018-03-26 17:24:40 UTC,,,Columbus Crew,D.C. United
+0Oq6djpXM6,2018-10-07 17:00:00 UTC,2,1,EKXMeX3Q64,X0Oq66zq6D,e7MzPKXqr0,xW5pwORMg1,vzqoAjJMap,ljqExEA5x0,97,2018,32,20064,False,FullTime,2018-10-09 18:01:20 UTC,,,D.C. United,Chicago Fire FC
+odMX2Nb2qY,2018-10-28 20:30:00 UTC,0,0,X0Oq66zq6D,EKXMeX3Q64,7VqG6KX5vW,9YqdkYR5vJ,ljqExEA5x0,vzqoAjJMap,94,2018,35,19459,False,FullTime,2020-10-14 20:11:50 UTC,,,Chicago Fire FC,D.C. United
+9z5kV8NbMA,2018-05-12 23:30:00 UTC,3,0,mvzqoLZQap,X0Oq66zq6D,vzqoWjkqap,p6qbeb850G,0x5gN9PM7O,ljqExEA5x0,96,2018,11,11108,False,FullTime,2018-05-14 18:06:59 UTC,,,Columbus Crew,Chicago Fire FC
+4wM4471pMj,2018-08-23 23:00:00 UTC,1,1,X0Oq66zq6D,mvzqoLZQap,gjMNk4v5Kp,9YqdkYR5vJ,ljqExEA5x0,0x5gN9PM7O,96,2018,26,8551,False,FullTime,2018-08-29 10:35:27 UTC,,,Chicago Fire FC,Columbus Crew

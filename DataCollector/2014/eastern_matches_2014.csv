@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+NWMWj1ELQl,2014-06-08 21:00:00 UTC,0,2,19vQ2095K6,a2lqRX2Mr0,2lqRNx4qr0,wvq9p775Wn,9z5kJ0jMA3,aDQ009EQEv,99,2014,14,23950,False,FullTime,2016-01-27 18:52:13 UTC,New England Revolution,New York Red Bulls
+Pk5LZo1DQO,2014-08-02 23:00:00 UTC,2,1,a2lqRX2Mr0,19vQ2095K6,vzqoWjkqap,NWMW84L5lz,aDQ009EQEv,9z5kJ0jMA3,99,2014,21,20862,False,FullTime,2014-10-16 14:51:54 UTC,New York Red Bulls,New England Revolution
+9Yqdde28qv,2014-05-24 23:30:00 UTC,2,1,19vQ2095K6,EKXMeX3Q64,Oa5w9R9Q14,wvq9p775Wn,9z5kJ0jMA3,vzqoAjJMap,97,2014,12,13589,False,FullTime,2014-08-19 14:25:59 UTC,New England Revolution,D.C. United
+KAqBRrxVqb,2014-04-05 23:00:00 UTC,2,0,EKXMeX3Q64,19vQ2095K6,KPqjb74q6v,jYQJ1PBqGR,vzqoAjJMap,9z5kJ0jMA3,96,2014,5,10526,False,FullTime,2016-01-26 20:37:08 UTC,D.C. United,New England Revolution
+0x5gk4oj57,2014-10-04 23:30:00 UTC,2,1,19vQ2095K6,mvzqoLZQap,,wvq9p775Wn,9z5kJ0jMA3,0x5gN9PM7O,99,2014,30,23143,False,FullTime,2014-10-07 15:20:40 UTC,New England Revolution,Columbus Crew
+KPqjk4RNQ6,2014-09-20 23:30:00 UTC,1,0,mvzqoLZQap,19vQ2095K6,EGMPLlxMaY,p6qbeb850G,0x5gN9PM7O,9z5kJ0jMA3,97,2014,28,21318,False,FullTime,2014-09-23 21:25:56 UTC,Columbus Crew,New England Revolution
+9z5kN47YMA,2014-09-07 23:00:00 UTC,2,1,19vQ2095K6,X0Oq66zq6D,jYQJnoVQGR,wvq9p775Wn,9z5kJ0jMA3,4wM4zRlqjB,98,2014,26,12204,False,FullTime,2016-01-27 21:36:48 UTC,New England Revolution,Chicago Fire FC
+gjMNPWzBqK,2014-04-19 20:00:00 UTC,1,1,X0Oq66zq6D,19vQ2095K6,4wM40nzMjB,9YqdkYR5vJ,4wM4zRlqjB,9z5kJ0jMA3,99,2014,7,15743,False,FullTime,,Chicago Fire FC,New England Revolution
+Pk5LZogPQO,2014-09-11 00:00:00 UTC,1,0,a2lqRX2Mr0,EKXMeX3Q64,a35r6KG5L6,NWMW84L5lz,aDQ009EQEv,vzqoAjJMap,99,2014,27,14953,False,FullTime,2014-09-11 20:59:41 UTC,New York Red Bulls,D.C. United
+Oa5wKzVX51,2014-08-31 18:30:00 UTC,2,0,EKXMeX3Q64,a2lqRX2Mr0,9z5kJ7gMA3,jYQJ1PBqGR,vzqoAjJMap,aDQ009EQEv,96,2014,25,19453,False,FullTime,2014-09-02 01:40:06 UTC,D.C. United,New York Red Bulls
+NPqxK4nY59,2014-10-19 19:00:00 UTC,1,3,a2lqRX2Mr0,mvzqoLZQap,9YqdEL9QvJ,NWMW84L5lz,aDQ009EQEv,0x5gN9PM7O,97,2014,32,20681,False,FullTime,2016-01-28 18:17:40 UTC,New York Red Bulls,Columbus Crew
+odMX1Vn05Y,2014-04-26 23:30:00 UTC,1,1,mvzqoLZQap,a2lqRX2Mr0,2lqRNx4qr0,p6qbeb850G,0x5gN9PM7O,aDQ009EQEv,98,2014,8,18026,False,FullTime,,Columbus Crew,New York Red Bulls
+KAqBRrBVqb,2014-05-10 23:00:00 UTC,4,5,a2lqRX2Mr0,X0Oq66zq6D,315VrXb59x,NWMW84L5lz,aDQ009EQEv,4wM4zRlqjB,99,2014,10,23776,False,FullTime,2016-01-27 17:15:04 UTC,New York Red Bulls,Chicago Fire FC
+9vQ2ePdxqK,2014-08-11 00:00:00 UTC,1,0,X0Oq66zq6D,a2lqRX2Mr0,EGMPLlxMaY,9YqdkYR5vJ,4wM4zRlqjB,aDQ009EQEv,96,2014,22,16109,False,FullTime,2014-10-16 14:53:00 UTC,Chicago Fire FC,New York Red Bulls
+KAqBRJLVqb,2014-06-07 22:30:00 UTC,0,0,EKXMeX3Q64,mvzqoLZQap,9vQ202r5K6,KPqjRnYq6v,vzqoAjJMap,0x5gN9PM7O,99,2014,14,53267,False,FullTime,2016-01-27 22:43:15 UTC,D.C. United,Columbus Crew
+eV5DR8jOQK,2014-04-19 23:30:00 UTC,1,1,mvzqoLZQap,EKXMeX3Q64,Oa5w9R9Q14,p6qbeb850G,0x5gN9PM7O,vzqoAjJMap,99,2014,7,11437,False,FullTime,2016-01-27 20:35:08 UTC,Columbus Crew,D.C. United
+odMX1rPG5Y,2014-10-18 23:00:00 UTC,2,1,EKXMeX3Q64,X0Oq66zq6D,gjMNk4v5Kp,jYQJ1PBqGR,vzqoAjJMap,4wM4zRlqjB,96,2014,32,20162,False,FullTime,2014-10-20 01:03:20 UTC,D.C. United,Chicago Fire FC
+xW5pY4k0qg,2014-09-21 00:30:00 UTC,3,3,X0Oq66zq6D,EKXMeX3Q64,zeQZlGK5Kw,9YqdkYR5vJ,4wM4zRlqjB,vzqoAjJMap,96,2014,28,17279,False,FullTime,2014-09-24 17:19:52 UTC,Chicago Fire FC,D.C. United
+KXMeKX0Bq6,2014-05-24 23:30:00 UTC,2,0,mvzqoLZQap,X0Oq66zq6D,zeQZlGK5Kw,p6qbeb850G,0x5gN9PM7O,4wM4zRlqjB,97,2014,12,15290,False,FullTime,2016-01-27 21:40:23 UTC,Columbus Crew,Chicago Fire FC
+gjMNP9vpqK,2014-08-03 01:30:00 UTC,1,1,X0Oq66zq6D,mvzqoLZQap,zeQZl7D5Kw,9YqdkYR5vJ,4wM4zRlqjB,0x5gN9PM7O,97,2014,21,14332,False,FullTime,2015-07-09 14:44:38 UTC,Chicago Fire FC,Columbus Crew

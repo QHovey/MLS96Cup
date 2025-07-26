@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+Pk5LWEmYMO,2022-07-14 02:00:00 UTC,2,3,kaDQ0wRqEv,0KPqjA456v,vzqoWjkqap,wvq9p1Y5Wn,Xj5Yx60Mbd,e7MzX0Oqr0,98,2022,20,18453,False,FullTime,2022-07-19 20:45:55 UTC,LA Galaxy,San Jose Earthquakes
+7VqGdvkjQv,2022-09-25 02:00:00 UTC,2,3,0KPqjA456v,kaDQ0wRqEv,KPqjDeNM6v,Oa5wY94Q14,e7MzX0Oqr0,Xj5Yx60Mbd,96,2022,16,44200,False,FullTime,2022-09-27 11:41:22 UTC,San Jose Earthquakes,LA Galaxy
+KXMeBLRk56,2022-09-18 02:30:00 UTC,4,1,kaDQ0wRqEv,pzeQZ6xQKw,odMX96a5YL,wvq9p1Y5Wn,Xj5Yx60Mbd,0Oq6VPgq6D,97,2022,32,20325,False,FullTime,2022-09-22 22:23:27 UTC,LA Galaxy,Colorado Rapids
+2vQ1BmaOMr,2022-07-17 01:00:00 UTC,2,0,pzeQZ6xQKw,kaDQ0wRqEv,wvq9vKlQWn,9z5ka6gQA3,0Oq6VPgq6D,Xj5Yx60Mbd,98,2022,21,17975,False,FullTime,2022-07-18 12:13:16 UTC,Colorado Rapids,LA Galaxy
+0x5ggyow57,2022-09-05 00:00:00 UTC,2,2,kaDQ0wRqEv,Z2vQ1xlqrA,4wM4voBqjB,wvq9p1Y5Wn,Xj5Yx60Mbd,N6MmpyLQEG,103,2022,29,20104,False,FullTime,2022-09-08 05:59:22 UTC,LA Galaxy,Sporting Kansas City
+eV5DrE09QK,2022-08-07 00:30:00 UTC,4,2,Z2vQ1xlqrA,kaDQ0wRqEv,0Oq6mnX56D,NPqxy6XQ9d,N6MmpyLQEG,Xj5Yx60Mbd,106,2022,24,18101,False,FullTime,2022-08-10 13:34:56 UTC,Sporting Kansas City,LA Galaxy
+KPqjOPryQ6,2022-05-15 02:30:00 UTC,1,3,kaDQ0wRqEv,mKAqBBmqbg,jYQJnoVQGR,wvq9p1Y5Wn,Xj5Yx60Mbd,KAqBwv7Qbg,100,2022,11,25174,False,FullTime,2022-05-18 06:57:15 UTC,LA Galaxy,FC Dallas
+0Oq6OmlxQ6,2022-07-31 01:00:00 UTC,1,0,mKAqBBmqbg,kaDQ0wRqEv,aDQ0mkPMEv,eVq3alGMWO,KAqBwv7Qbg,Xj5Yx60Mbd,99,2022,23,19096,False,FullTime,2022-08-03 10:09:26 UTC,FC Dallas,LA Galaxy
+OlMloN8gQL,2022-05-08 02:00:00 UTC,1,0,0KPqjA456v,pzeQZ6xQKw,2lqRokLQr0,Vj58W84M8n,e7MzX0Oqr0,0Oq6VPgq6D,99,2022,10,14077,False,FullTime,2022-05-10 15:37:47 UTC,San Jose Earthquakes,Colorado Rapids
+315VVw4v59,2022-09-15 02:00:00 UTC,2,1,pzeQZ6xQKw,0KPqjA456v,aDQ0mkPMEv,9z5ka6gQA3,0Oq6VPgq6D,e7MzX0Oqr0,97,2022,31,11938,False,FullTime,2022-09-17 09:38:04 UTC,Colorado Rapids,San Jose Earthquakes
+9z5knLllMA,2022-05-22 23:30:00 UTC,1,1,0KPqjA456v,Z2vQ1xlqrA,aDQ0mkPMEv,Vj58W84M8n,e7MzX0Oqr0,N6MmpyLQEG,96,2022,13,14233,False,FullTime,2022-05-26 07:53:57 UTC,San Jose Earthquakes,Sporting Kansas City
+eV5DrEL9QK,2022-08-28 00:30:00 UTC,1,0,Z2vQ1xlqrA,0KPqjA456v,wvq9vKlQWn,NPqxy6XQ9d,N6MmpyLQEG,e7MzX0Oqr0,97,2022,27,18241,False,FullTime,2022-08-31 02:36:18 UTC,Sporting Kansas City,San Jose Earthquakes
+KPqjO16BQ6,2022-09-18 02:30:00 UTC,1,1,0KPqjA456v,mKAqBBmqbg,Pk5LRpDQOW,Vj58W84M8n,e7MzX0Oqr0,KAqBwv7Qbg,98,2022,32,12355,False,FullTime,2022-09-21 12:16:22 UTC,San Jose Earthquakes,FC Dallas
+NPqxrRmWM9,2022-08-14 01:00:00 UTC,4,1,mKAqBBmqbg,0KPqjA456v,2lqRymD5r0,eVq3alGMWO,KAqBwv7Qbg,e7MzX0Oqr0,96,2022,25,15106,False,FullTime,2022-08-17 21:31:18 UTC,FC Dallas,San Jose Earthquakes
+EGMPOxJVQa,2022-03-13 02:00:00 UTC,2,0,pzeQZ6xQKw,Z2vQ1xlqrA,KPqjDeNM6v,9z5ka6gQA3,0Oq6VPgq6D,N6MmpyLQEG,99,2022,3,12387,False,FullTime,2022-03-16 11:21:50 UTC,Colorado Rapids,Sporting Kansas City
+jYQJ3AjyMG,2022-05-19 00:30:00 UTC,2,1,Z2vQ1xlqrA,pzeQZ6xQKw,Pk5LRpDQOW,NPqxy6XQ9d,N6MmpyLQEG,0Oq6VPgq6D,104,2022,12,17233,False,FullTime,2022-05-22 12:28:20 UTC,Sporting Kansas City,Colorado Rapids
+p6qbJkRbq0,2022-10-01 19:30:00 UTC,1,0,pzeQZ6xQKw,mKAqBBmqbg,jYQJnoVQGR,9z5ka6gQA3,0Oq6VPgq6D,KAqBwv7Qbg,98,2022,33,17193,False,FullTime,2022-10-05 06:55:16 UTC,Colorado Rapids,FC Dallas
+EGMPOx3VQa,2022-04-10 00:30:00 UTC,3,1,mKAqBBmqbg,pzeQZ6xQKw,2lqRG1WQr0,eVq3alGMWO,KAqBwv7Qbg,0Oq6VPgq6D,96,2022,6,15893,False,FullTime,2022-04-13 08:51:47 UTC,FC Dallas,Colorado Rapids
+NWMWPxe75l,2022-05-01 00:30:00 UTC,2,2,Z2vQ1xlqrA,mKAqBBmqbg,7VqG6KX5vW,NPqxy6XQ9d,N6MmpyLQEG,KAqBwv7Qbg,99,2022,9,17334,False,FullTime,2022-05-06 22:22:16 UTC,Sporting Kansas City,FC Dallas
+gOMn9w2AQw,2022-10-09 21:00:00 UTC,2,1,mKAqBBmqbg,Z2vQ1xlqrA,2lqRymD5r0,eVq3alGMWO,KAqBwv7Qbg,N6MmpyLQEG,96,2022,34,19096,False,FullTime,2022-10-13 13:15:47 UTC,FC Dallas,Sporting Kansas City

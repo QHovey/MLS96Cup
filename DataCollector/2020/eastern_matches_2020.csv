@@ -1,0 +1,14 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+e7MzkKzK5r,2020-08-30 00:00:00 UTC,1,1,19vQ2095K6,a2lqRX2Mr0,9z5kJ7gMA3,wvq9p775Wn,LeVq3j5WOJ,vzqo2dv5ap,97,2020,8,0,False,FullTime,2020-08-31 13:44:05 UTC,New England Revolution,New York Red Bulls
+2vQ1ldGLqr,2020-10-28 23:00:00 UTC,1,0,a2lqRX2Mr0,19vQ2095K6,0Oq6037M6D,NWMW84L5lz,9z5kKNb5A3,LeVq3j5WOJ,98,2020,21,0,False,FullTime,2020-10-30 03:51:27 UTC,New York Red Bulls,New England Revolution
+BLMvX6A8qx,2020-11-02 00:30:00 UTC,4,3,19vQ2095K6,EKXMeX3Q64,gOMnB7AMwN,wvq9p775Wn,LeVq3j5WOJ,p6qbk3BQ0G,97,2020,23,0,False,FullTime,2020-11-05 06:17:12 UTC,New England Revolution,D.C. United
+0x5gXWrmq7,2020-09-27 23:00:00 UTC,0,2,EKXMeX3Q64,19vQ2095K6,KPqjDeNM6v,xW5pwORMg1,vzqoAjJMap,LeVq3j5WOJ,101,2020,15,0,False,FullTime,2020-09-30 12:02:46 UTC,D.C. United,New England Revolution
+NWMWxOm75l,2020-03-07 18:30:00 UTC,1,1,19vQ2095K6,X0Oq66zq6D,zeQZlGK5Kw,wvq9p775Wn,LeVq3j5WOJ,9Yqd8woqvJ,97,2020,2,15289,False,FullTime,2020-03-18 22:12:31 UTC,New England Revolution,Chicago Fire FC
+KAqBElzZ5b,2020-09-06 23:30:00 UTC,1,2,X0Oq66zq6D,19vQ2095K6,KAqB3m7Qbg,gpMOzdEQzy,9Yqd8woqvJ,LeVq3j5WOJ,97,2020,10,0,False,FullTime,2020-09-08 11:04:53 UTC,Chicago Fire FC,New England Revolution
+vzqo3XwLqa,2020-09-02 23:30:00 UTC,0,1,a2lqRX2Mr0,EKXMeX3Q64,7VqG6KX5vW,NWMW84L5lz,vzqo2dv5ap,vzqoAjJMap,102,2020,9,0,False,FullTime,2020-09-04 13:56:44 UTC,New York Red Bulls,D.C. United
+Pk5LEaXDqO,2020-09-12 23:00:00 UTC,0,2,EKXMeX3Q64,a2lqRX2Mr0,0Oq6vG2q6D,xW5pwORMg1,vzqoAjJMap,zeQZVw1QKw,97,2020,12,0,False,FullTime,2020-09-14 14:41:46 UTC,D.C. United,New York Red Bulls
+gpMOBeyRQz,2020-10-24 23:30:00 UTC,2,2,X0Oq66zq6D,a2lqRX2Mr0,a35rgjLqL6,gpMOzdEQzy,9Yqd8woqvJ,9z5kKNb5A3,97,2020,20,0,False,FullTime,2020-10-26 14:35:52 UTC,Chicago Fire FC,New York Red Bulls
+eV5DNkdmQK,2020-10-29 00:00:00 UTC,1,0,EKXMeX3Q64,mvzqoLZQap,zeQZl7D5Kw,xW5pwORMg1,p6qbk3BQ0G,NPqxkDY59d,99,2020,21,0,False,FullTime,2020-10-30 13:58:05 UTC,D.C. United,Columbus Crew
+2vQ1ldowqr,2020-10-11 23:30:00 UTC,2,1,X0Oq66zq6D,EKXMeX3Q64,vzqoWjkqap,gpMOzdEQzy,9Yqd8woqvJ,p6qbk3BQ0G,98,2020,17,0,False,FullTime,2020-10-14 09:42:18 UTC,Chicago Fire FC,D.C. United
+315Vw31bq9,2020-08-20 23:30:00 UTC,3,0,mvzqoLZQap,X0Oq66zq6D,wvq9vKlQWn,p6qbeb850G,NPqxkDY59d,9Yqd8woqvJ,96,2020,6,0,False,FullTime,2020-08-22 06:39:23 UTC,Columbus Crew,Chicago Fire FC
+EGMPEvX05a,2020-09-12 19:30:00 UTC,2,2,X0Oq66zq6D,mvzqoLZQap,4JMAYlPMKg,gpMOzdEQzy,9Yqd8woqvJ,NPqxkDY59d,97,2020,12,0,False,FullTime,2020-09-14 18:58:14 UTC,Chicago Fire FC,Columbus Crew

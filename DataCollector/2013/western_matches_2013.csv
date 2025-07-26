@@ -1,0 +1,17 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+p6qboYkpQ0,2013-10-21 01:00:00 UTC,0,0,kaDQ0wRqEv,0KPqjA456v,EGMPPnAMaY,wvq9p1Y5Wn,LeVq3j5WOJ,7VqGG2eqvW,96,2013,33,25418,False,FullTime,2014-10-17 02:08:22 UTC,LA Galaxy,San Jose Earthquakes
+Vj58W90EM8,2013-06-30 02:30:00 UTC,3,2,0KPqjA456v,kaDQ0wRqEv,gjMNk4v5Kp,Oa5wY94Q14,7VqGG2eqvW,LeVq3j5WOJ,98,2013,17,50028,False,FullTime,,San Jose Earthquakes,LA Galaxy
+KXMe8Xo2Q6,2013-09-08 02:30:00 UTC,0,1,kaDQ0wRqEv,pzeQZ6xQKw,vzqoWjkqap,wvq9p1Y5Wn,LeVq3j5WOJ,gjMNk8v5Kp,96,2013,27,20801,False,FullTime,,LA Galaxy,Colorado Rapids
+KXMe8XPkQ6,2013-07-27 23:00:00 UTC,2,0,pzeQZ6xQKw,kaDQ0wRqEv,Oa5w9R9Q14,9z5ka6gQA3,gjMNk8v5Kp,LeVq3j5WOJ,97,2013,21,15765,False,FullTime,,Colorado Rapids,LA Galaxy
+4wM4JODyqj,2013-04-21 02:30:00 UTC,2,0,kaDQ0wRqEv,Z2vQ1xlqrA,9z5kJ7gMA3,wvq9p1Y5Wn,LeVq3j5WOJ,N6MmpyLQEG,95,2013,8,25908,False,FullTime,,LA Galaxy,Sporting Kansas City
+KAqBNrwAqb,2013-07-08 02:30:00 UTC,2,0,kaDQ0wRqEv,mKAqBBmqbg,odMXjR0qYL,wvq9p1Y5Wn,LeVq3j5WOJ,a35rDN4QL6,96,2013,18,19729,False,FullTime,,LA Galaxy,FC Dallas
+eVq3x6vvQW,2013-08-12 00:00:00 UTC,3,3,mKAqBBmqbg,kaDQ0wRqEv,zeQZl7D5Kw,eVq3alGMWO,a35rDN4QL6,LeVq3j5WOJ,96,2013,23,18161,False,FullTime,,FC Dallas,LA Galaxy
+KXMe8XL2Q6,2013-10-10 02:30:00 UTC,1,0,0KPqjA456v,pzeQZ6xQKw,vzqoWjkqap,Vj58BPwQ8n,7VqGG2eqvW,gjMNk8v5Kp,95,2013,32,10525,False,FullTime,,San Jose Earthquakes,Colorado Rapids
+vzqodYAYQa,2013-06-16 01:00:00 UTC,1,2,pzeQZ6xQKw,0KPqjA456v,KPqjb74q6v,9z5ka6gQA3,gjMNk8v5Kp,7VqGG2eqvW,98,2013,15,15017,False,FullTime,,Colorado Rapids,San Jose Earthquakes
+jYQJaJoGqG,2013-08-19 02:00:00 UTC,1,0,0KPqjA456v,Z2vQ1xlqrA,Oa5w9R9Q14,Vj58BPwQ8n,7VqGG2eqvW,N6MmpyLQEG,98,2013,24,10525,False,FullTime,,San Jose Earthquakes,Sporting Kansas City
+Xj5Y9PWl5b,2013-10-26 21:30:00 UTC,2,1,0KPqjA456v,mKAqBBmqbg,2lqRNx4qr0,Vj58BPwQ8n,7VqGG2eqvW,a35rDN4QL6,96,2013,34,10525,False,FullTime,,San Jose Earthquakes,FC Dallas
+gOMnlG3eqw,2013-08-25 01:00:00 UTC,2,2,mKAqBBmqbg,0KPqjA456v,EGMPPnAMaY,eVq3alGMWO,a35rDN4QL6,7VqGG2eqvW,98,2013,25,14920,False,FullTime,,FC Dallas,San Jose Earthquakes
+EGMPZGxkqa,2013-09-01 00:30:00 UTC,2,1,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZl7D5Kw,NPqxy6XQ9d,N6MmpyLQEG,gjMNk8v5Kp,97,2013,26,19579,False,FullTime,,Sporting Kansas City,Colorado Rapids
+BLMv7VaX5x,2013-09-15 01:00:00 UTC,2,1,pzeQZ6xQKw,mKAqBBmqbg,odMXjR0qYL,9z5ka6gQA3,gjMNk8v5Kp,a35rDN4QL6,96,2013,28,13145,False,FullTime,,Colorado Rapids,FC Dallas
+KPqjK3VYQ6,2013-03-03 01:30:00 UTC,1,0,mKAqBBmqbg,pzeQZ6xQKw,vzqoWjkqap,eVq3alGMWO,a35rDN4QL6,gjMNk8v5Kp,100,2013,1,18075,False,FullTime,,FC Dallas,Colorado Rapids
+gjMNjWyKMK,2013-06-23 00:30:00 UTC,2,2,mKAqBBmqbg,Z2vQ1xlqrA,a35r6KG5L6,eVq3alGMWO,a35rDN4QL6,N6MmpyLQEG,98,2013,16,16361,False,FullTime,,FC Dallas,Sporting Kansas City

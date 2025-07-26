@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+gpMO0Vk75z,2023-08-30 23:30:00 UTC,1,0,19vQ2095K6,a2lqRX2Mr0,ljqEymNqx0,wvq9p775Wn,4wM4A645jB,gpMO6j7Qzy,96,2023,29,16444,False,FullTime,2023-09-02 08:15:15 UTC,New England Revolution,New York Red Bulls
+Oa5wm9PYQ1,2023-07-08 23:30:00 UTC,2,1,a2lqRX2Mr0,19vQ2095K6,ljqExYw5x0,NWMW84L5lz,gpMO6j7Qzy,LeVq3j5WOJ,98,2023,24,20014,False,FullTime,2023-07-11 09:29:19 UTC,New York Red Bulls,New England Revolution
+a35rE6oGML,2023-07-15 23:30:00 UTC,4,0,19vQ2095K6,EKXMeX3Q64,a35rgjLqL6,wvq9p775Wn,LeVq3j5WOJ,OlMlzkgqLz,103,2023,26,29884,False,FullTime,2023-07-16 02:10:28 UTC,New England Revolution,D.C. United
+gOMnEBw8Qw,2023-03-25 23:30:00 UTC,1,2,EKXMeX3Q64,19vQ2095K6,xW5pE3Yqg1,xW5pwORMg1,eVq3YpVMWO,LeVq3j5WOJ,95,2023,5,16509,False,FullTime,2023-03-27 23:37:15 UTC,D.C. United,New England Revolution
+7VqG8GlYQv,2023-10-04 23:30:00 UTC,1,2,19vQ2095K6,mvzqoLZQap,e7MzjxJMr0,wvq9p775Wn,gpMO0YE5zy,KPqjO38Q6v,101,2023,36,14144,False,FullTime,2023-10-09 22:56:51 UTC,New England Revolution,Columbus Crew
+BLMvERXBQx,2023-04-15 23:30:00 UTC,1,1,mvzqoLZQap,19vQ2095K6,jYQJnoVQGR,2vQ1eawQrA,KPqjO38Q6v,LeVq3j5WOJ,102,2023,8,20562,False,FullTime,2023-04-19 18:30:52 UTC,Columbus Crew,New England Revolution
+4JMAyJyYMK,2023-05-27 23:30:00 UTC,3,3,19vQ2095K6,X0Oq66zq6D,ljqEymNqx0,wvq9p775Wn,LeVq3j5WOJ,gOMnBPJMwN,100,2023,15,27293,False,FullTime,2023-05-30 22:26:50 UTC,New England Revolution,Chicago Fire FC
+Vj58n0DrQ8,2023-09-24 00:30:00 UTC,2,2,X0Oq66zq6D,19vQ2095K6,kRQa9k8QKZ,gpMOzdEQzy,gOMnBPJMwN,gpMO0YE5zy,103,2023,34,20129,False,FullTime,2023-09-27 07:08:19 UTC,Chicago Fire FC,New England Revolution
+4wM4g0OdQj,2023-08-20 23:30:00 UTC,1,0,a2lqRX2Mr0,EKXMeX3Q64,4JMAYlPMKg,NWMW84L5lz,gpMO6j7Qzy,OlMlzkgqLz,102,2023,27,17872,False,FullTime,2023-08-23 08:19:04 UTC,New York Red Bulls,D.C. United
+2vQ130kw5r,2023-09-23 23:30:00 UTC,3,5,EKXMeX3Q64,a2lqRX2Mr0,KPqjDeNM6v,xW5pwORMg1,OlMlzkgqLz,gpMO6j7Qzy,105,2023,34,12591,False,FullTime,2023-09-27 08:01:40 UTC,D.C. United,New York Red Bulls
+ljqErWEVQx,2023-03-18 23:30:00 UTC,2,1,a2lqRX2Mr0,mvzqoLZQap,kRQa9k8QKZ,NWMW84L5lz,9z5kKNb5A3,KPqjO38Q6v,103,2023,4,15412,False,FullTime,2023-03-21 00:28:38 UTC,New York Red Bulls,Columbus Crew
+a35rE6jGML,2023-07-01 23:30:00 UTC,2,1,mvzqoLZQap,a2lqRX2Mr0,a35rgjLqL6,2vQ1eawQrA,KPqjO38Q6v,gpMO6j7Qzy,99,2023,22,20415,False,FullTime,2023-07-04 01:21:31 UTC,Columbus Crew,New York Red Bulls
+zeQZ0lnj5K,2023-09-30 23:30:00 UTC,0,1,a2lqRX2Mr0,X0Oq66zq6D,xW5pE3Yqg1,NWMW84L5lz,gpMO6j7Qzy,gOMnBPJMwN,100,2023,35,20347,False,FullTime,2023-10-04 10:54:15 UTC,New York Red Bulls,Chicago Fire FC
+odMX0jLJMY,2023-04-30 00:30:00 UTC,1,1,X0Oq66zq6D,a2lqRX2Mr0,jYQJnoVQGR,gpMOzdEQzy,2vQ1A60QrA,9z5kKNb5A3,102,2023,10,11432,False,FullTime,2023-05-03 08:40:15 UTC,Chicago Fire FC,New York Red Bulls
+OlMlEYlw5L,2023-04-08 23:30:00 UTC,0,2,EKXMeX3Q64,mvzqoLZQap,9vQ2mPaqK6,xW5pwORMg1,OlMlzkgqLz,KPqjO38Q6v,107,2023,7,16891,False,FullTime,2023-04-11 01:31:44 UTC,D.C. United,Columbus Crew
+vzqoEWDNMa,2023-03-05 00:30:00 UTC,2,0,mvzqoLZQap,EKXMeX3Q64,0Oq6vG2q6D,2vQ1eawQrA,KPqjO38Q6v,OlMlzkgqLz,100,2023,2,20391,False,FullTime,2023-03-07 20:25:53 UTC,Columbus Crew,D.C. United
+7vQ7O0DDQD,2023-09-02 23:30:00 UTC,4,0,EKXMeX3Q64,X0Oq66zq6D,Vj58OwwM8n,xW5pwORMg1,OlMlzkgqLz,gOMnBPJMwN,96,2023,30,16075,False,FullTime,2023-09-06 02:30:00 UTC,D.C. United,Chicago Fire FC
+Pk5L0REG5O,2023-04-02 00:30:00 UTC,0,0,X0Oq66zq6D,EKXMeX3Q64,aDQ0mkPMEv,gpMOzdEQzy,2vQ1A60QrA,OlMlzkgqLz,100,2023,6,8621,False,FullTime,2023-04-06 12:04:17 UTC,Chicago Fire FC,D.C. United
+7VqG8GBYQv,2023-09-20 23:30:00 UTC,3,0,mvzqoLZQap,X0Oq66zq6D,a35rgjLqL6,2vQ1eawQrA,KPqjO38Q6v,gOMnBPJMwN,104,2023,33,20349,False,FullTime,2023-09-22 00:25:43 UTC,Columbus Crew,Chicago Fire FC
+zeQZ0lzg5K,2023-06-11 00:30:00 UTC,1,2,X0Oq66zq6D,mvzqoLZQap,0x5gNljM7O,gpMOzdEQzy,gOMnBPJMwN,KPqjO38Q6v,103,2023,18,18892,False,FullTime,2023-06-13 08:33:05 UTC,Chicago Fire FC,Columbus Crew
