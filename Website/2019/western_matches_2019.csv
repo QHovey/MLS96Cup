@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+9z5k0dNjqA,2019-07-13 03:00:00 UTC,1,3,kaDQ0wRqEv,0KPqjA456v,7VqG6KX5vW,wvq9p1Y5Wn,Xj5Yrklqbd,2vQ10jwqrA,98,2019,19,22508,False,FullTime,2019-07-14 16:35:58 UTC,LA Galaxy,San Jose Earthquakes
+vzqobwOZ5a,2019-06-30 02:00:00 UTC,3,0,0KPqjA456v,kaDQ0wRqEv,315VrXb59x,Oa5wY94Q14,2vQ10jwqrA,Xj5Yrklqbd,96,2019,17,50850,False,FullTime,2019-06-30 21:21:58 UTC,San Jose Earthquakes,LA Galaxy
+XVqKlvvOQ0,2019-05-20 00:00:00 UTC,0,1,kaDQ0wRqEv,pzeQZ6xQKw,Pk5LRpDQOW,wvq9p1Y5Wn,Xj5Yrklqbd,aDQ0rwR5Ev,102,2019,12,19015,False,FullTime,2019-05-21 20:19:20 UTC,LA Galaxy,Colorado Rapids
+KAqB2z2Bqb,2019-09-12 01:00:00 UTC,2,1,pzeQZ6xQKw,kaDQ0wRqEv,zeQZlGK5Kw,9z5ka6gQA3,0Oq6VPgq6D,Xj5Yrklqbd,105,2019,27,10945,False,FullTime,2019-10-11 16:30:49 UTC,Colorado Rapids,LA Galaxy
+EGMPDX26Ma,2019-09-16 02:00:00 UTC,7,2,kaDQ0wRqEv,Z2vQ1xlqrA,EGMPLlxMaY,wvq9p1Y5Wn,Xj5Yrklqbd,N6MmpyLQEG,98,2019,27,22465,False,FullTime,2019-10-02 19:11:03 UTC,LA Galaxy,Sporting Kansas City
+eVq31ZX6MW,2019-05-30 00:30:00 UTC,0,2,Z2vQ1xlqrA,kaDQ0wRqEv,KAqB3m7Qbg,NPqxy6XQ9d,N6MmpyLQEG,Xj5Yrklqbd,96,2019,14,19979,False,FullTime,2019-05-30 12:17:12 UTC,Sporting Kansas City,LA Galaxy
+2vQ1ExE4Qr,2019-08-15 02:30:00 UTC,2,0,kaDQ0wRqEv,mKAqBBmqbg,e7MzPKXqr0,wvq9p1Y5Wn,Xj5Yrklqbd,eV5DNVJQKn,98,2019,23,19653,False,FullTime,2019-08-15 18:38:05 UTC,LA Galaxy,FC Dallas
+Vj582jW8Q8,2019-03-09 20:30:00 UTC,2,0,mKAqBBmqbg,kaDQ0wRqEv,gjMNk4v5Kp,eVq3alGMWO,eV5DNVJQKn,Xj5Yrklqbd,98,2019,2,17220,False,FullTime,2019-03-21 11:44:47 UTC,FC Dallas,LA Galaxy
+aDQ04YEPQE,2019-07-28 02:00:00 UTC,3,1,0KPqjA456v,pzeQZ6xQKw,EGMPPnAMaY,Vj58W84M8n,2vQ10jwqrA,aDQ0rwR5Ev,96,2019,21,17762,False,FullTime,2019-08-01 16:23:31 UTC,San Jose Earthquakes,Colorado Rapids
+zeQZZ64KQK,2019-08-11 01:00:00 UTC,2,1,pzeQZ6xQKw,0KPqjA456v,kRQa9k8QKZ,9z5ka6gQA3,aDQ0rwR5Ev,2vQ10jwqrA,99,2019,22,13870,False,FullTime,2019-08-11 18:23:23 UTC,Colorado Rapids,San Jose Earthquakes
+wvq9YEX7qW,2019-04-21 02:00:00 UTC,4,1,0KPqjA456v,Z2vQ1xlqrA,ljqExYw5x0,Vj58W84M8n,2vQ10jwqrA,N6MmpyLQEG,100,2019,8,15777,False,FullTime,2019-04-23 14:27:18 UTC,San Jose Earthquakes,Sporting Kansas City
+aDQ04Y4pQE,2019-08-18 00:30:00 UTC,2,1,Z2vQ1xlqrA,0KPqjA456v,Pk5LRpDQOW,NPqxy6XQ9d,N6MmpyLQEG,2vQ10jwqrA,97,2019,23,17941,False,FullTime,2019-08-18 21:08:29 UTC,Sporting Kansas City,San Jose Earthquakes
+eV5DZXkEQK,2019-06-08 19:30:00 UTC,2,2,0KPqjA456v,mKAqBBmqbg,EGMPLlxMaY,Vj58W84M8n,2vQ10jwqrA,eV5DNVJQKn,98,2019,15,16841,False,FullTime,2019-06-11 18:03:42 UTC,San Jose Earthquakes,FC Dallas
+zeQZZ6exQK,2019-04-27 19:30:00 UTC,0,0,mKAqBBmqbg,0KPqjA456v,4wM4voBqjB,eVq3alGMWO,eV5DNVJQKn,2vQ10jwqrA,99,2019,9,14087,False,FullTime,2019-04-29 18:04:45 UTC,FC Dallas,San Jose Earthquakes
+zeQZZ6XzQK,2019-03-18 01:00:00 UTC,1,1,pzeQZ6xQKw,Z2vQ1xlqrA,vzqoWjkqap,9z5ka6gQA3,kRQa99OQKZ,N6MmpyLQEG,96,2019,3,11037,False,FullTime,2019-03-21 11:43:07 UTC,Colorado Rapids,Sporting Kansas City
+a35rzW925L,2019-09-22 00:30:00 UTC,2,3,Z2vQ1xlqrA,pzeQZ6xQKw,7VqG6KX5vW,NPqxy6XQ9d,N6MmpyLQEG,0Oq6VPgq6D,102,2019,28,18862,False,FullTime,2019-09-24 21:38:15 UTC,Sporting Kansas City,Colorado Rapids
+Xj5YDYJRMb,2019-09-29 23:30:00 UTC,3,0,pzeQZ6xQKw,mKAqBBmqbg,jYQJnoVQGR,9z5ka6gQA3,0Oq6VPgq6D,eV5DNVJQKn,99,2019,29,16352,False,FullTime,2019-10-01 20:17:04 UTC,Colorado Rapids,FC Dallas
+XVqKlvewQ0,2019-03-23 21:55:00 UTC,2,1,mKAqBBmqbg,pzeQZ6xQKw,jYQJnoVQGR,eVq3alGMWO,eV5DNVJQKn,kRQa99OQKZ,97,2019,4,14514,False,FullTime,2019-03-25 22:28:02 UTC,FC Dallas,Colorado Rapids
+vzqobwwk5a,2019-07-21 00:30:00 UTC,0,2,Z2vQ1xlqrA,mKAqBBmqbg,0Oq6037M6D,NPqxy6XQ9d,N6MmpyLQEG,eV5DNVJQKn,101,2019,20,18736,False,FullTime,2019-07-22 17:50:31 UTC,Sporting Kansas City,FC Dallas
+7VqGa1zjMv,2019-10-06 20:00:00 UTC,6,0,mKAqBBmqbg,Z2vQ1xlqrA,0Oq6037M6D,eVq3alGMWO,eV5DNVJQKn,N6MmpyLQEG,94,2019,30,15623,False,FullTime,2019-10-08 21:06:45 UTC,FC Dallas,Sporting Kansas City

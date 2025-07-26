@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+gpMO2Xe2Qz,2019-04-20 23:30:00 UTC,1,0,19vQ2095K6,a2lqRX2Mr0,Pk5LRpDQOW,wvq9p775Wn,4JMAEj1MKg,vzqo2dv5ap,96,2019,8,14514,False,FullTime,2019-04-23 10:22:58 UTC,New England Revolution,New York Red Bulls
+kRQaV8VgMK,2019-08-17 23:00:00 UTC,1,1,a2lqRX2Mr0,19vQ2095K6,jYQJnoVQGR,NWMW84L5lz,vzqo2dv5ap,LeVq3j5WOJ,99,2019,23,18177,False,FullTime,2019-08-18 20:41:42 UTC,New York Red Bulls,New England Revolution
+7VqGa1W6Mv,2019-05-25 23:30:00 UTC,1,1,19vQ2095K6,EKXMeX3Q64,gOMnB7AMwN,wvq9p775Wn,LeVq3j5WOJ,vzqoAjJMap,102,2019,13,20131,False,FullTime,2019-05-28 22:01:51 UTC,New England Revolution,D.C. United
+gpMO2X1EQz,2019-07-12 23:00:00 UTC,2,2,EKXMeX3Q64,19vQ2095K6,EGMPLlxMaY,xW5pwORMg1,vzqoAjJMap,LeVq3j5WOJ,99,2019,19,18903,False,FullTime,2019-07-13 15:47:31 UTC,D.C. United,New England Revolution
+0Oq612R756,2019-03-09 19:00:00 UTC,0,2,19vQ2095K6,mvzqoLZQap,gOMnB7AMwN,wvq9p775Wn,4JMAEj1MKg,NPqxkDY59d,100,2019,2,13808,False,FullTime,2019-03-21 11:44:42 UTC,New England Revolution,Columbus Crew
+7vQ7ZldYqD,2019-04-06 23:30:00 UTC,1,0,mvzqoLZQap,19vQ2095K6,ljqExYw5x0,p6qbeb850G,NPqxkDY59d,4JMAEj1MKg,100,2019,6,10942,False,FullTime,2019-04-09 18:04:21 UTC,Columbus Crew,New England Revolution
+KAqB2zmJqb,2019-08-24 23:30:00 UTC,2,1,19vQ2095K6,X0Oq66zq6D,KPqjDeNM6v,wvq9p775Wn,LeVq3j5WOJ,ljqExEA5x0,99,2019,24,16236,False,FullTime,2019-08-27 15:30:33 UTC,New England Revolution,Chicago Fire FC
+kRQaV8wmMK,2019-05-09 00:00:00 UTC,5,0,X0Oq66zq6D,19vQ2095K6,kRQa9k8QKZ,9YqdkYR5vJ,ljqExEA5x0,4JMAEj1MKg,95,2019,11,6074,False,FullTime,2019-05-09 21:55:47 UTC,Chicago Fire FC,New England Revolution
+N6MmAa6xME,2019-09-29 21:00:00 UTC,0,0,a2lqRX2Mr0,EKXMeX3Q64,4wM4voBqjB,NWMW84L5lz,vzqo2dv5ap,vzqoAjJMap,101,2019,29,20118,False,FullTime,2020-02-20 15:48:56 UTC,New York Red Bulls,D.C. United
+ljqEza7EQx,2019-08-22 00:00:00 UTC,1,2,EKXMeX3Q64,a2lqRX2Mr0,e7MzPKXqr0,xW5pwORMg1,vzqoAjJMap,vzqo2dv5ap,107,2019,24,18302,False,FullTime,2019-08-28 14:19:08 UTC,D.C. United,New York Red Bulls
+odMXlggWMY,2019-07-27 23:30:00 UTC,2,3,a2lqRX2Mr0,mvzqoLZQap,zeQZlGK5Kw,NWMW84L5lz,vzqo2dv5ap,NPqxkDY59d,96,2019,21,16126,False,FullTime,2019-07-29 21:49:20 UTC,New York Red Bulls,Columbus Crew
+kRQaVwkOMK,2019-03-02 21:30:00 UTC,1,1,mvzqoLZQap,a2lqRX2Mr0,EGMPLlxMaY,p6qbeb850G,NPqxkDY59d,vzqo2dv5ap,100,2019,1,17931,False,FullTime,2019-03-21 11:46:27 UTC,Columbus Crew,New York Red Bulls
+e7Mzv709Mr,2019-06-29 00:00:00 UTC,3,1,a2lqRX2Mr0,X0Oq66zq6D,EGMPLlxMaY,NWMW84L5lz,vzqo2dv5ap,ljqExEA5x0,98,2019,17,17563,False,FullTime,2019-07-09 19:44:53 UTC,New York Red Bulls,Chicago Fire FC
+jYQJdXaW5G,2019-03-30 17:00:00 UTC,1,0,X0Oq66zq6D,a2lqRX2Mr0,KPqjDeNM6v,9YqdkYR5vJ,ljqExEA5x0,vzqo2dv5ap,96,2019,5,12013,False,FullTime,2019-04-05 01:41:25 UTC,Chicago Fire FC,New York Red Bulls
+raMyz7ok5d,2019-05-05 00:00:00 UTC,3,1,EKXMeX3Q64,mvzqoLZQap,EGMPLlxMaY,xW5pwORMg1,vzqoAjJMap,NPqxkDY59d,100,2019,10,16687,False,FullTime,2019-05-07 19:40:10 UTC,D.C. United,Columbus Crew
+Pk5LYX6LqO,2019-04-24 23:30:00 UTC,0,1,mvzqoLZQap,EKXMeX3Q64,e7MzPKXqr0,p6qbeb850G,NPqxkDY59d,vzqoAjJMap,99,2019,9,10169,False,FullTime,2019-04-26 17:34:34 UTC,Columbus Crew,D.C. United
+Oa5wvDxjM1,2019-05-30 00:00:00 UTC,3,3,EKXMeX3Q64,X0Oq66zq6D,gjMNk4v5Kp,xW5pwORMg1,vzqoAjJMap,ljqExEA5x0,100,2019,14,14201,False,FullTime,2019-05-30 21:07:11 UTC,D.C. United,Chicago Fire FC
+eV5DZXXAQK,2019-07-28 00:00:00 UTC,0,0,X0Oq66zq6D,EKXMeX3Q64,315VrXb59x,9YqdkYR5vJ,ljqExEA5x0,vzqoAjJMap,99,2019,21,18232,False,FullTime,2019-07-29 17:53:17 UTC,Chicago Fire FC,D.C. United
+ljqEzazEQx,2019-08-31 23:30:00 UTC,1,1,mvzqoLZQap,X0Oq66zq6D,Pk5LRpDQOW,p6qbeb850G,NPqxkDY59d,ljqExEA5x0,99,2019,25,16438,False,FullTime,2019-09-01 21:33:13 UTC,Columbus Crew,Chicago Fire FC
+zeQZZ661QK,2019-07-18 00:00:00 UTC,2,2,X0Oq66zq6D,mvzqoLZQap,gjMNk4v5Kp,9YqdkYR5vJ,ljqExEA5x0,NPqxkDY59d,99,2019,20,7482,False,FullTime,2019-07-20 07:12:59 UTC,Chicago Fire FC,Columbus Crew

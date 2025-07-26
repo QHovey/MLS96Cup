@@ -1,0 +1,11 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+jYQJlgkd5G,2020-10-15 02:30:00 UTC,0,4,kaDQ0wRqEv,0KPqjA456v,KPqjDeNM6v,wvq9p1Y5Wn,Xj5Yrklqbd,2vQ10jwqrA,94,2020,18,0,False,FullTime,2020-10-17 12:09:36 UTC,LA Galaxy,San Jose Earthquakes
+gpMOBew7Qz,2020-10-04 02:30:00 UTC,2,1,0KPqjA456v,kaDQ0wRqEv,KAqB3m7Qbg,Vj58W84M8n,2vQ10jwqrA,Xj5Yrklqbd,100,2020,16,0,False,FullTime,2020-10-06 14:04:50 UTC,San Jose Earthquakes,LA Galaxy
+raMyYendMd,2020-09-20 02:30:00 UTC,0,2,kaDQ0wRqEv,pzeQZ6xQKw,EGMPLlxMaY,wvq9p1Y5Wn,Xj5Yrklqbd,0Oq6VPgq6D,97,2020,13,0,False,FullTime,2020-09-22 17:59:06 UTC,LA Galaxy,Colorado Rapids
+eVq3mOZwMW,2020-09-06 02:30:00 UTC,1,1,0KPqjA456v,pzeQZ6xQKw,315VrXb59x,Vj58W84M8n,2vQ10jwqrA,0Oq6VPgq6D,97,2020,10,0,False,FullTime,2020-09-07 09:48:32 UTC,San Jose Earthquakes,Colorado Rapids
+aDQ0rlD35E,2020-09-24 01:00:00 UTC,5,0,pzeQZ6xQKw,0KPqjA456v,Pk5LRpDQOW,9z5ka6gQA3,0Oq6VPgq6D,2vQ10jwqrA,94,2020,14,0,False,FullTime,2020-09-25 11:07:29 UTC,Colorado Rapids,San Jose Earthquakes
+XVqKEpbaM0,2020-08-30 01:00:00 UTC,1,1,pzeQZ6xQKw,Z2vQ1xlqrA,gjMNk4v5Kp,9z5ka6gQA3,0Oq6VPgq6D,N6MmpyLQEG,99,2020,8,0,False,FullTime,2020-08-31 13:16:19 UTC,Colorado Rapids,Sporting Kansas City
+9z5kK3GY5A,2020-10-25 01:30:00 UTC,4,0,Z2vQ1xlqrA,pzeQZ6xQKw,Pk5LRpDQOW,NPqxy6XQ9d,N6MmpyLQEG,0Oq6VPgq6D,100,2020,20,0,False,FullTime,2020-10-26 11:14:47 UTC,Sporting Kansas City,Colorado Rapids
+aDQ0mgeWME,2020-09-17 00:30:00 UTC,4,1,mKAqBBmqbg,pzeQZ6xQKw,e7MzPKXqr0,eVq3alGMWO,eV5DNVJQKn,0Oq6VPgq6D,98,2020,7,0,False,FullTime,2020-09-18 08:29:40 UTC,FC Dallas,Colorado Rapids
+gOMnXYzlqw,2020-09-19 19:30:00 UTC,2,3,Z2vQ1xlqrA,mKAqBBmqbg,KPqjDeNM6v,NPqxy6XQ9d,N6MmpyLQEG,eV5DNVJQKn,100,2020,13,0,False,FullTime,2020-09-22 02:44:25 UTC,Sporting Kansas City,FC Dallas
+ljqEyJONqx,2020-10-15 00:30:00 UTC,1,0,mKAqBBmqbg,Z2vQ1xlqrA,gjMNk4v5Kp,eVq3alGMWO,eV5DNVJQKn,N6MmpyLQEG,96,2020,18,2898,False,FullTime,2020-10-17 11:39:16 UTC,FC Dallas,Sporting Kansas City

@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
+Xj5YzAKAqb,2024-06-08 23:30:00 UTC,1,0,19vQ2095K6,a2lqRX2Mr0,e7MzjxJMr0,wvq9p775Wn,NPqxkDY59d,2vQ1z6xMrA,97,2024,18,29288,False,FullTime,2024-06-11 22:28:05 UTC,,,New England Revolution,New York Red Bulls
+OlMlzy1EqL,2024-05-11 23:30:00 UTC,4,2,a2lqRX2Mr0,19vQ2095K6,4JMAYlPMKg,NWMW84L5lz,2vQ1z6xMrA,NPqxkDY59d,111,2024,12,0,False,FullTime,2024-05-14 08:30:10 UTC,,,New York Red Bulls,New England Revolution
+7vQ7XGWOMD,2024-10-05 23:30:00 UTC,1,2,19vQ2095K6,EKXMeX3Q64,e7MzjxJMr0,wvq9p775Wn,NPqxkDY59d,gpMO6j7Qzy,101,2024,36,44110,False,FullTime,2024-10-06 19:06:34 UTC,,,New England Revolution,D.C. United
+2lqReAA25r,2024-02-25 00:30:00 UTC,3,1,EKXMeX3Q64,19vQ2095K6,9z5krelMA3,xW5pwORMg1,XVqKA1NM01,NPqxkDY59d,106,2024,1,19215,False,FullTime,2024-02-28 06:33:25 UTC,,,D.C. United,New England Revolution
+zeQZzAlKQK,2024-06-29 23:30:00 UTC,1,5,19vQ2095K6,mvzqoLZQap,gpMO6D2Qzy,wvq9p775Wn,NPqxkDY59d,KPqjO38Q6v,100,2024,22,25004,False,FullTime,2024-07-02 14:44:50 UTC,,,New England Revolution,Columbus Crew
+gjMNr2m0MK,2024-10-12 23:30:00 UTC,4,0,mvzqoLZQap,19vQ2095K6,xW5pE3Yqg1,2vQ1eawQrA,KPqjO38Q6v,NPqxkDY59d,94,2024,16,20439,False,FullTime,2024-10-16 22:32:26 UTC,,,Columbus Crew,New England Revolution
+gOMnzN1OMw,2024-03-23 18:00:00 UTC,1,1,19vQ2095K6,X0Oq66zq6D,vzqokZ7qap,wvq9p775Wn,NPqxkDY59d,gOMnBPJMwN,103,2024,5,15269,False,FullTime,2024-03-26 05:07:24 UTC,,,New England Revolution,Chicago Fire FC
+gOMnzNLOMw,2024-05-05 01:25:00 UTC,0,1,X0Oq66zq6D,19vQ2095K6,BLMvDxAqxe,gpMOzdEQzy,gOMnBPJMwN,NPqxkDY59d,102,2024,11,18379,False,FullTime,2024-05-08 00:04:42 UTC,,,Chicago Fire FC,New England Revolution
+BLMvGdRR5x,2024-06-29 23:30:00 UTC,2,2,a2lqRX2Mr0,EKXMeX3Q64,ljqEymNqx0,NWMW84L5lz,2vQ1z6xMrA,gpMO6j7Qzy,109,2024,22,18315,False,FullTime,2024-07-02 12:16:15 UTC,,,New York Red Bulls,D.C. United
+2vQ11JDKQr,2024-05-15 23:30:00 UTC,1,4,EKXMeX3Q64,a2lqRX2Mr0,ljqExYw5x0,xW5pwORMg1,gpMO6j7Qzy,2vQ1z6xMrA,101,2024,13,17417,False,FullTime,2024-05-17 20:06:41 UTC,,,D.C. United,New York Red Bulls
+xW5pJNXRQg,2024-10-19 22:00:00 UTC,2,3,a2lqRX2Mr0,mvzqoLZQap,wvq9vKlQWn,NWMW84L5lz,2vQ1z6xMrA,KPqjO38Q6v,104,2024,37,24515,False,FullTime,2024-10-22 09:11:32 UTC,,,New York Red Bulls,Columbus Crew
+7VqGPrrAQv,2024-03-16 23:30:00 UTC,3,0,mvzqoLZQap,a2lqRX2Mr0,9z5krelMA3,2vQ1eawQrA,KPqjO38Q6v,2vQ1z6xMrA,101,2024,4,20314,False,FullTime,2024-03-20 10:01:04 UTC,,,Columbus Crew,New York Red Bulls
+vzqozy8Z5a,2024-04-13 23:30:00 UTC,0,0,a2lqRX2Mr0,X0Oq66zq6D,Vj58OwwM8n,NWMW84L5lz,2vQ1z6xMrA,gOMnBPJMwN,103,2024,8,17501,False,FullTime,2024-04-19 13:27:51 UTC,,,New York Red Bulls,Chicago Fire FC
+0Oq6egmx56,2024-09-15 00:30:00 UTC,2,1,X0Oq66zq6D,a2lqRX2Mr0,0x5gNljM7O,gpMOzdEQzy,gOMnBPJMwN,2vQ1z6xMrA,102,2024,31,22188,False,FullTime,2024-09-17 05:48:50 UTC,,,Chicago Fire FC,New York Red Bulls
+kRQazAaoMK,2024-09-28 23:30:00 UTC,2,2,EKXMeX3Q64,mvzqoLZQap,ljqExYw5x0,xW5pwORMg1,gpMO6j7Qzy,KPqjO38Q6v,100,2024,34,17806,False,FullTime,2024-09-30 20:28:59 UTC,,,D.C. United,Columbus Crew
+4wM48B7kMj,2024-04-06 23:30:00 UTC,1,1,mvzqoLZQap,EKXMeX3Q64,aDQ0mkPMEv,2vQ1eawQrA,KPqjO38Q6v,gpMO6j7Qzy,101,2024,7,20740,False,FullTime,2024-04-10 08:46:04 UTC,,,Columbus Crew,D.C. United
+EGMP8Ax6Ma,2024-05-25 23:30:00 UTC,1,1,EKXMeX3Q64,X0Oq66zq6D,0x5gNljM7O,xW5pwORMg1,gpMO6j7Qzy,gOMnBPJMwN,100,2024,15,19081,False,FullTime,2024-05-28 12:49:30 UTC,,,D.C. United,Chicago Fire FC
+Xj5YzAxRqb,2024-09-08 00:30:00 UTC,1,2,X0Oq66zq6D,EKXMeX3Q64,zeQZlGK5Kw,9YqdkYR5vJ,gOMnBPJMwN,gpMO6j7Qzy,97,2024,30,16426,False,FullTime,2024-09-10 07:46:11 UTC,,,Chicago Fire FC,D.C. United
+BLMvGddj5x,2024-03-10 00:30:00 UTC,2,1,mvzqoLZQap,X0Oq66zq6D,e7Mz8Ajqr0,2vQ1eawQrA,KPqjO38Q6v,gOMnBPJMwN,106,2024,3,20327,False,FullTime,2024-03-13 06:20:50 UTC,,,Columbus Crew,Chicago Fire FC
+XVqK7r4Oq0,2024-05-19 00:30:00 UTC,1,3,X0Oq66zq6D,mvzqoLZQap,gpMO6D2Qzy,gpMOzdEQzy,gOMnBPJMwN,KPqjO38Q6v,101,2024,14,23319,False,FullTime,2024-05-21 22:27:46 UTC,,,Chicago Fire FC,Columbus Crew

@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+aDQ0YnyWME,2016-04-01 23:00:00 UTC,1,0,19vQ2095K6,a2lqRX2Mr0,a35r6KG5L6,wvq9p775Wn,9z5kJ0jMA3,Xj5Yre0qbd,99,2016,5,11849,False,FullTime,2017-02-08 23:33:43 UTC,New England Revolution,New York Red Bulls
+eVq3Z97n5W,2016-08-28 18:30:00 UTC,1,0,a2lqRX2Mr0,19vQ2095K6,odMXjR0qYL,NWMW84L5lz,Xj5Yre0qbd,9z5kJ0jMA3,103,2016,24,22600,False,FullTime,2016-09-01 00:58:59 UTC,New York Red Bulls,New England Revolution
+9z5kdxVgqA,2016-03-12 20:00:00 UTC,0,0,19vQ2095K6,EKXMeX3Q64,zeQZl7D5Kw,wvq9p775Wn,9z5kJ0jMA3,vzqoAjJMap,96,2016,2,16102,False,FullTime,2016-03-17 17:32:49 UTC,New England Revolution,D.C. United
+eVq3Z9ww5W,2016-06-25 23:00:00 UTC,2,0,EKXMeX3Q64,19vQ2095K6,0Oq6vG2q6D,jYQJ1PBqGR,vzqoAjJMap,9z5kJ0jMA3,96,2016,15,16051,False,FullTime,2016-06-30 00:35:01 UTC,D.C. United,New England Revolution
+p6qb1Dla50,2016-08-20 23:30:00 UTC,0,2,19vQ2095K6,mvzqoLZQap,jYQJnnZQGR,wvq9p775Wn,9z5kJ0jMA3,0x5gN9PM7O,98,2016,23,20224,False,FullTime,2016-08-22 16:01:48 UTC,New England Revolution,Columbus Crew
+N6Mmaj8vME,2016-09-25 23:00:00 UTC,2,0,mvzqoLZQap,19vQ2095K6,jYQJnoVQGR,p6qbeb850G,0x5gN9PM7O,9z5kJ0jMA3,96,2016,28,20012,False,FullTime,2016-09-27 21:51:24 UTC,Columbus Crew,New England Revolution
+jYQJX4rE5G,2016-07-23 23:30:00 UTC,1,0,19vQ2095K6,X0Oq66zq6D,Oa5w9R9Q14,wvq9p775Wn,9z5kJ0jMA3,ljqExEA5x0,99,2016,19,21872,False,FullTime,2016-07-29 22:22:20 UTC,New England Revolution,Chicago Fire FC
+gjMNYJdYQK,2016-10-16 19:00:00 UTC,2,1,X0Oq66zq6D,19vQ2095K6,EGMPPnAMaY,9YqdkYR5vJ,ljqExEA5x0,9z5kJ0jMA3,100,2016,31,18976,False,FullTime,2016-10-20 22:17:10 UTC,Chicago Fire FC,New England Revolution
+2vQ1xoO8qr,2016-09-11 17:00:00 UTC,2,2,a2lqRX2Mr0,EKXMeX3Q64,9z5kJ7gMA3,NWMW84L5lz,Xj5Yre0qbd,vzqoAjJMap,100,2016,26,20086,False,FullTime,2016-09-14 21:40:42 UTC,New York Red Bulls,D.C. United
+Xj5YYRex5b,2016-08-21 19:00:00 UTC,2,2,EKXMeX3Q64,a2lqRX2Mr0,e7MzPKXqr0,jYQJ1PBqGR,vzqoAjJMap,Xj5Yre0qbd,97,2016,23,15139,False,FullTime,2016-11-16 19:43:56 UTC,D.C. United,New York Red Bulls
+a35rWZ2bqL,2016-10-16 19:00:00 UTC,3,2,a2lqRX2Mr0,mvzqoLZQap,KAqB3m7Qbg,NWMW84L5lz,Xj5Yre0qbd,0x5gN9PM7O,97,2016,31,22937,False,FullTime,2016-10-26 15:31:48 UTC,New York Red Bulls,Columbus Crew
+7VqG1pzYMv,2016-06-25 23:30:00 UTC,1,1,mvzqoLZQap,a2lqRX2Mr0,EGMPPnAMaY,p6qbeb850G,0x5gN9PM7O,Xj5Yre0qbd,99,2016,15,20389,False,FullTime,2016-06-30 00:52:44 UTC,Columbus Crew,New York Red Bulls
+0Oq6YPpz56,2016-05-18 23:30:00 UTC,1,0,a2lqRX2Mr0,X0Oq66zq6D,KAqB3m7Qbg,NWMW84L5lz,Xj5Yre0qbd,ljqExEA5x0,98,2016,12,16624,False,FullTime,2016-05-24 15:47:56 UTC,New York Red Bulls,Chicago Fire FC
+7VqG1prXMv,2016-07-31 23:00:00 UTC,2,2,X0Oq66zq6D,a2lqRX2Mr0,zeQZlGK5Kw,9YqdkYR5vJ,ljqExEA5x0,Xj5Yre0qbd,101,2016,20,17221,False,FullTime,2016-10-04 21:03:21 UTC,Chicago Fire FC,New York Red Bulls
+Xj5YYRVX5b,2016-09-28 23:30:00 UTC,3,0,EKXMeX3Q64,mvzqoLZQap,zeQZl7D5Kw,jYQJ1PBqGR,vzqoAjJMap,0x5gN9PM7O,95,2016,29,12094,False,FullTime,2016-09-30 01:42:38 UTC,D.C. United,Columbus Crew
+KPqja2yN56,2016-07-16 23:30:00 UTC,1,1,mvzqoLZQap,EKXMeX3Q64,zeQZl7D5Kw,p6qbeb850G,0x5gN9PM7O,vzqoAjJMap,97,2016,18,20065,False,FullTime,2016-07-25 13:42:56 UTC,Columbus Crew,D.C. United
+gOMnJp1xMw,2016-08-27 23:00:00 UTC,6,2,EKXMeX3Q64,X0Oq66zq6D,Pk5LRpDQOW,jYQJ1PBqGR,vzqoAjJMap,ljqExEA5x0,95,2016,24,15720,False,FullTime,2016-09-01 00:18:38 UTC,D.C. United,Chicago Fire FC
+OlMld0LyML,2016-09-17 00:00:00 UTC,2,2,X0Oq66zq6D,EKXMeX3Q64,315VrXb59x,9YqdkYR5vJ,ljqExEA5x0,vzqoAjJMap,98,2016,27,13807,False,FullTime,2017-10-02 18:51:44 UTC,Chicago Fire FC,D.C. United
+0x5gbdR7M7,2016-10-01 23:30:00 UTC,3,0,mvzqoLZQap,X0Oq66zq6D,p6qbdV6M0G,p6qbeb850G,0x5gN9PM7O,ljqExEA5x0,95,2016,29,20034,False,FullTime,2016-11-16 13:23:10 UTC,Columbus Crew,Chicago Fire FC
+EGMPX3drMa,2016-10-14 00:30:00 UTC,2,2,X0Oq66zq6D,mvzqoLZQap,gOMnB7AMwN,9YqdkYR5vJ,ljqExEA5x0,0x5gN9PM7O,95,2016,31,15883,False,FullTime,2016-10-16 01:43:12 UTC,Chicago Fire FC,Columbus Crew

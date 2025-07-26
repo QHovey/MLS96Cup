@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLS '96 Cup - 2025 Season</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple animation for page load */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header and Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-900">MLS'96<span class="text-blue-600">Cup</span></a>
+            
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="text-blue-600 font-semibold border-b-2 border-blue-600">Home</a>
+                <a href="about.html" class="hover:text-blue-600">About</a>
+                <a href="join.html" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Join Committee</a>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-white shadow-md">
+            <a href="index.html" class="block text-blue-600 font-semibold">Home</a>
+            <a href="about.html" class="block hover:text-blue-600">About</a>
+            <a href="join.html" class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition text-center">Join Committee</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8 fade-in">
+        
+        <!-- Page Title and Intro -->
+        <div class="text-center mb-12">
+            <h1 id="season-title" class="text-4xl font-bold text-gray-900 mb-2">MLS '96 Cup - 2025 Season</h1>
+            <p class="text-lg text-gray-600">A fan-led competition tracking the head-to-head results of the 10 original MLS clubs.</p>
+            <!-- Year Selector Dropdown -->
+            <div class="mt-4">
+                <label for="year-selector" class="mr-2 font-medium text-gray-700">Select Season:</label>
+                <select id="year-selector" class="p-2 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></select>
+            </div>
+        </div>
+
+        <!-- Standings Tables -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+            <!-- Eastern Conference Table -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4 border-b pb-2">Eastern Conference</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-left">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-2">Team</th>
+                                <th class="px-4 py-2">GP</th>
+                                <th class="px-4 py-2">Pts</th>
+                                <th class="px-4 py-2">GF</th>
+                                <th class="px-4 py-2">GA</th>
+                                <th class="px-4 py-2">GD</th>
+                            </tr>
+                        </thead>
+                        <tbody id="east-standings" class="divide-y">
+                            <!-- Data will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Western Conference Table -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4 border-b pb-2">Western Conference</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-left">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-4 py-2">Team</th>
+                                <th class="px-4 py-2">GP</th>
+                                <th class="px-4 py-2">Pts</th>
+                                <th class="px-4 py-2">GF</th>
+                                <th class="px-4 py-2">GA</th>
+                                <th class="px-4 py-2">GD</th>
+                            </tr>
+                        </thead>
+                        <tbody id="west-standings" class="divide-y">
+                            <!-- Data will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Games Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Eastern Conference Matches -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">Eastern Conference Matches</h2>
+                <ul id="east-matches" class="space-y-3">
+                    <!-- Data will be loaded here -->
+                </ul>
+            </div>
+            
+            <!-- Western Conference Matches -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">Western Conference Matches</h2>
+                <ul id="west-matches" class="space-y-3">
+                    <!-- Data will be loaded here -->
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-6 border-t">
+        <div class="container mx-auto text-center text-gray-600">
+            <p>&copy; 2025 MLS96cup.com - A Fan Project</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- SCRIPT TO LOAD DATA FROM CSV FILES ---
+
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            const yearSelector = document.getElementById('year-selector');
+            const seasonTitle = document.getElementById('season-title');
+
+            // Function to populate the year selector dropdown
+            function populateYearSelector() {
+                const startYear = 2025;
+                const endYear = 2013;
+                for (let year = startYear; year >= endYear; year--) {
+                    const option = document.createElement('option');
+                    option.value = year;
+                    option.textContent = year;
+                    yearSelector.appendChild(option);
+                }
+            }
+
+            // Function to fetch and parse CSV data, now with caching disabled
+            async function fetchCsvData(filePath) {
+                try {
+                    // Add { cache: 'no-cache' } to prevent the browser from using old files
+                    const response = await fetch(filePath, { cache: 'no-cache' });
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status} for file ${filePath}`);
+                    }
+                    const text = await response.text();
+                    // Return empty array if file is empty to avoid errors
+                    if (text.trim() === '') return [];
+                    return text.trim().split('\n').map(row => row.split(','));
+                } catch (error) {
+                    console.error(`Error fetching or parsing CSV from ${filePath}:`, error);
+                    // Clear the relevant table/list on error to indicate missing data
+                    let elementId;
+                    if (filePath.includes('eastern_standings')) elementId = 'east-standings';
+                    else if (filePath.includes('western_standings')) elementId = 'west-standings';
+                    else if (filePath.includes('eastern_matches')) elementId = 'east-matches';
+                    else if (filePath.includes('western_matches')) elementId = 'west-matches';
+
+                    if (elementId) {
+                        const element = document.getElementById(elementId);
+                        if (element) {
+                            if (element.tagName.toLowerCase() === 'tbody') {
+                                element.innerHTML = `<tr><td colspan="6" class="text-center p-4 text-red-500">Could not load data.</td></tr>`;
+                            } else {
+                                element.innerHTML = `<li class="text-center p-4 text-red-500">Could not load data.</li>`;
+                            }
+                        }
+                    }
+                    return []; // Return empty array on error
+                }
+            }
+
+            // Function to populate a standings table
+            function populateStandings(tableBodyId, data) {
+                const tableBody = document.getElementById(tableBodyId);
+                if (!tableBody) return;
+                if(data.length < 2) {
+                    tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-4 text-gray-500">No standings data available for this year.</td></tr>`;
+                    return;
+                }
+
+                const headers = data[0].map(h => h.trim());
+                const rows = data.slice(1);
+
+                const headerMap = {
+                    team: headers.indexOf('team_name'),
+                    gp: headers.indexOf('games_played'),
+                    pts: headers.indexOf('points'),
+                    gf: headers.indexOf('goals_scored'),
+                    ga: headers.indexOf('goals_conceded'),
+                    gd: headers.indexOf('goal_differential')
+                };
+
+                if (Object.values(headerMap).some(index => index === -1)) {
+                    console.error(`Standings CSV for #${tableBodyId} is missing required headers.`);
+                    return;
+                }
+                
+                tableBody.innerHTML = '';
+
+                rows.forEach(rowData => {
+                    const tr = document.createElement('tr');
+                    const teamName = rowData[headerMap.team];
+                    const teamClass = teamName.includes('Mutiny') ? 'text-gray-500' : 'font-medium';
+                    
+                    tr.innerHTML = `
+                        <td class="px-4 py-2 ${teamClass}">${teamName}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gp]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.pts]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gf]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.ga]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gd]}</td>
+                    `;
+                    tableBody.appendChild(tr);
+                });
+            }
+
+            // Function to populate a sorted match list
+            function populateMatches(listId, data) {
+                const list = document.getElementById(listId);
+                if (!list) return;
+                if(data.length < 2) {
+                    list.innerHTML = `<li class="text-center p-4 text-gray-500">No match data available for this year.</li>`;
+                    return;
+                }
+
+
+                const headers = data[0].map(h => h.trim());
+                const rows = data.slice(1);
+
+                const headerMap = {
+                    date: headers.indexOf('date_time_utc'),
+                    home: headers.indexOf('home_team'),
+                    away: headers.indexOf('away_team'),
+                    homeScore: headers.indexOf('home_score'),
+                    awayScore: headers.indexOf('away_score'),
+                    status: headers.indexOf('status')
+                };
+
+                if (Object.values(headerMap).some(index => index === -1)) {
+                    console.error(`Matches CSV for #${listId} is missing required headers.`);
+                    return;
+                }
+
+                rows.sort((a, b) => new Date(a[headerMap.date]) - new Date(b[headerMap.date]));
+
+                list.innerHTML = '';
+
+                rows.forEach(gameData => {
+                    const li = document.createElement('li');
+                    li.className = 'border-b pb-2';
+                    
+                    const homeTeam = gameData[headerMap.home];
+                    const awayTeam = gameData[headerMap.away];
+                    const status = gameData[headerMap.status];
+                    const homeScore = gameData[headerMap.homeScore];
+                    const awayScore = gameData[headerMap.awayScore];
+                    
+                    const displayDate = new Date(gameData[headerMap.date]).toLocaleDateString('en-US', {
+                        year: 'numeric', month: 'long', day: 'numeric'
+                    });
+
+                    let matchHtml;
+                    if (status === 'FullTime' && homeScore && awayScore) {
+                        const score = `${homeScore} - ${awayScore}`;
+                        matchHtml = `<p>${homeTeam} <span class="font-bold text-blue-600">${score}</span> ${awayTeam}</p>`;
+                    } else {
+                        matchHtml = `<p>${homeTeam} vs ${awayTeam}</p>`;
+                    }
+                    
+                    li.innerHTML = `
+                        <p class="text-sm text-gray-500">${displayDate}</p>
+                        ${matchHtml}
+                    `;
+                    list.appendChild(li);
+                });
+            }
+
+            // Main function to load all data for a given year
+            async function loadAllData(year) {
+                seasonTitle.textContent = `MLS '96 Cup - ${year} Season`;
+                
+                const [eastStandings, westStandings, eastMatches, westMatches] = await Promise.all([
+                    fetchCsvData(`${year}/eastern_standings_${year}.csv`),
+                    fetchCsvData(`${year}/western_standings_${year}.csv`),
+                    fetchCsvData(`${year}/eastern_matches_${year}.csv`),
+                    fetchCsvData(`${year}/western_matches_${year}.csv`)
+                ]);
+
+                populateStandings('east-standings', eastStandings);
+                populateStandings('west-standings', westStandings);
+                populateMatches('east-matches', eastMatches);
+                populateMatches('west-matches', westMatches);
+            }
+
+            // --- Initial Page Setup ---
+            populateYearSelector();
+            loadAllData(yearSelector.value); // Load data for the default year
+
+            // Event listener for when the user selects a new year
+            yearSelector.addEventListener('change', (event) => {
+                loadAllData(event.target.value);
+            });
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+KXMeYWWBM6,2021-06-23 23:00:00 UTC,3,2,19vQ2095K6,a2lqRX2Mr0,KAqB3m7Qbg,wvq9p775Wn,LeVq3j5WOJ,9z5kKNb5A3,97,2021,9,0,False,FullTime,2021-06-26 11:57:39 UTC,New England Revolution,New York Red Bulls
+OlMlaRmR5L,2021-07-31 22:00:00 UTC,2,3,a2lqRX2Mr0,19vQ2095K6,4wM4voBqjB,NWMW84L5lz,9z5kKNb5A3,LeVq3j5WOJ,99,2021,16,13444,False,FullTime,2021-08-03 11:32:30 UTC,New York Red Bulls,New England Revolution
+KXMeYW11M6,2021-08-18 23:00:00 UTC,3,2,19vQ2095K6,EKXMeX3Q64,EGMPLlxMaY,wvq9p775Wn,LeVq3j5WOJ,e7MzE8XQr0,100,2021,20,11419,False,FullTime,2021-08-22 16:01:35 UTC,New England Revolution,D.C. United
+7VqGDn2AQv,2021-10-20 23:30:00 UTC,2,3,EKXMeX3Q64,19vQ2095K6,7VqG6KX5vW,xW5pwORMg1,e7MzE8XQr0,LeVq3j5WOJ,100,2021,31,13387,False,FullTime,2021-10-23 10:39:48 UTC,D.C. United,New England Revolution
+ljqEy6OYqx,2021-09-18 23:00:00 UTC,1,1,19vQ2095K6,mvzqoLZQap,vzqoWjkqap,wvq9p775Wn,LeVq3j5WOJ,NPqxkDY59d,99,2021,26,19004,False,FullTime,2021-09-22 07:05:53 UTC,New England Revolution,Columbus Crew
+0Oq6BXD2q6,2021-07-03 21:00:00 UTC,2,2,mvzqoLZQap,19vQ2095K6,0Oq6037M6D,2vQ1eawQrA,NPqxkDY59d,LeVq3j5WOJ,100,2021,11,20407,False,FullTime,2021-07-05 07:47:58 UTC,Columbus Crew,New England Revolution
+NWMWRdBzQl,2021-10-16 23:00:00 UTC,2,2,19vQ2095K6,X0Oq66zq6D,odMX96a5YL,wvq9p775Wn,LeVq3j5WOJ,gOMnBPJMwN,96,2021,30,28414,False,FullTime,2021-10-19 07:52:31 UTC,New England Revolution,Chicago Fire FC
+gOMnXkg6qw,2021-09-23 00:00:00 UTC,2,3,X0Oq66zq6D,19vQ2095K6,2lqRG1WQr0,gpMOzdEQzy,9Yqd8woqvJ,LeVq3j5WOJ,94,2021,34,7052,False,FullTime,2021-09-27 13:23:20 UTC,Chicago Fire FC,New England Revolution
+2vQ1lr2Lqr,2021-09-11 23:00:00 UTC,1,1,a2lqRX2Mr0,EKXMeX3Q64,KAqB3m7Qbg,NWMW84L5lz,9z5kKNb5A3,e7MzE8XQr0,96,2021,24,12574,False,FullTime,2021-09-16 13:12:36 UTC,New York Red Bulls,D.C. United
+4JMAVB275K,2021-10-27 23:30:00 UTC,1,0,EKXMeX3Q64,a2lqRX2Mr0,ljqExYw5x0,xW5pwORMg1,e7MzE8XQr0,9z5kKNb5A3,99,2021,33,14109,False,FullTime,2021-10-30 07:01:29 UTC,D.C. United,New York Red Bulls
+KPqjAneE56,2021-08-19 00:00:00 UTC,1,0,a2lqRX2Mr0,mvzqoLZQap,jYQJnoVQGR,NWMW84L5lz,9z5kKNb5A3,NPqxkDY59d,99,2021,20,10002,False,FullTime,2021-08-22 15:46:31 UTC,New York Red Bulls,Columbus Crew
+2vQ1lrY8qr,2021-10-23 22:00:00 UTC,1,2,mvzqoLZQap,a2lqRX2Mr0,0Oq6037M6D,2vQ1eawQrA,2vQ1A60QrA,9z5kKNb5A3,98,2021,32,17891,False,FullTime,2021-10-26 08:57:01 UTC,Columbus Crew,New York Red Bulls
+eVq3J89g5W,2021-08-28 22:00:00 UTC,0,1,a2lqRX2Mr0,X0Oq66zq6D,2lqRymD5r0,NWMW84L5lz,9z5kKNb5A3,9Yqd8woqvJ,101,2021,22,12018,False,FullTime,2021-08-31 14:12:34 UTC,New York Red Bulls,Chicago Fire FC
+0x5gXGlRq7,2021-08-08 22:00:00 UTC,2,1,X0Oq66zq6D,a2lqRX2Mr0,wvq9vKlQWn,gpMOzdEQzy,9Yqd8woqvJ,9z5kKNb5A3,100,2021,18,11894,False,FullTime,2021-08-11 10:47:48 UTC,Chicago Fire FC,New York Red Bulls
+Xj5YkXoXQb,2021-10-30 23:30:00 UTC,1,3,EKXMeX3Q64,mvzqoLZQap,Pk5LRpDQOW,xW5pwORMg1,e7MzE8XQr0,NPqxkDY59d,97,2021,34,16787,False,FullTime,2021-11-02 11:05:07 UTC,D.C. United,Columbus Crew
+zeQZV2ojQK,2021-08-04 23:30:00 UTC,2,4,mvzqoLZQap,EKXMeX3Q64,2lqRymD5r0,2vQ1eawQrA,NPqxkDY59d,e7MzE8XQr0,105,2021,17,18398,False,FullTime,2021-08-07 05:52:55 UTC,Columbus Crew,D.C. United
+NPqxXl7Yq9,2021-09-15 23:30:00 UTC,3,0,EKXMeX3Q64,X0Oq66zq6D,gOMnB7AMwN,xW5pwORMg1,e7MzE8XQr0,9Yqd8woqvJ,95,2021,25,13524,False,FullTime,2021-09-19 14:55:49 UTC,D.C. United,Chicago Fire FC
+0x5gXGmLq7,2021-07-22 00:00:00 UTC,2,2,X0Oq66zq6D,EKXMeX3Q64,0Oq6vG2q6D,gpMOzdEQzy,gOMnBPJMwN,e7MzE8XQr0,96,2021,14,8306,False,FullTime,2021-07-24 14:45:26 UTC,Chicago Fire FC,D.C. United
+Pk5LJVlZQO,2021-11-07 20:30:00 UTC,2,0,mvzqoLZQap,X0Oq66zq6D,kRQa9k8QKZ,2vQ1eawQrA,NPqxkDY59d,gOMnBPJMwN,99,2021,35,19351,False,FullTime,2021-11-10 09:53:32 UTC,Columbus Crew,Chicago Fire FC
+gjMN3LZp5K,2021-08-15 22:00:00 UTC,1,0,X0Oq66zq6D,mvzqoLZQap,7VqG6KX5vW,gpMOzdEQzy,9Yqd8woqvJ,NPqxkDY59d,97,2021,19,13005,False,FullTime,2021-08-18 09:49:31 UTC,Chicago Fire FC,Columbus Crew

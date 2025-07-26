@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
+xW5pJN8GQg,2024-04-22 00:15:00 UTC,4,3,kaDQ0wRqEv,0KPqjA456v,9vQ2mPaqK6,wvq9p1Y5Wn,Xj5Yx60Mbd,eV5DNVJQKn,106,2024,9,25335,False,FullTime,2024-04-28 15:59:41 UTC,,,LA Galaxy,San Jose Earthquakes
+Xj5YzAr0qb,2024-06-30 02:30:00 UTC,0,3,0KPqjA456v,kaDQ0wRqEv,wvq9vKlQWn,Oa5wY94Q14,eVq3ArXMWO,Xj5Yx60Mbd,97,2024,22,40844,False,FullTime,2024-07-02 13:20:10 UTC,,,San Jose Earthquakes,LA Galaxy
+KXMezyar56,2024-07-18 02:30:00 UTC,3,2,kaDQ0wRqEv,pzeQZ6xQKw,a35rgjLqL6,wvq9p1Y5Wn,Xj5Yx60Mbd,vzqo2dv5ap,107,2024,26,19488,False,FullTime,2024-07-19 12:41:31 UTC,,,LA Galaxy,Colorado Rapids
+gOMnzNXlMw,2024-10-03 01:30:00 UTC,1,3,pzeQZ6xQKw,kaDQ0wRqEv,aDQ0mkPMEv,9z5ka6gQA3,vzqo2dv5ap,Xj5Yx60Mbd,102,2024,35,15196,False,FullTime,2024-10-03 09:01:26 UTC,,,Colorado Rapids,LA Galaxy
+NPqxONaX59,2024-06-16 02:30:00 UTC,4,2,kaDQ0wRqEv,Z2vQ1xlqrA,jYQJnoVQGR,wvq9p1Y5Wn,Xj5Yx60Mbd,N6MmpyLQEG,99,2024,19,22198,False,FullTime,2024-06-19 07:55:09 UTC,,,LA Galaxy,Sporting Kansas City
+2vQ11JAOQr,2024-03-24 00:30:00 UTC,2,3,Z2vQ1xlqrA,kaDQ0wRqEv,KPqjAvn56v,NPqxy6XQ9d,N6MmpyLQEG,Xj5Yx60Mbd,102,2024,5,18102,False,FullTime,2024-03-26 07:11:14 UTC,,,Sporting Kansas City,LA Galaxy
+9z5kzyPPMA,2024-05-30 02:30:00 UTC,3,1,kaDQ0wRqEv,mKAqBBmqbg,xW5pE3Yqg1,wvq9p1Y5Wn,Xj5Yx60Mbd,KAqBwv7Qbg,103,2024,16,19505,False,FullTime,2024-06-01 11:24:15 UTC,,,LA Galaxy,FC Dallas
+4JMAnzY65K,2024-07-14 00:30:00 UTC,2,0,mKAqBBmqbg,kaDQ0wRqEv,4wM4voBqjB,eVq3alGMWO,zeQZyzZqKw,Xj5Yx60Mbd,98,2024,25,19096,False,FullTime,2024-07-16 10:47:21 UTC,,,FC Dallas,LA Galaxy
+EGMP8Ag4Ma,2024-04-14 02:30:00 UTC,0,3,0KPqjA456v,pzeQZ6xQKw,ljqEymNqx0,Vj58W84M8n,eV5DNVJQKn,vzqo2dv5ap,99,2024,8,14232,False,FullTime,2024-04-19 13:27:51 UTC,,,San Jose Earthquakes,Colorado Rapids
+EGMP8AdVMa,2024-05-12 01:30:00 UTC,2,3,pzeQZ6xQKw,0KPqjA456v,Xj5YWgaQbd,9z5ka6gQA3,vzqo2dv5ap,eV5DNVJQKn,105,2024,12,15557,False,FullTime,2024-05-14 07:45:10 UTC,,,Colorado Rapids,San Jose Earthquakes
+ljqEkvgEMx,2024-07-14 02:30:00 UTC,1,2,0KPqjA456v,Z2vQ1xlqrA,e7MzjxJMr0,Vj58W84M8n,eVq3ArXMWO,N6MmpyLQEG,102,2024,25,12034,False,FullTime,2024-07-16 08:13:16 UTC,,,San Jose Earthquakes,Sporting Kansas City
+eVq3l37yQW,2024-03-17 00:30:00 UTC,2,1,Z2vQ1xlqrA,0KPqjA456v,0x5gg0j57O,NPqxy6XQ9d,N6MmpyLQEG,eV5DNVJQKn,102,2024,4,18219,False,FullTime,2024-03-19 22:29:45 UTC,,,Sporting Kansas City,San Jose Earthquakes
+wvq9wOmBMW,2024-10-03 02:30:00 UTC,3,2,0KPqjA456v,mKAqBBmqbg,odMXLVAMYL,Vj58W84M8n,eVq3ArXMWO,zeQZyzZqKw,100,2024,35,13414,False,FullTime,2024-10-05 00:27:40 UTC,,,San Jose Earthquakes,FC Dallas
+315VzAA759,2024-02-25 01:30:00 UTC,2,1,mKAqBBmqbg,0KPqjA456v,odMXr82qYL,eVq3alGMWO,KAqBwv7Qbg,eV5DNVJQKn,98,2024,1,19906,False,FullTime,2024-02-28 10:02:25 UTC,,,FC Dallas,San Jose Earthquakes
+2lqReANW5r,2024-07-05 01:30:00 UTC,2,1,pzeQZ6xQKw,Z2vQ1xlqrA,Vj58OwwM8n,9z5ka6gQA3,vzqo2dv5ap,N6MmpyLQEG,101,2024,23,18183,False,FullTime,2024-07-07 09:46:01 UTC,,,Colorado Rapids,Sporting Kansas City
+a35r3xg2qL,2024-09-19 00:30:00 UTC,4,1,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZlGK5Kw,NPqxy6XQ9d,N6MmpyLQEG,vzqo2dv5ap,102,2024,32,14826,False,FullTime,2024-09-20 22:28:07 UTC,,,Sporting Kansas City,Colorado Rapids
+NPqxON8G59,2024-04-21 01:30:00 UTC,2,1,pzeQZ6xQKw,mKAqBBmqbg,gpMO6D2Qzy,9z5ka6gQA3,vzqo2dv5ap,KAqBwv7Qbg,105,2024,9,7492,False,FullTime,2024-04-24 13:41:12 UTC,,,Colorado Rapids,FC Dallas
+4wM48BANMj,2024-09-01 00:30:00 UTC,2,3,mKAqBBmqbg,pzeQZ6xQKw,eVq3vWv5WO,eVq3alGMWO,zeQZyzZqKw,vzqo2dv5ap,105,2024,29,19096,False,FullTime,2024-09-05 10:32:41 UTC,,,FC Dallas,Colorado Rapids
+OlMlzyJgqL,2024-07-08 00:30:00 UTC,3,2,Z2vQ1xlqrA,mKAqBBmqbg,Xj5YWgaQbd,NPqxy6XQ9d,N6MmpyLQEG,zeQZyzZqKw,101,2024,24,17457,False,FullTime,2024-07-10 06:22:55 UTC,,,Sporting Kansas City,FC Dallas
+BLMvGdDl5x,2024-10-20 01:00:00 UTC,2,1,mKAqBBmqbg,Z2vQ1xlqrA,0Oq6AZ756D,eVq3alGMWO,zeQZyzZqKw,N6MmpyLQEG,97,2024,37,19096,False,FullTime,2024-10-22 07:44:57 UTC,,,FC Dallas,Sporting Kansas City

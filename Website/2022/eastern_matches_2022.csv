@@ -1,0 +1,21 @@
+game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_team,away_team
+gpMO6YwEQz,2022-04-02 23:30:00 UTC,0,1,19vQ2095K6,a2lqRX2Mr0,2lqRymD5r0,wvq9p775Wn,LeVq3j5WOJ,9z5kKNb5A3,99,2022,5,16265,False,FullTime,2022-04-06 12:48:40 UTC,New England Revolution,New York Red Bulls
+gpMO6E9lQz,2022-09-10 22:00:00 UTC,2,1,a2lqRX2Mr0,19vQ2095K6,KPqjDeNM6v,NWMW84L5lz,9z5kKNb5A3,LeVq3j5WOJ,100,2022,30,16301,False,FullTime,2022-09-14 05:11:49 UTC,New York Red Bulls,New England Revolution
+4JMA7Ea2qK,2022-08-13 23:30:00 UTC,1,0,19vQ2095K6,EKXMeX3Q64,ljqEymNqx0,wvq9p775Wn,LeVq3j5WOJ,OlMlzkgqLz,98,2022,25,24240,False,FullTime,2022-08-17 04:51:21 UTC,New England Revolution,D.C. United
+Oa5w1ay8Q1,2022-04-23 23:30:00 UTC,3,2,EKXMeX3Q64,19vQ2095K6,0Oq6vG2q6D,xW5pwORMg1,p6qbk3BQ0G,LeVq3j5WOJ,102,2022,8,17131,False,FullTime,2022-04-27 11:39:37 UTC,D.C. United,New England Revolution
+eV5DrbdaQK,2022-05-07 23:30:00 UTC,2,2,19vQ2095K6,mvzqoLZQap,7VqG6KX5vW,wvq9p775Wn,LeVq3j5WOJ,NPqxkDY59d,99,2022,10,26421,False,FullTime,2022-05-10 15:14:27 UTC,New England Revolution,Columbus Crew
+4wM4GmxNQj,2022-07-23 23:30:00 UTC,0,0,mvzqoLZQap,19vQ2095K6,zeQZl7D5Kw,2vQ1eawQrA,NPqxkDY59d,LeVq3j5WOJ,97,2022,22,20383,False,FullTime,2022-07-27 13:30:15 UTC,Columbus Crew,New England Revolution
+4wM4GmayQj,2022-08-31 23:30:00 UTC,0,0,19vQ2095K6,X0Oq66zq6D,0Oq6vG2q6D,wvq9p775Wn,LeVq3j5WOJ,2vQ1A60QrA,100,2022,28,13325,False,FullTime,2022-09-03 19:53:10 UTC,New England Revolution,Chicago Fire FC
+gpMO6ErlQz,2022-10-09 18:30:00 UTC,1,1,X0Oq66zq6D,19vQ2095K6,0Oq6mnX56D,9YqdkYR5vJ,2vQ1A60QrA,LeVq3j5WOJ,95,2022,34,14357,False,FullTime,2022-10-12 11:20:37 UTC,Chicago Fire FC,New England Revolution
+NPqxrazgM9,2022-05-28 23:00:00 UTC,4,1,a2lqRX2Mr0,EKXMeX3Q64,vzqoWjkqap,NWMW84L5lz,9z5kKNb5A3,p6qbk3BQ0G,100,2022,14,13678,False,FullTime,2022-06-01 08:47:50 UTC,New York Red Bulls,D.C. United
+7vQ7nm3OqD,2022-08-06 23:30:00 UTC,0,0,EKXMeX3Q64,a2lqRX2Mr0,aDQ0mkPMEv,xW5pwORMg1,OlMlzkgqLz,9z5kKNb5A3,102,2022,24,16258,False,FullTime,2022-08-10 15:12:48 UTC,D.C. United,New York Red Bulls
+4JMA7AekqK,2022-03-20 18:00:00 UTC,1,1,a2lqRX2Mr0,mvzqoLZQap,odMX96a5YL,NWMW84L5lz,9z5kKNb5A3,NPqxkDY59d,97,2022,4,15323,False,FullTime,2022-03-23 12:43:52 UTC,New York Red Bulls,Columbus Crew
+ljqElEVo5x,2022-10-01 23:30:00 UTC,2,1,mvzqoLZQap,a2lqRX2Mr0,0Oq6vG2q6D,2vQ1eawQrA,NPqxkDY59d,9z5kKNb5A3,98,2022,33,20757,False,FullTime,2022-10-05 20:16:03 UTC,Columbus Crew,New York Red Bulls
+NWMWPxB75l,2022-05-18 23:30:00 UTC,3,3,a2lqRX2Mr0,X0Oq66zq6D,EGMPLlxMaY,NWMW84L5lz,9z5kKNb5A3,2vQ1A60QrA,96,2022,12,13257,False,FullTime,2022-05-23 19:02:04 UTC,New York Red Bulls,Chicago Fire FC
+jYQJ3AkyMG,2022-05-01 00:00:00 UTC,1,2,X0Oq66zq6D,a2lqRX2Mr0,4JMAYlPMKg,gpMOzdEQzy,2vQ1A60QrA,9z5kKNb5A3,104,2022,9,11108,False,FullTime,2022-05-02 14:37:53 UTC,Chicago Fire FC,New York Red Bulls
+EGMPOEe6Qa,2022-07-14 00:00:00 UTC,2,2,EKXMeX3Q64,mvzqoLZQap,9vQ2mPaqK6,xW5pwORMg1,p6qbk3BQ0G,NPqxkDY59d,103,2022,20,10128,False,FullTime,2022-07-17 13:11:05 UTC,D.C. United,Columbus Crew
+eVq3gA06qW,2022-04-30 23:30:00 UTC,3,0,mvzqoLZQap,EKXMeX3Q64,kRQa9k8QKZ,2vQ1eawQrA,NPqxkDY59d,p6qbk3BQ0G,97,2022,9,19402,False,FullTime,2022-05-04 07:56:31 UTC,Columbus Crew,D.C. United
+raMylaBOQd,2022-03-13 00:30:00 UTC,0,2,EKXMeX3Q64,X0Oq66zq6D,ljqExYw5x0,xW5pwORMg1,e7MzE8XQr0,2vQ1A60QrA,97,2022,3,13795,False,FullTime,2022-03-16 08:01:34 UTC,D.C. United,Chicago Fire FC
+ljqElxpE5x,2022-06-19 00:00:00 UTC,1,0,X0Oq66zq6D,EKXMeX3Q64,7VqG6KX5vW,gpMOzdEQzy,2vQ1A60QrA,p6qbk3BQ0G,98,2022,15,17650,False,FullTime,2022-06-22 08:59:46 UTC,Chicago Fire FC,D.C. United
+e7Mz8kmJqr,2022-09-03 21:30:00 UTC,0,0,mvzqoLZQap,X0Oq66zq6D,a35rgjLqL6,2vQ1eawQrA,NPqxkDY59d,2vQ1A60QrA,102,2022,29,18189,False,FullTime,2022-09-06 23:43:00 UTC,Columbus Crew,Chicago Fire FC
+Xj5YNxGRqb,2022-07-10 00:00:00 UTC,2,3,X0Oq66zq6D,mvzqoLZQap,4wM4voBqjB,gpMOzdEQzy,2vQ1A60QrA,NPqxkDY59d,97,2022,19,15157,False,FullTime,2022-07-13 05:30:46 UTC,Chicago Fire FC,Columbus Crew
