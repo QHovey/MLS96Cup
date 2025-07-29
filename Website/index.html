@@ -63,6 +63,7 @@
         <!-- Page Title and Intro -->
         <div class="text-center mb-12">
             <h1 id="season-title" class="text-4xl font-bold text-gray-900 mb-2">MLS '96 Cup - 2025 Season</h1>
+            <p id="covid-warning" class="text-red-600 font-semibold hidden">Note: 2020 is considered an invalid season due to the COVID-19 pandemic.</p>
             <p class="text-lg text-gray-600">A fan-led competition tracking the head-to-head results of the 10 original MLS clubs.</p>
             <!-- Year Selector Dropdown -->
             <div class="mt-4">
@@ -194,6 +195,7 @@
             
             const yearSelector = document.getElementById('year-selector');
             const seasonTitle = document.getElementById('season-title');
+            const covidWarning = document.getElementById('covid-warning');
             const toggleButton = document.getElementById('toggle-decisive-table');
             const decisiveTableContainer = document.getElementById('decisive-table-container');
 
@@ -203,7 +205,7 @@
             // Function to populate the year selector dropdown
             function populateYearSelector() {
                 const startYear = 2025;
-                const endYear = 2013;
+                const endYear = 2015;
                 for (let year = startYear; year >= endYear; year--) {
                     const option = document.createElement('option');
                     option.value = year;
@@ -275,15 +277,19 @@
                 
                 tableBody.innerHTML = '';
 
-                rows.forEach(rowData => {
+                rows.forEach((rowData, index) => {
                     const tr = document.createElement('tr');
                     const teamName = rowData[headerMap.team];
                     const teamClass = teamName.includes('Mutiny') ? 'text-gray-500' : 'font-medium';
                     
+                    if (index === 0) {
+                        tr.classList.add('border-b-2', 'border-dotted', 'border-gray-400');
+                    }
+
                     tr.innerHTML = `
                         <td class="px-4 py-2 ${teamClass}">${teamName}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gp]}</td>
-                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.pts]}</td>
+                        <td class="px-4 py-2 font-bold ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.pts]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gf]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.ga]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gd]}</td>
@@ -477,6 +483,12 @@
             // Main function to load all data for a given year
             async function loadAllData(year) {
                 seasonTitle.textContent = `MLS '96 Cup - ${year} Season`;
+
+                if (year === '2020') {
+                    covidWarning.classList.remove('hidden');
+                } else {
+                    covidWarning.classList.add('hidden');
+                }
                 
                 const [eastStandings, westStandings, eastMatches, westMatches, decisiveMatches] = await Promise.all([
                     fetchCsvData(`${year}/eastern_standings_${year}.csv`),
