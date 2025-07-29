@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Committee - MLS '96 Cup</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { animation: fadeIn 1s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header and Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-900">MLS'96<span class="text-blue-600">Cup</span></a>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="about.html" class="hover:text-blue-600">About</a>
+                <a href="join.html" class="text-blue-600 font-semibold border-b-2 border-blue-600">Join Committee</a>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-white shadow-md">
+            <a href="index.html" class="block hover:text-blue-600">Home</a>
+            <a href="about.html" class="block hover:text-blue-600">About</a>
+            <a href="join.html" class="block text-blue-600 font-semibold">Join Committee</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8 fade-in">
+        <div class="bg-white p-8 rounded-lg shadow-md max-w-2xl mx-auto">
+            <div id="form-container">
+                <h1 class="text-4xl font-bold text-gray-900 mb-2 text-center">Join the Committee</h1>
+                <p class="text-lg text-gray-600 mb-6 text-center">Help shape the future of the MLS '96 Cup.</p>
+                
+                <form id="committee-form" 
+                      action="https://docs.google.com/forms/u/0/d/1wtN3_H0DZr5vfHCR6veb6hr_yg9yhfEUe3lPOURZKxw/formResponse" 
+                      method="POST" 
+                      target="hidden_iframe" 
+                      onsubmit="submitted=true;">
+                    <div class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="first-name" class="block text-sm font-medium text-gray-700">First Name</label>
+                                <input type="text" name="entry.1191294669" id="first-name" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
+                                <input type="text" name="entry.1084513271" id="last-name" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                            <input type="email" name="entry.315694276" id="email" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                         <div>
+                            <label for="club-name" class="block text-sm font-medium text-gray-700">MLS Club Name</label>
+                            <input type="text" name="entry.1478049311" id="club-name" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="supporter-group" class="block text-sm font-medium text-gray-700">Supporter Group Name</label>
+                            <input type="text" name="entry.1275342662" id="supporter-group" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="entry.570415962" rows="4" required class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Tell us why you want to join the committee..."></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition">
+                                Send Application
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Success Message Container (Initially Hidden) -->
+            <div id="success-message" class="hidden text-center">
+                <h1 class="text-4xl font-bold text-green-600 mb-4">Thank You!</h1>
+                <p class="text-lg text-gray-700">Your application has been submitted successfully. We will be in touch soon.</p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Hidden iframe to handle form submission without redirect -->
+    <!-- The problematic 'onload' attribute has been removed to prevent redirection -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-6 border-t">
+        <div class="container mx-auto text-center text-gray-600">
+            <p>&copy; 2025 MLS96cup.com - A Fan Project</p>
+        </div>
+    </footer>
+
+    <script>
+        let submitted = false;
+
+        // --- SCRIPT FOR FORM SUBMISSION ---
+        document.getElementById('committee-form').addEventListener('submit', function(event) {
+            // The form will submit to the iframe.
+            // We'll show the success message after a short delay to ensure submission happens.
+            submitted = true;
+            setTimeout(() => {
+                document.getElementById('form-container').style.display = 'none';
+                document.getElementById('success-message').style.display = 'block';
+            }, 100);
+        });
+
+        // --- SCRIPT FOR MOBILE MENU ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
