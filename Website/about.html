@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MLS '96 Cup</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { animation: fadeIn 1s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Additional styling for prose content */
+        .prose h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .prose h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .prose p {
+            line-height: 1.75;
+        }
+        .prose ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .prose li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header and Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-900 flex items-center">
+                <img src="https://placehold.co/40x40/000000/FFFFFF?text=LOGO" alt="MLS'96 Cup Logo" class="h-8 w-8 mr-2">
+                MLS'96<span class="text-blue-600">Cup</span>
+            </a>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="about.html" class="text-blue-600 font-semibold border-b-2 border-blue-600">About</a>
+                <a href="join.html" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Join Committee</a>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2 bg-white shadow-md">
+            <a href="index.html" class="block hover:text-blue-600">Home</a>
+            <a href="about.html" class="block text-blue-600 font-semibold">About</a>
+            <a href="join.html" class="block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition text-center">Join Committee</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8 fade-in">
+        <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
+            <div class="prose max-w-none text-gray-700">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4 text-center">About the MLS '96 Cup</h1>
+                
+                <h2>Celebrate the Originals</h2>
+                <p>
+                    In 1996, Major League Soccer kicked off its inaugural season, introducing ten original clubs that would lay the foundation for the league we know today. Nearly 30 years later, as the league has grown and evolved, we believe it's time to honor that history. The MLS '96 Cup is a fan-led initiative created to "Celebrate the Originals" by tracking the head-to-head results of these founding teams in the modern era, creating a unique, ongoing competition that pays tribute to the league's roots.
+                </p>
+
+                <h2>Introduction to the Cup</h2>
+                <p>
+                    The MLS '96 Cup is a modern analysis of the original 1996 MLS franchises. This project tracks the head-to-head performance of the nine surviving inaugural clubs each season. To ensure a balanced competition, the 1998 expansion champion, Chicago Fire, has been invited to participate.
+                </p>
+
+                <h2>Competition Format & Rules</h2>
+                <p>The MLS '96 Cup is governed by a set of rules designed to honor the head-to-head legacy of its constituent clubs. The competition is structured as follows:</p>
+
+                <h3>Determining Conference Champions</h3>
+                <ul>
+                    <li>Each season, two independent tables are maintained for the Eastern and Western Conferences.</li>
+                    <li>Standings are calculated using the results of regular season matches played <strong>only</strong> between the five teams within each respective conference.</li>
+                    <li>The team that finishes at the top of its conference table at the conclusion of the MLS regular season is crowned the Conference Champion.</li>
+                </ul>
+
+                <h3>Determining the Overall Champion</h3>
+                <ul>
+                    <li>The Overall Champion is decided by a single, decisive match between the Eastern and Western Conference Champions.</li>
+                    <li>This decisive match is identified by finding the <strong>most recent regular season result</strong> between the two champions that did not end in a draw.</li>
+                    <li>If the most recent encounter was a tie, the system will continue to look back at previous matches in chronological order until a definitive winner is found. This unique rule places significant historical weight on every cross-conference matchup.</li>
+                    <li>The result of this decisive match can be viewed in the "Decisive Matchups" table on the homepage.</li>
+                </ul>
+
+
+                <h2>The Conferences</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3>Eastern Conference</h3>
+                        <ul>
+                            <li>Chicago Fire FC</li>
+                            <li>Columbus Crew</li>
+                            <li>D.C. United</li>
+                            <li>New York Red Bulls (NY/NJ MetroStars)</li>
+                            <li>New England Revolution</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Western Conference</h3>
+                        <ul>
+                            <li>Colorado Rapids</li>
+                            <li>FC Dallas (Dallas Burn)</li>
+                            <li>LA Galaxy</li>
+                            <li>San Jose Earthquakes (San Jose Clash)</li>
+                            <li>Sporting Kansas City (Kansas City Wizards)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Match Selection Criteria</h2>
+                <p>
+                    Standings for the MLS '96 Cup are determined exclusively by MLS regular season matches. In seasons with a balanced schedule where teams play each other home and away, all matches are counted. However, in eras with unbalanced schedules that resulted in teams playing three or more times, only the final two encounters are considered to maintain a fair home and away balance.
+                </p>
+
+                <h2>Table Tie-Breakers</h2>
+                <p>
+                    The tie-breaker rules for the tables are modified from standard MLS to benefit head-to-head results first and foremost. The tiebreak rules are as follows:
+                </p>
+                <ul>
+                    <li>Head-to-head points between the tied teams</li>
+                    <li>Goal Differential</li>
+                    <li>Goals For</li>
+                </ul>
+                <p>
+                    Enjoy celebrating our 10 remaining teams from 1996 (and 1998) with this competition! Use the year selector on the home page to look at the results for all past seasons!
+                </p>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-6 border-t">
+        <div class="container mx-auto text-center text-gray-600">
+            <p>&copy; 2025 MLS96cup.com - A Fan Project</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- SCRIPT FOR MOBILE MENU ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
