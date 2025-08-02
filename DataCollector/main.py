@@ -77,6 +77,12 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         all_conference_matches = pd.merge(all_conference_matches, all_teams[['team_id', 'team_name']], left_on='home_team_id', right_on='team_id', how='left').rename(columns={'team_name': 'home_team'}).drop('team_id', axis=1)
         all_conference_matches = pd.merge(all_conference_matches, all_teams[['team_id', 'team_name']], left_on='away_team_id', right_on='team_id', how='left').rename(columns={'team_name': 'away_team'}).drop('team_id', axis=1)
         
+        # Convert score columns to nullable integers to handle NaNs and prevent floats in CSV
+        if 'home_score' in all_conference_matches.columns:
+            all_conference_matches['home_score'] = all_conference_matches['home_score'].astype(pd.Int64Dtype())
+        if 'away_score' in all_conference_matches.columns:
+            all_conference_matches['away_score'] = all_conference_matches['away_score'].astype(pd.Int64Dtype())
+
         # 4. Filter for PLAYED games to be used in standings calculation.
         # A played game is one that has a non-null score.
         played_games_df = all_conference_matches.dropna(subset=['home_score', 'away_score']).copy()
