@@ -1,6 +1,6 @@
-team_name,games_played,points,goals_scored,goals_conceded,goal_differential
-New England Revolution,8,18,20,15,5
-D.C. United,8,11,16,14,2
-Chicago Fire FC,8,11,10,13,-3
-Columbus Crew,8,8,11,12,-1
-New York Red Bulls,8,7,9,12,-3
+team_name,games_played,wins,losses,draws,points,goals_scored,goals_conceded,goal_differential
+New England Revolution,8,5,0,3,18,20,15,5
+D.C. United,8,3,3,2,11,16,14,2
+Chicago Fire FC,8,3,3,2,11,10,13,-3
+Columbus Crew,8,2,4,2,8,11,12,-1
+New York Red Bulls,8,2,5,1,7,9,12,-3

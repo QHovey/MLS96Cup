@@ -83,27 +83,46 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         display_columns = ['date_time_utc', 'home_team', 'home_score', 'away_score', 'away_team']
         print(matches_df_for_calc[display_columns].sort_values(by='date_time_utc').to_string(index=False))
 
-        # 5. Calculate stats (GP, Points, GS, GC, GD)
-        stats = {team_name: {'games_played': 0, 'points': 0, 'goals_scored': 0, 'goals_conceded': 0} for team_name in team_ids.keys()}
+        # 5. Calculate stats (GP, W, L, D, Points, GS, GC, GD)
+        stats = {team_name: {'games_played': 0, 'wins': 0, 'losses': 0, 'draws': 0, 'points': 0, 'goals_scored': 0, 'goals_conceded': 0} for team_name in team_ids.keys()}
         for _, row in matches_df_for_calc.iterrows():
             home_team, away_team = row['home_team'], row['away_team']
             home_score, away_score = row['home_score'], row['away_score']
+            
+            # Update games played and goals
             stats[home_team]['games_played'] += 1
             stats[away_team]['games_played'] += 1
             stats[home_team]['goals_scored'] += home_score
             stats[home_team]['goals_conceded'] += away_score
             stats[away_team]['goals_scored'] += away_score
             stats[away_team]['goals_conceded'] += home_score
+
+            # Update W/L/D and points
             if home_score > away_score:
                 stats[home_team]['points'] += 3
+                stats[home_team]['wins'] += 1
+                stats[away_team]['losses'] += 1
             elif away_score > home_score:
                 stats[away_team]['points'] += 3
+                stats[away_team]['wins'] += 1
+                stats[home_team]['losses'] += 1
             else:
                 stats[home_team]['points'] += 1
                 stats[away_team]['points'] += 1
+                stats[home_team]['draws'] += 1
+                stats[away_team]['draws'] += 1
 
         # 6. Implement Tie-Breaker Logic
-        table_data = [{'team_name': name, 'games_played': data['games_played'], 'points': data['points'], 'goals_scored': data['goals_scored'], 'goals_conceded': data['goals_conceded'], 'goal_differential': data['goals_scored'] - data['goals_conceded'], 'h2h_points': 0} for name, data in stats.items()]
+        table_data = [{'team_name': name, 
+                       'games_played': data['games_played'], 
+                       'wins': data['wins'], 
+                       'losses': data['losses'], 
+                       'draws': data['draws'], 
+                       'points': data['points'], 
+                       'goals_scored': data['goals_scored'], 
+                       'goals_conceded': data['goals_conceded'], 
+                       'goal_differential': data['goals_scored'] - data['goals_conceded'], 
+                       'h2h_points': 0} for name, data in stats.items()]
         
         points_groups = defaultdict(list)
         for team_data in table_data:
@@ -128,19 +147,19 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         # 7. Sort the table and print
         sorted_table = sorted(table_data, key=lambda x: (x['points'], x['h2h_points'], x['goal_differential'], x['goals_scored']), reverse=True)
         print(f"\n--- {conference_name} Head-to-Head Table (Regular Season Only) ---")
-        header = "{:<5} {:<25} {:>3} {:>4} {:>4} {:>4} {:>4}".format("Pos", "Team", "GP", "Pts", "GS", "GC", "GD")
+        header = "{:<5} {:<25} {:>3} {:>3} {:>3} {:>3} {:>4} {:>4} {:>4} {:>4}".format("Pos", "Team", "GP", "W", "L", "D", "Pts", "GS", "GC", "GD")
         print(header)
         print("-" * len(header))
         for i, team in enumerate(sorted_table, 1):
-            row = "{:<5} {:<25} {:>3} {:>4} {:>4} {:>4} {:>4}".format(
-                i, team['team_name'], team['games_played'], team['points'], 
-                team['goals_scored'], team['goals_conceded'], team['goal_differential']
+            row = "{:<5} {:<25} {:>3} {:>3} {:>3} {:>3} {:>4} {:>4} {:>4} {:>4}".format(
+                i, team['team_name'], team['games_played'], team['wins'], team['losses'], team['draws'],
+                team['points'], team['goals_scored'], team['goals_conceded'], team['goal_differential']
             )
             print(row)
         
         # Prepare dataframes for returning
         standings_df = pd.DataFrame(sorted_table)
-        standings_df = standings_df[['team_name', 'games_played', 'points', 'goals_scored', 'goals_conceded', 'goal_differential']]
+        standings_df = standings_df[['team_name', 'games_played', 'wins', 'losses', 'draws', 'points', 'goals_scored', 'goals_conceded', 'goal_differential']]
         
         return sorted_table[0]['team_name'], standings_df, matches_df_for_calc
 
@@ -205,72 +224,86 @@ def find_most_recent_winner(team1_name, team2_name, league, start_season, all_te
         print(f"\nAn error occurred while finding the most recent winner: {e}")
         return None
 
+def process_season(season, league, eastern_teams, western_teams, all_teams_df, client):
+    """
+    Processes a single season's data.
+    """
+    SEASON = str(season)
+    print(f"\n{'#'*40}\n# PROCESSING SEASON: {SEASON}\n{'#'*40}")
+    
+    # Create a directory for the year if it doesn't exist
+    os.makedirs(SEASON, exist_ok=True)
+    print(f"Output directory '{SEASON}/' is ready.")
+
+    _, eastern_standings, eastern_calc_matches = calculate_h2h_points(eastern_teams, league, SEASON, "Eastern", all_teams_df, client)
+    _, western_standings, western_calc_matches = calculate_h2h_points(western_teams, league, SEASON, "Western", all_teams_df, client)
+
+    # Export conference data to CSV in the year's subfolder
+    if eastern_standings is not None:
+        filepath = os.path.join(SEASON, f'eastern_standings_{SEASON}.csv')
+        eastern_standings.to_csv(filepath, index=False)
+        print(f"\nEastern conference standings saved to {filepath}")
+    if eastern_calc_matches is not None:
+        filepath = os.path.join(SEASON, f'eastern_matches_{SEASON}.csv')
+        eastern_calc_matches.to_csv(filepath, index=False)
+        print(f"Eastern conference matches used for standings saved to {filepath}")
+    if western_standings is not None:
+        filepath = os.path.join(SEASON, f'western_standings_{SEASON}.csv')
+        western_standings.to_csv(filepath, index=False)
+        print(f"Western conference standings saved to {filepath}")
+    if western_calc_matches is not None:
+        filepath = os.path.join(SEASON, f'western_matches_{SEASON}.csv')
+        western_calc_matches.to_csv(filepath, index=False)
+        print(f"Western conference matches used for standings saved to {filepath}")
+
+    # Find and export decisive matches
+    print(f"\n{'='*20} ALL EAST VS. WEST DECISIVE MATCHUPS ({SEASON}) {'='*20}")
+    decisive_matches_list = []
+    if eastern_teams and western_teams:
+        for east_team in eastern_teams:
+            for west_team in western_teams:
+                if east_team in all_teams_df['team_name'].values and west_team in all_teams_df['team_name'].values:
+                    result = find_most_recent_winner(east_team, west_team, league, SEASON, all_teams_df, client)
+                    if result:
+                        decisive_matches_list.append(result)
+                else:
+                    print(f"\nSkipping matchup due to one or more invalid team names: '{east_team}' vs '{west_team}'")
+    
+    if decisive_matches_list:
+        decisive_df = pd.DataFrame(decisive_matches_list)
+        filepath = os.path.join(SEASON, f'decisive_matches_{SEASON}.csv')
+        decisive_df.to_csv(filepath, index=False)
+        print(f"\nAll decisive matches saved to {filepath}")
+
+
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python your_script_name.py <year>")
+        print("Usage: python your_script_name.py <year> or 'all-years'")
         sys.exit(1)
     
-    try:
-        year_arg = int(sys.argv[1])
-        if not (2013 <= year_arg <= 9999):
-            raise ValueError("Year out of range.")
-        SEASON = str(year_arg)
-    except ValueError:
-        print("Error: Please provide a valid 4-digit year (e.g., 2013).")
-        sys.exit(1)
-
+    arg = sys.argv[1]
+    
     LEAGUE = "mls"
     eastern_teams = ["New England Revolution", "New York Red Bulls", "D.C. United", "Columbus Crew", "Chicago Fire FC"]
     western_teams = ["LA Galaxy", "San Jose Earthquakes", "Colorado Rapids", "Sporting Kansas City", "FC Dallas"]
-    
-    try:
-        # Create a directory for the year if it doesn't exist
-        os.makedirs(SEASON, exist_ok=True)
-        print(f"Output directory '{SEASON}/' is ready.")
 
+    try:
         client = AmericanSoccerAnalysis()
         all_teams_df = pd.DataFrame(client.get_teams(leagues=[LEAGUE]))
 
         if not all_teams_df.empty:
-            _, eastern_standings, eastern_calc_matches = calculate_h2h_points(eastern_teams, LEAGUE, SEASON, "Eastern", all_teams_df, client)
-            _, western_standings, western_calc_matches = calculate_h2h_points(western_teams, LEAGUE, SEASON, "Western", all_teams_df, client)
-
-            # Export conference data to CSV in the year's subfolder
-            if eastern_standings is not None:
-                filepath = os.path.join(SEASON, f'eastern_standings_{SEASON}.csv')
-                eastern_standings.to_csv(filepath, index=False)
-                print(f"\nEastern conference standings saved to {filepath}")
-            if eastern_calc_matches is not None:
-                filepath = os.path.join(SEASON, f'eastern_matches_{SEASON}.csv')
-                eastern_calc_matches.to_csv(filepath, index=False)
-                print(f"Eastern conference matches used for standings saved to {filepath}")
-            if western_standings is not None:
-                filepath = os.path.join(SEASON, f'western_standings_{SEASON}.csv')
-                western_standings.to_csv(filepath, index=False)
-                print(f"Western conference standings saved to {filepath}")
-            if western_calc_matches is not None:
-                filepath = os.path.join(SEASON, f'western_matches_{SEASON}.csv')
-                western_calc_matches.to_csv(filepath, index=False)
-                print(f"Western conference matches used for standings saved to {filepath}")
-
-            # Find and export decisive matches
-            print(f"\n{'='*20} ALL EAST VS. WEST DECISIVE MATCHUPS {'='*20}")
-            decisive_matches_list = []
-            if eastern_teams and western_teams:
-                for east_team in eastern_teams:
-                    for west_team in western_teams:
-                        if east_team in all_teams_df['team_name'].values and west_team in all_teams_df['team_name'].values:
-                            result = find_most_recent_winner(east_team, west_team, LEAGUE, SEASON, all_teams_df, client)
-                            if result:
-                                decisive_matches_list.append(result)
-                        else:
-                            print(f"\nSkipping matchup due to one or more invalid team names: '{east_team}' vs '{west_team}'")
-            
-            if decisive_matches_list:
-                decisive_df = pd.DataFrame(decisive_matches_list)
-                filepath = os.path.join(SEASON, f'decisive_matches_{SEASON}.csv')
-                decisive_df.to_csv(filepath, index=False)
-                print(f"\nAll decisive matches saved to {filepath}")
+            if arg.lower() == 'all-years':
+                for year in range(2025, 2014, -1):
+                    process_season(year, LEAGUE, eastern_teams, western_teams, all_teams_df, client)
+            else:
+                try:
+                    year_arg = int(arg)
+                    if not (2013 <= year_arg <= 9999):
+                        raise ValueError("Year out of range.")
+                    process_season(year_arg, LEAGUE, eastern_teams, western_teams, all_teams_df, client)
+                except ValueError:
+                    print("Error: Please provide a valid 4-digit year (e.g., 2023) or 'all-years'.")
+                    sys.exit(1)
 
     except Exception as e:
         print(f"A critical error occurred: {e}")

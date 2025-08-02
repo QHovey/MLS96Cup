@@ -68,7 +68,7 @@
             <!-- Year Selector Dropdown -->
             <div class="mt-4">
                 <label for="year-selector" class="mr-2 font-medium text-gray-700">Select Season:</label>
-                <select id="year-selector" class="p-2 rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></select>
+                <select id="year-selector" class="p-2 rounded-md border-gray-300 bg-white shadow-sm focus:border-blue-500 focus:ring-blue-500"></select>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
 
         <!-- Decisive Matches Table (Initially Hidden) -->
         <div id="decisive-table-container" class="hidden mb-12 bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold mb-4 text-center">Decisive Matchups</h2>
+            <h2 class="text-2xl font-semibold mb-4 text-center text-gray-900">Decisive Matchups</h2>
             <div class="overflow-x-auto">
                 <table class="min-w-full text-left border-collapse">
                     <thead id="decisive-table-head" class="bg-gray-50">
@@ -124,8 +124,11 @@
                         <thead class="bg-gray-50">
                             <tr>
                                 <th class="px-4 py-2">Team</th>
-                                <th class="px-4 py-2">GP</th>
                                 <th class="px-4 py-2">Pts</th>
+                                <th class="px-4 py-2">GP</th>
+                                <th class="px-4 py-2">W</th>
+                                <th class="px-4 py-2">L</th>
+                                <th class="px-4 py-2">D</th>
                                 <th class="px-4 py-2">GF</th>
                                 <th class="px-4 py-2">GA</th>
                                 <th class="px-4 py-2">GD</th>
@@ -146,8 +149,11 @@
                         <thead class="bg-gray-50">
                             <tr>
                                 <th class="px-4 py-2">Team</th>
-                                <th class="px-4 py-2">GP</th>
                                 <th class="px-4 py-2">Pts</th>
+                                <th class="px-4 py-2">GP</th>
+                                <th class="px-4 py-2">W</th>
+                                <th class="px-4 py-2">L</th>
+                                <th class="px-4 py-2">D</th>
                                 <th class="px-4 py-2">GF</th>
                                 <th class="px-4 py-2">GA</th>
                                 <th class="px-4 py-2">GD</th>
@@ -239,7 +245,7 @@
                         const element = document.getElementById(elementId);
                         if (element) {
                             if (element.tagName.toLowerCase() === 'tbody') {
-                                element.innerHTML = `<tr><td colspan="6" class="text-center p-4 text-red-500">Could not load data.</td></tr>`;
+                                element.innerHTML = `<tr><td colspan="9" class="text-center p-4 text-red-500">Could not load data.</td></tr>`;
                             } else {
                                 element.innerHTML = `<li class="text-center p-4 text-red-500">Could not load data.</li>`;
                             }
@@ -254,7 +260,7 @@
                 const tableBody = document.getElementById(tableBodyId);
                 if (!tableBody) return;
                 if(data.length < 2) {
-                    tableBody.innerHTML = `<tr><td colspan="6" class="text-center p-4 text-gray-500">No standings data available for this year.</td></tr>`;
+                    tableBody.innerHTML = `<tr><td colspan="9" class="text-center p-4 text-gray-500">No standings data available for this year.</td></tr>`;
                     return;
                 }
 
@@ -263,8 +269,11 @@
 
                 const headerMap = {
                     team: headers.indexOf('team_name'),
-                    gp: headers.indexOf('games_played'),
                     pts: headers.indexOf('points'),
+                    gp: headers.indexOf('games_played'),
+                    w: headers.indexOf('wins'),
+                    l: headers.indexOf('losses'),
+                    d: headers.indexOf('draws'),
                     gf: headers.indexOf('goals_scored'),
                     ga: headers.indexOf('goals_conceded'),
                     gd: headers.indexOf('goal_differential')
@@ -272,6 +281,7 @@
 
                 if (Object.values(headerMap).some(index => index === -1)) {
                     console.error(`Standings CSV for #${tableBodyId} is missing required headers.`);
+                    tableBody.innerHTML = `<tr><td colspan="9" class="text-center p-4 text-red-500">Standings data is missing required columns. Please regenerate the data.</td></tr>`;
                     return;
                 }
                 
@@ -288,8 +298,11 @@
 
                     tr.innerHTML = `
                         <td class="px-4 py-2 ${teamClass}">${teamName}</td>
-                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gp]}</td>
                         <td class="px-4 py-2 font-bold ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.pts]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gp]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.w]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.l]}</td>
+                        <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.d]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gf]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.ga]}</td>
                         <td class="px-4 py-2 ${teamClass === 'text-gray-500' ? 'text-gray-500' : ''}">${rowData[headerMap.gd]}</td>
@@ -530,6 +543,6 @@
             });
         });
     </script>
-
+    
 </body>
 </html>

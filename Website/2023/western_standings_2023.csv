@@ -1,6 +1,6 @@
-team_name,games_played,points,goals_scored,goals_conceded,goal_differential
-Colorado Rapids,8,13,7,4,3
-FC Dallas,8,12,14,10,4
-LA Galaxy,8,9,10,15,-5
-Sporting Kansas City,8,9,8,9,-1
-San Jose Earthquakes,8,9,9,10,-1
+team_name,games_played,wins,losses,draws,points,goals_scored,goals_conceded,goal_differential
+Colorado Rapids,8,3,1,4,13,7,4,3
+FC Dallas,8,3,2,3,12,14,10,4
+LA Galaxy,8,2,3,3,9,10,15,-5
+Sporting Kansas City,8,2,3,3,9,8,9,-1
+San Jose Earthquakes,8,2,3,3,9,9,10,-1
