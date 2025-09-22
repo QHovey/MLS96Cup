@@ -1,4 +1,7 @@
 game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
+NPqxjpp8M9,2025-09-21 00:30:00 UTC,3,1,mKAqBBmqbg,pzeQZ6xQKw,Pk5LRpDQOW,eVq3alGMWO,p6qbk8pQ0G,vzqo2dv5ap,101.0,2025,33,11004.0,False,FullTime,2025-09-21 18:47:42 UTC,,,FC Dallas,Colorado Rapids
+BLMvjZBXMx,2025-08-31 00:30:00 UTC,4,2,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZlGK5Kw,NPqxy6XQ9d,0x5gX4jq7O,vzqo2dv5ap,102.0,2025,30,16262.0,False,FullTime,2025-08-31 15:57:49 UTC,,,Sporting Kansas City,Colorado Rapids
+9YqdjNRRMv,2025-08-24 02:30:00 UTC,3,0,kaDQ0wRqEv,pzeQZ6xQKw,aDQ0mkPMEv,wvq9p1Y5Wn,Xj5Yx60Mbd,vzqo2dv5ap,99.0,2025,29,20203.0,False,FullTime,2025-08-26 12:14:44 UTC,,,LA Galaxy,Colorado Rapids
 315Vpb2vQ9,2025-07-17 02:30:00 UTC,2,2,0KPqjA456v,mKAqBBmqbg,4wM4voBqjB,Vj58W84M8n,LeVq3j5WOJ,p6qbk8pQ0G,110.0,2025,24,15304.0,False,FullTime,2025-07-17 23:17:19 UTC,,,San Jose Earthquakes,FC Dallas
 Pk5Lp8nG5O,2025-07-05 01:30:00 UTC,1,2,pzeQZ6xQKw,Z2vQ1xlqrA,xW5pE3Yqg1,9z5ka6gQA3,vzqo2dv5ap,0x5gX4jq7O,101.0,2025,22,17576.0,False,FullTime,2025-07-05 18:06:13 UTC,,,Colorado Rapids,Sporting Kansas City
 wvq9b6J1QW,2025-06-29 02:30:00 UTC,1,1,0KPqjA456v,kaDQ0wRqEv,9z5kJ7gMA3,Oa5wY94Q14,LeVq3j5WOJ,Xj5Yx60Mbd,96.0,2025,21,42881.0,False,FullTime,2025-06-29 10:07:37 UTC,,,San Jose Earthquakes,LA Galaxy
@@ -13,9 +16,6 @@ jYQJmNakqG,2025-03-30 00:30:00 UTC,2,1,mKAqBBmqbg,Z2vQ1xlqrA,zeQZlGK5Kw,eVq3alGM
 kRQajDogMK,2025-03-16 02:30:00 UTC,1,2,0KPqjA456v,pzeQZ6xQKw,e7MzjxJMr0,Vj58W84M8n,LeVq3j5WOJ,vzqo2dv5ap,101.0,2025,4,15302.0,False,FullTime,2025-03-16 20:46:06 UTC,,,San Jose Earthquakes,Colorado Rapids
 BLMvjZkRMx,2025-03-02 02:30:00 UTC,3,3,pzeQZ6xQKw,mKAqBBmqbg,odMXLVAMYL,9z5ka6gQA3,vzqo2dv5ap,p6qbk8pQ0G,105.0,2025,2,15410.0,False,FullTime,2025-03-02 21:26:01 UTC,,,Colorado Rapids,FC Dallas
 XVqKzDGR50,2025-03-02 01:30:00 UTC,1,2,Z2vQ1xlqrA,0KPqjA456v,Vj58OwwM8n,NPqxy6XQ9d,N6MmpyLQEG,LeVq3j5WOJ,102.0,2025,2,16277.0,False,FullTime,2025-03-02 17:16:49 UTC,,,Sporting Kansas City,San Jose Earthquakes
+XVqKzD9B50,2025-10-12 02:30:00 UTC,,,kaDQ0wRqEv,mKAqBBmqbg,,wvq9p1Y5Wn,,,,2025,30,,False,PreMatch,,,,LA Galaxy,FC Dallas
 jYQJmNrDqG,2025-10-04 20:30:00 UTC,,,mKAqBBmqbg,kaDQ0wRqEv,,eVq3alGMWO,,,,2025,35,,False,PreMatch,,,,FC Dallas,LA Galaxy
 eVq3bwwG5W,2025-09-28 02:30:00 UTC,,,kaDQ0wRqEv,Z2vQ1xlqrA,,wvq9p1Y5Wn,,,,2025,34,,False,PreMatch,,,,LA Galaxy,Sporting Kansas City
-NPqxjpp8M9,2025-09-21 00:30:00 UTC,,,mKAqBBmqbg,pzeQZ6xQKw,,eVq3alGMWO,,,,2025,33,,False,PreMatch,,,,FC Dallas,Colorado Rapids
-XVqKzD9B50,2025-08-31 02:30:00 UTC,,,kaDQ0wRqEv,mKAqBBmqbg,,wvq9p1Y5Wn,,,,2025,30,,False,PreMatch,,,,LA Galaxy,FC Dallas
-BLMvjZBXMx,2025-08-31 00:30:00 UTC,,,Z2vQ1xlqrA,pzeQZ6xQKw,,NPqxy6XQ9d,,,,2025,30,,False,PreMatch,,,,Sporting Kansas City,Colorado Rapids
-9YqdjNRRMv,2025-08-24 02:30:00 UTC,,,kaDQ0wRqEv,pzeQZ6xQKw,,wvq9p1Y5Wn,,,,2025,29,,False,PreMatch,,,,LA Galaxy,Colorado Rapids
