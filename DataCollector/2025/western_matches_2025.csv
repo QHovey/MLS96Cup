@@ -1,21 +1,21 @@
 game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
-XVqKzD9B50,2025-10-12 02:30:00 UTC,2,1,kaDQ0wRqEv,mKAqBBmqbg,9z5kJ7gMA3,wvq9p1Y5Wn,Xj5Yx60Mbd,p6qbk8pQ0G,99.0,2025,30,18312.0,False,FullTime,2025-10-12 08:30:32 UTC,,,LA Galaxy,FC Dallas
-jYQJmNrDqG,2025-10-04 20:30:00 UTC,2,1,mKAqBBmqbg,kaDQ0wRqEv,Vj58OwwM8n,eVq3alGMWO,p6qbk8pQ0G,Xj5Yx60Mbd,100.0,2025,35,11004.0,False,FullTime,2025-10-05 15:38:57 UTC,,,FC Dallas,LA Galaxy
-eVq3bwwG5W,2025-09-28 02:30:00 UTC,4,1,kaDQ0wRqEv,Z2vQ1xlqrA,zeQZlGK5Kw,wvq9p1Y5Wn,7VqGPR3QvW,0x5gX4jq7O,101.0,2025,34,17903.0,False,FullTime,2025-09-28 23:01:50 UTC,,,LA Galaxy,Sporting Kansas City
-NPqxjpp8M9,2025-09-21 00:30:00 UTC,3,1,mKAqBBmqbg,pzeQZ6xQKw,Pk5LRpDQOW,eVq3alGMWO,p6qbk8pQ0G,vzqo2dv5ap,101.0,2025,33,11004.0,False,FullTime,2025-09-21 18:47:42 UTC,,,FC Dallas,Colorado Rapids
-BLMvjZBXMx,2025-08-31 00:30:00 UTC,4,2,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZlGK5Kw,NPqxy6XQ9d,0x5gX4jq7O,vzqo2dv5ap,102.0,2025,30,16262.0,False,FullTime,2025-08-31 15:57:49 UTC,,,Sporting Kansas City,Colorado Rapids
-9YqdjNRRMv,2025-08-24 02:30:00 UTC,3,0,kaDQ0wRqEv,pzeQZ6xQKw,aDQ0mkPMEv,wvq9p1Y5Wn,Xj5Yx60Mbd,vzqo2dv5ap,99.0,2025,29,20203.0,False,FullTime,2025-08-26 12:14:44 UTC,,,LA Galaxy,Colorado Rapids
-315Vpb2vQ9,2025-07-17 02:30:00 UTC,2,2,0KPqjA456v,mKAqBBmqbg,4wM4voBqjB,Vj58W84M8n,LeVq3j5WOJ,p6qbk8pQ0G,110.0,2025,24,15304.0,False,FullTime,2025-07-17 23:17:19 UTC,,,San Jose Earthquakes,FC Dallas
-Pk5Lp8nG5O,2025-07-05 01:30:00 UTC,1,2,pzeQZ6xQKw,Z2vQ1xlqrA,xW5pE3Yqg1,9z5ka6gQA3,vzqo2dv5ap,0x5gX4jq7O,101.0,2025,22,17576.0,False,FullTime,2025-07-05 18:06:13 UTC,,,Colorado Rapids,Sporting Kansas City
-wvq9b6J1QW,2025-06-29 02:30:00 UTC,1,1,0KPqjA456v,kaDQ0wRqEv,9z5kJ7gMA3,Oa5wY94Q14,LeVq3j5WOJ,Xj5Yx60Mbd,96.0,2025,21,42881.0,False,FullTime,2025-06-29 10:07:37 UTC,,,San Jose Earthquakes,LA Galaxy
-Oa5wjZxDM1,2025-06-26 03:41:00 UTC,2,0,pzeQZ6xQKw,kaDQ0wRqEv,Vj58OwwM8n,9z5ka6gQA3,vzqo2dv5ap,Xj5Yx60Mbd,96.0,2025,20,14497.0,False,FullTime,2025-06-26 10:02:25 UTC,,,Colorado Rapids,LA Galaxy
-KAqBbdnmqb,2025-06-26 02:05:00 UTC,2,4,mKAqBBmqbg,0KPqjA456v,kRQa9k8QKZ,eVq3alGMWO,p6qbk8pQ0G,LeVq3j5WOJ,109.0,2025,20,11004.0,False,FullTime,2025-06-26 11:38:12 UTC,,,FC Dallas,San Jose Earthquakes
-p6qbjAxXq0,2025-06-15 00:30:00 UTC,2,4,Z2vQ1xlqrA,mKAqBBmqbg,BLMvDxAqxe,NPqxy6XQ9d,0x5gX4jq7O,p6qbk8pQ0G,110.0,2025,19,17144.0,False,FullTime,2025-06-25 16:46:21 UTC,,,Sporting Kansas City,FC Dallas
-eVq3bwZX5W,2025-05-29 02:15:00 UTC,0,1,kaDQ0wRqEv,0KPqjA456v,e7MzjxJMr0,wvq9p1Y5Wn,Xj5Yx60Mbd,LeVq3j5WOJ,97.0,2025,16,15345.0,False,FullTime,2025-05-30 07:11:08 UTC,,,LA Galaxy,San Jose Earthquakes
-Xj5YpbyRMb,2025-05-11 01:30:00 UTC,0,2,pzeQZ6xQKw,0KPqjA456v,NWMWR3DQlz,9z5ka6gQA3,vzqo2dv5ap,LeVq3j5WOJ,104.0,2025,12,15003.0,False,FullTime,2025-05-11 21:26:24 UTC,,,Colorado Rapids,San Jose Earthquakes
-XVqKzDL050,2025-05-04 23:00:00 UTC,1,0,Z2vQ1xlqrA,kaDQ0wRqEv,jYQJnoVQGR,NPqxy6XQ9d,0x5gX4jq7O,Xj5Yx60Mbd,101.0,2025,11,17902.0,False,FullTime,2025-05-05 16:40:33 UTC,,,Sporting Kansas City,LA Galaxy
-7VqGbzLj5v,2025-04-20 02:30:00 UTC,3,5,0KPqjA456v,Z2vQ1xlqrA,odMX96a5YL,Vj58W84M8n,LeVq3j5WOJ,0x5gX4jq7O,105.0,2025,9,14147.0,False,FullTime,2025-04-20 16:00:31 UTC,,,San Jose Earthquakes,Sporting Kansas City
-jYQJmNakqG,2025-03-30 00:30:00 UTC,2,1,mKAqBBmqbg,Z2vQ1xlqrA,zeQZlGK5Kw,eVq3alGMWO,p6qbk8pQ0G,N6MmpyLQEG,97.0,2025,6,11004.0,False,FullTime,2025-03-30 20:12:29 UTC,,,FC Dallas,Sporting Kansas City
-kRQajDogMK,2025-03-16 02:30:00 UTC,1,2,0KPqjA456v,pzeQZ6xQKw,e7MzjxJMr0,Vj58W84M8n,LeVq3j5WOJ,vzqo2dv5ap,101.0,2025,4,15302.0,False,FullTime,2025-03-16 20:46:06 UTC,,,San Jose Earthquakes,Colorado Rapids
-BLMvjZkRMx,2025-03-02 02:30:00 UTC,3,3,pzeQZ6xQKw,mKAqBBmqbg,odMXLVAMYL,9z5ka6gQA3,vzqo2dv5ap,p6qbk8pQ0G,105.0,2025,2,15410.0,False,FullTime,2025-03-02 21:26:01 UTC,,,Colorado Rapids,FC Dallas
-XVqKzDGR50,2025-03-02 01:30:00 UTC,1,2,Z2vQ1xlqrA,0KPqjA456v,Vj58OwwM8n,NPqxy6XQ9d,N6MmpyLQEG,LeVq3j5WOJ,102.0,2025,2,16277.0,False,FullTime,2025-03-02 17:16:49 UTC,,,Sporting Kansas City,San Jose Earthquakes
+XVqKzD9B50,2025-10-12 02:30:00 UTC,2,1,kaDQ0wRqEv,mKAqBBmqbg,9z5kJ7gMA3,wvq9p1Y5Wn,Xj5Yx60Mbd,p6qbk8pQ0G,99,2025,30,18312,False,FullTime,2025-10-12 08:30:32 UTC,,,LA Galaxy,FC Dallas
+jYQJmNrDqG,2025-10-04 20:30:00 UTC,2,1,mKAqBBmqbg,kaDQ0wRqEv,Vj58OwwM8n,eVq3alGMWO,p6qbk8pQ0G,Xj5Yx60Mbd,100,2025,35,11004,False,FullTime,2025-10-05 15:38:57 UTC,,,FC Dallas,LA Galaxy
+eVq3bwwG5W,2025-09-28 02:30:00 UTC,4,1,kaDQ0wRqEv,Z2vQ1xlqrA,zeQZlGK5Kw,wvq9p1Y5Wn,7VqGPR3QvW,0x5gX4jq7O,101,2025,34,17903,False,FullTime,2025-09-28 23:01:50 UTC,,,LA Galaxy,Sporting Kansas City
+NPqxjpp8M9,2025-09-21 00:30:00 UTC,3,1,mKAqBBmqbg,pzeQZ6xQKw,Pk5LRpDQOW,eVq3alGMWO,p6qbk8pQ0G,vzqo2dv5ap,101,2025,33,11004,False,FullTime,2025-09-21 18:47:42 UTC,,,FC Dallas,Colorado Rapids
+BLMvjZBXMx,2025-08-31 00:30:00 UTC,4,2,Z2vQ1xlqrA,pzeQZ6xQKw,zeQZlGK5Kw,NPqxy6XQ9d,0x5gX4jq7O,vzqo2dv5ap,102,2025,30,16262,False,FullTime,2025-08-31 15:57:49 UTC,,,Sporting Kansas City,Colorado Rapids
+9YqdjNRRMv,2025-08-24 02:30:00 UTC,3,0,kaDQ0wRqEv,pzeQZ6xQKw,aDQ0mkPMEv,wvq9p1Y5Wn,Xj5Yx60Mbd,vzqo2dv5ap,99,2025,29,20203,False,FullTime,2025-08-26 12:14:44 UTC,,,LA Galaxy,Colorado Rapids
+315Vpb2vQ9,2025-07-17 02:30:00 UTC,2,2,0KPqjA456v,mKAqBBmqbg,4wM4voBqjB,Vj58W84M8n,LeVq3j5WOJ,p6qbk8pQ0G,110,2025,24,15304,False,FullTime,2025-07-17 23:17:19 UTC,,,San Jose Earthquakes,FC Dallas
+Pk5Lp8nG5O,2025-07-05 01:30:00 UTC,1,2,pzeQZ6xQKw,Z2vQ1xlqrA,xW5pE3Yqg1,9z5ka6gQA3,vzqo2dv5ap,0x5gX4jq7O,101,2025,22,17576,False,FullTime,2025-07-05 18:06:13 UTC,,,Colorado Rapids,Sporting Kansas City
+wvq9b6J1QW,2025-06-29 02:30:00 UTC,1,1,0KPqjA456v,kaDQ0wRqEv,9z5kJ7gMA3,Oa5wY94Q14,LeVq3j5WOJ,Xj5Yx60Mbd,96,2025,21,42881,False,FullTime,2025-06-29 10:07:37 UTC,,,San Jose Earthquakes,LA Galaxy
+Oa5wjZxDM1,2025-06-26 03:41:00 UTC,2,0,pzeQZ6xQKw,kaDQ0wRqEv,Vj58OwwM8n,9z5ka6gQA3,vzqo2dv5ap,Xj5Yx60Mbd,96,2025,20,14497,False,FullTime,2025-06-26 10:02:25 UTC,,,Colorado Rapids,LA Galaxy
+KAqBbdnmqb,2025-06-26 02:05:00 UTC,2,4,mKAqBBmqbg,0KPqjA456v,kRQa9k8QKZ,eVq3alGMWO,p6qbk8pQ0G,LeVq3j5WOJ,109,2025,20,11004,False,FullTime,2025-06-26 11:38:12 UTC,,,FC Dallas,San Jose Earthquakes
+p6qbjAxXq0,2025-06-15 00:30:00 UTC,2,4,Z2vQ1xlqrA,mKAqBBmqbg,BLMvDxAqxe,NPqxy6XQ9d,0x5gX4jq7O,p6qbk8pQ0G,110,2025,19,17144,False,FullTime,2025-06-25 16:46:21 UTC,,,Sporting Kansas City,FC Dallas
+eVq3bwZX5W,2025-05-29 02:15:00 UTC,0,1,kaDQ0wRqEv,0KPqjA456v,e7MzjxJMr0,wvq9p1Y5Wn,Xj5Yx60Mbd,LeVq3j5WOJ,97,2025,16,15345,False,FullTime,2025-05-30 07:11:08 UTC,,,LA Galaxy,San Jose Earthquakes
+Xj5YpbyRMb,2025-05-11 01:30:00 UTC,0,2,pzeQZ6xQKw,0KPqjA456v,NWMWR3DQlz,9z5ka6gQA3,vzqo2dv5ap,LeVq3j5WOJ,104,2025,12,15003,False,FullTime,2025-05-11 21:26:24 UTC,,,Colorado Rapids,San Jose Earthquakes
+XVqKzDL050,2025-05-04 23:00:00 UTC,1,0,Z2vQ1xlqrA,kaDQ0wRqEv,jYQJnoVQGR,NPqxy6XQ9d,0x5gX4jq7O,Xj5Yx60Mbd,101,2025,11,17902,False,FullTime,2025-05-05 16:40:33 UTC,,,Sporting Kansas City,LA Galaxy
+7VqGbzLj5v,2025-04-20 02:30:00 UTC,3,5,0KPqjA456v,Z2vQ1xlqrA,odMX96a5YL,Vj58W84M8n,LeVq3j5WOJ,0x5gX4jq7O,105,2025,9,14147,False,FullTime,2025-04-20 16:00:31 UTC,,,San Jose Earthquakes,Sporting Kansas City
+jYQJmNakqG,2025-03-30 00:30:00 UTC,2,1,mKAqBBmqbg,Z2vQ1xlqrA,zeQZlGK5Kw,eVq3alGMWO,p6qbk8pQ0G,N6MmpyLQEG,97,2025,6,11004,False,FullTime,2025-03-30 20:12:29 UTC,,,FC Dallas,Sporting Kansas City
+kRQajDogMK,2025-03-16 02:30:00 UTC,1,2,0KPqjA456v,pzeQZ6xQKw,e7MzjxJMr0,Vj58W84M8n,LeVq3j5WOJ,vzqo2dv5ap,101,2025,4,15302,False,FullTime,2025-03-16 20:46:06 UTC,,,San Jose Earthquakes,Colorado Rapids
+BLMvjZkRMx,2025-03-02 02:30:00 UTC,3,3,pzeQZ6xQKw,mKAqBBmqbg,odMXLVAMYL,9z5ka6gQA3,vzqo2dv5ap,p6qbk8pQ0G,105,2025,2,15410,False,FullTime,2025-03-02 21:26:01 UTC,,,Colorado Rapids,FC Dallas
+XVqKzDGR50,2025-03-02 01:30:00 UTC,1,2,Z2vQ1xlqrA,0KPqjA456v,Vj58OwwM8n,NPqxy6XQ9d,N6MmpyLQEG,LeVq3j5WOJ,102,2025,2,16277,False,FullTime,2025-03-02 17:16:49 UTC,,,Sporting Kansas City,San Jose Earthquakes

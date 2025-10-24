@@ -1,21 +1,21 @@
 game_id,date_time_utc,home_score,away_score,home_team_id,away_team_id,referee_id,stadium_id,home_manager_id,away_manager_id,expanded_minutes,season_name,matchday,attendance,knockout_game,status,last_updated_utc,home_penalties,away_penalties,home_team,away_team
-Xj5YpbblMb,2025-09-28 00:30:00 UTC,2,0,X0Oq66zq6D,mvzqoLZQap,2lqRokLQr0,gpMOzdEQzy,0x5gN9PM7O,KPqjO38Q6v,101.0,2025,34,22821.0,False,FullTime,2025-09-28 18:43:43 UTC,,,Chicago Fire FC,Columbus Crew
-0x5gj1wmM7,2025-09-07 00:30:00 UTC,3,2,X0Oq66zq6D,19vQ2095K6,wvq9vKlQWn,9YqdkYR5vJ,0x5gN9PM7O,NPqxkDY59d,103.0,2025,31,16947.0,False,FullTime,2025-09-07 22:30:09 UTC,,,Chicago Fire FC,New England Revolution
-Xj5YpbJlMb,2025-08-30 23:30:00 UTC,0,0,a2lqRX2Mr0,mvzqoLZQap,ljqExYw5x0,NWMW84L5lz,2vQ1z6xMrA,KPqjO38Q6v,98.0,2025,30,18913.0,False,FullTime,2025-08-31 13:15:19 UTC,,,New York Red Bulls,Columbus Crew
-2vQ1bp8xMr,2025-08-23 23:30:00 UTC,1,2,mvzqoLZQap,19vQ2095K6,BLMvDxAqxe,2vQ1eawQrA,KPqjO38Q6v,NPqxkDY59d,101.0,2025,29,20777.0,False,FullTime,2025-08-26 12:14:16 UTC,,,Columbus Crew,New England Revolution
-gpMOpb2l5z,2025-08-09 23:30:00 UTC,2,0,19vQ2095K6,EKXMeX3Q64,Pk5LRpDQOW,wvq9p775Wn,NPqxkDY59d,0x5gXPLq7O,100.0,2025,27,21538.0,False,FullTime,2025-08-10 17:13:43 UTC,,,New England Revolution,D.C. United
-XVqKzDlD50,2025-07-27 00:30:00 UTC,1,0,X0Oq66zq6D,a2lqRX2Mr0,vzqoWjkqap,gpMOzdEQzy,0x5gN9PM7O,2vQ1z6xMrA,103.0,2025,26,0.0,False,FullTime,2025-07-27 02:54:17 UTC,,,Chicago Fire FC,New York Red Bulls
-gjMNpbgKqK,2025-07-20 00:15:00 UTC,2,1,mvzqoLZQap,EKXMeX3Q64,0Oq6AZ756D,2vQ1eawQrA,KPqjO38Q6v,0x5gXPLq7O,97.0,2025,25,20668.0,False,FullTime,2025-07-20 14:27:07 UTC,,,Columbus Crew,D.C. United
-gOMnAZVAQw,2025-07-16 23:30:00 UTC,5,3,a2lqRX2Mr0,19vQ2095K6,Vj58OwwM8n,NWMW84L5lz,2vQ1z6xMrA,NPqxkDY59d,103.0,2025,24,15863.0,False,FullTime,2025-07-17 21:04:01 UTC,,,New York Red Bulls,New England Revolution
-odMXpbgeMY,2025-06-07 23:30:00 UTC,1,7,EKXMeX3Q64,X0Oq66zq6D,odMXLVAMYL,xW5pwORMg1,gpMO6j7Qzy,0x5gN9PM7O,98.0,2025,18,16715.0,False,FullTime,2025-06-08 08:55:54 UTC,,,D.C. United,Chicago Fire FC
-Oa5wjZDDM1,2025-05-28 23:30:00 UTC,1,1,EKXMeX3Q64,19vQ2095K6,aDQ0mkPMEv,xW5pwORMg1,gpMO6j7Qzy,NPqxkDY59d,103.0,2025,16,10645.0,False,FullTime,2025-05-29 15:40:42 UTC,,,D.C. United,New England Revolution
-aDQ0bpeG5E,2025-05-24 23:30:00 UTC,0,2,EKXMeX3Q64,a2lqRX2Mr0,ljqEymNqx0,xW5pwORMg1,gpMO6j7Qzy,2vQ1z6xMrA,100.0,2025,15,19290.0,False,FullTime,2025-05-25 12:52:28 UTC,,,D.C. United,New York Red Bulls
-eVq3bwyV5W,2025-04-19 23:30:00 UTC,1,2,a2lqRX2Mr0,EKXMeX3Q64,Vj58OwwM8n,NWMW84L5lz,2vQ1z6xMrA,gpMO6j7Qzy,103.0,2025,9,18407.0,False,FullTime,2025-04-20 15:18:00 UTC,,,New York Red Bulls,D.C. United
-Pk5Lp86Y5O,2025-04-05 23:30:00 UTC,2,1,a2lqRX2Mr0,X0Oq66zq6D,9z5kJ7gMA3,NWMW84L5lz,2vQ1z6xMrA,0x5gN9PM7O,99.0,2025,7,17238.0,False,FullTime,2025-04-06 15:08:01 UTC,,,New York Red Bulls,Chicago Fire FC
-0Oq6bW3Xq6,2025-03-29 23:30:00 UTC,1,2,EKXMeX3Q64,mvzqoLZQap,jYQJnoVQGR,xW5pwORMg1,gpMO6j7Qzy,KPqjO38Q6v,100.0,2025,6,17048.0,False,FullTime,2025-04-03 14:24:19 UTC,,,D.C. United,Columbus Crew
-gOMnAZlmQw,2025-03-29 18:30:00 UTC,2,1,19vQ2095K6,a2lqRX2Mr0,BLMvDxAqxe,wvq9p775Wn,NPqxkDY59d,2vQ1z6xMrA,105.0,2025,6,20439.0,False,FullTime,2025-04-03 13:51:26 UTC,,,New England Revolution,New York Red Bulls
-zeQZpbjK5K,2025-03-02 01:30:00 UTC,2,2,X0Oq66zq6D,EKXMeX3Q64,0Oq6vG2q6D,gpMOzdEQzy,0x5gN9PM7O,gpMO6j7Qzy,102.0,2025,2,20372.0,False,FullTime,2025-03-02 22:49:05 UTC,,,Chicago Fire FC,D.C. United
-e7MzjDAXMr,2025-03-02 00:30:00 UTC,0,1,19vQ2095K6,mvzqoLZQap,xW5pE3Yqg1,wvq9p775Wn,NPqxkDY59d,KPqjO38Q6v,105.0,2025,2,22274.0,False,FullTime,2025-03-03 00:40:32 UTC,,,New England Revolution,Columbus Crew
-Vj58bGw3Q8,2025-02-23 00:30:00 UTC,4,2,mvzqoLZQap,X0Oq66zq6D,zeQZlGK5Kw,2vQ1eawQrA,KPqjO38Q6v,0x5gN9PM7O,99.0,2025,1,20210.0,False,FullTime,2025-02-27 16:49:17 UTC,,,Columbus Crew,Chicago Fire FC
-7vQ7bgGzqD,2025-10-18 22:00:00 UTC,,,19vQ2095K6,X0Oq66zq6D,,wvq9p775Wn,,,,2025,36,,False,PreMatch,,,,New England Revolution,Chicago Fire FC
-gjMNpb2BqK,2025-10-18 22:00:00 UTC,,,mvzqoLZQap,a2lqRX2Mr0,,2vQ1eawQrA,,,,2025,36,,False,PreMatch,,,,Columbus Crew,New York Red Bulls
+7vQ7bgGzqD,2025-10-18 22:00:00 UTC,2,2,19vQ2095K6,X0Oq66zq6D,aDQ0mkPMEv,wvq9p775Wn,0Oq6GwzQ6D,0x5gN9PM7O,104,2025,36,36432,False,FullTime,2025-10-19 17:23:09 UTC,,,New England Revolution,Chicago Fire FC
+gjMNpb2BqK,2025-10-18 22:00:00 UTC,3,1,mvzqoLZQap,a2lqRX2Mr0,0Oq6vG2q6D,2vQ1eawQrA,KPqjO38Q6v,2vQ1z6xMrA,99,2025,36,20736,False,FullTime,2025-10-19 15:44:58 UTC,,,Columbus Crew,New York Red Bulls
+Xj5YpbblMb,2025-09-28 00:30:00 UTC,2,0,X0Oq66zq6D,mvzqoLZQap,2lqRokLQr0,gpMOzdEQzy,0x5gN9PM7O,KPqjO38Q6v,101,2025,34,22821,False,FullTime,2025-09-28 18:43:43 UTC,,,Chicago Fire FC,Columbus Crew
+0x5gj1wmM7,2025-09-07 00:30:00 UTC,3,2,X0Oq66zq6D,19vQ2095K6,wvq9vKlQWn,9YqdkYR5vJ,0x5gN9PM7O,NPqxkDY59d,103,2025,31,16947,False,FullTime,2025-09-07 22:30:09 UTC,,,Chicago Fire FC,New England Revolution
+Xj5YpbJlMb,2025-08-30 23:30:00 UTC,0,0,a2lqRX2Mr0,mvzqoLZQap,ljqExYw5x0,NWMW84L5lz,2vQ1z6xMrA,KPqjO38Q6v,98,2025,30,18913,False,FullTime,2025-08-31 13:15:19 UTC,,,New York Red Bulls,Columbus Crew
+2vQ1bp8xMr,2025-08-23 23:30:00 UTC,1,2,mvzqoLZQap,19vQ2095K6,BLMvDxAqxe,2vQ1eawQrA,KPqjO38Q6v,NPqxkDY59d,101,2025,29,20777,False,FullTime,2025-08-26 12:14:16 UTC,,,Columbus Crew,New England Revolution
+gpMOpb2l5z,2025-08-09 23:30:00 UTC,2,0,19vQ2095K6,EKXMeX3Q64,Pk5LRpDQOW,wvq9p775Wn,NPqxkDY59d,0x5gXPLq7O,100,2025,27,21538,False,FullTime,2025-08-10 17:13:43 UTC,,,New England Revolution,D.C. United
+XVqKzDlD50,2025-07-27 00:30:00 UTC,1,0,X0Oq66zq6D,a2lqRX2Mr0,vzqoWjkqap,gpMOzdEQzy,0x5gN9PM7O,2vQ1z6xMrA,103,2025,26,0,False,FullTime,2025-07-27 02:54:17 UTC,,,Chicago Fire FC,New York Red Bulls
+gjMNpbgKqK,2025-07-20 00:15:00 UTC,2,1,mvzqoLZQap,EKXMeX3Q64,0Oq6AZ756D,2vQ1eawQrA,KPqjO38Q6v,0x5gXPLq7O,97,2025,25,20668,False,FullTime,2025-07-20 14:27:07 UTC,,,Columbus Crew,D.C. United
+gOMnAZVAQw,2025-07-16 23:30:00 UTC,5,3,a2lqRX2Mr0,19vQ2095K6,Vj58OwwM8n,NWMW84L5lz,2vQ1z6xMrA,NPqxkDY59d,103,2025,24,15863,False,FullTime,2025-07-17 21:04:01 UTC,,,New York Red Bulls,New England Revolution
+odMXpbgeMY,2025-06-07 23:30:00 UTC,1,7,EKXMeX3Q64,X0Oq66zq6D,odMXLVAMYL,xW5pwORMg1,gpMO6j7Qzy,0x5gN9PM7O,98,2025,18,16715,False,FullTime,2025-06-08 08:55:54 UTC,,,D.C. United,Chicago Fire FC
+Oa5wjZDDM1,2025-05-28 23:30:00 UTC,1,1,EKXMeX3Q64,19vQ2095K6,aDQ0mkPMEv,xW5pwORMg1,gpMO6j7Qzy,NPqxkDY59d,103,2025,16,10645,False,FullTime,2025-05-29 15:40:42 UTC,,,D.C. United,New England Revolution
+aDQ0bpeG5E,2025-05-24 23:30:00 UTC,0,2,EKXMeX3Q64,a2lqRX2Mr0,ljqEymNqx0,xW5pwORMg1,gpMO6j7Qzy,2vQ1z6xMrA,100,2025,15,19290,False,FullTime,2025-05-25 12:52:28 UTC,,,D.C. United,New York Red Bulls
+eVq3bwyV5W,2025-04-19 23:30:00 UTC,1,2,a2lqRX2Mr0,EKXMeX3Q64,Vj58OwwM8n,NWMW84L5lz,2vQ1z6xMrA,gpMO6j7Qzy,103,2025,9,18407,False,FullTime,2025-04-20 15:18:00 UTC,,,New York Red Bulls,D.C. United
+Pk5Lp86Y5O,2025-04-05 23:30:00 UTC,2,1,a2lqRX2Mr0,X0Oq66zq6D,9z5kJ7gMA3,NWMW84L5lz,2vQ1z6xMrA,0x5gN9PM7O,99,2025,7,17238,False,FullTime,2025-04-06 15:08:01 UTC,,,New York Red Bulls,Chicago Fire FC
+0Oq6bW3Xq6,2025-03-29 23:30:00 UTC,1,2,EKXMeX3Q64,mvzqoLZQap,jYQJnoVQGR,xW5pwORMg1,gpMO6j7Qzy,KPqjO38Q6v,100,2025,6,17048,False,FullTime,2025-04-03 14:24:19 UTC,,,D.C. United,Columbus Crew
+gOMnAZlmQw,2025-03-29 18:30:00 UTC,2,1,19vQ2095K6,a2lqRX2Mr0,BLMvDxAqxe,wvq9p775Wn,NPqxkDY59d,2vQ1z6xMrA,105,2025,6,20439,False,FullTime,2025-04-03 13:51:26 UTC,,,New England Revolution,New York Red Bulls
+zeQZpbjK5K,2025-03-02 01:30:00 UTC,2,2,X0Oq66zq6D,EKXMeX3Q64,0Oq6vG2q6D,gpMOzdEQzy,0x5gN9PM7O,gpMO6j7Qzy,102,2025,2,20372,False,FullTime,2025-03-02 22:49:05 UTC,,,Chicago Fire FC,D.C. United
+e7MzjDAXMr,2025-03-02 00:30:00 UTC,0,1,19vQ2095K6,mvzqoLZQap,xW5pE3Yqg1,wvq9p775Wn,NPqxkDY59d,KPqjO38Q6v,105,2025,2,22274,False,FullTime,2025-03-03 00:40:32 UTC,,,New England Revolution,Columbus Crew
+Vj58bGw3Q8,2025-02-23 00:30:00 UTC,4,2,mvzqoLZQap,X0Oq66zq6D,zeQZlGK5Kw,2vQ1eawQrA,KPqjO38Q6v,0x5gN9PM7O,99,2025,1,20210,False,FullTime,2025-02-27 16:49:17 UTC,,,Columbus Crew,Chicago Fire FC

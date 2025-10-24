@@ -55,15 +55,28 @@ def calculate_h2h_points(team_list, league, season, conference_name, all_teams, 
         completed_games = pd.DataFrame(asa_client.get_games(leagues=[league], seasons=[season], stages=['Regular Season']))
         
         # Fetch upcoming games
-        print(f"Fetching upcoming (PreMatch) game data for the {season} {league.upper()} season...")
-        upcoming_games = pd.DataFrame(asa_client.get_games(leagues=[league], seasons=[season], stages=['Regular Season'], status=['PreMatch']))
+        try:
+            print(f"Fetching upcoming (PreMatch) game data for the {season} {league.upper()} season...")
+            upcoming_games = pd.DataFrame(asa_client.get_games(leagues=[league], seasons=[season], stages=['Regular Season'], status=['PreMatch']))
+            print(f"Done fetching upcoming (PreMatch) game data for the {season} {league.upper()} season.")
+        except Exception as e:
+            print(f"Warning: Could not fetch upcoming games for {season}. This is expected if none are scheduled. Error: {e}")
+            # If fetching upcoming games fails, proceed with an empty dataframe
+            upcoming_games = pd.DataFrame()
 
         # Combine the two dataframes
         all_games = pd.concat([completed_games, upcoming_games], ignore_index=True)
 
-
         if all_games.empty:
             print(f"No game data found for the {season} {league.upper()} season.")
+            return None, pd.DataFrame(), pd.DataFrame()
+
+        # Handle cases where the date column is named 'date' instead of 'date_time_utc'
+        if 'date_time_utc' not in all_games.columns and 'date' in all_games.columns:
+            print("Warning: 'date_time_utc' column not found. Renaming 'date' column.")
+            all_games.rename(columns={'date': 'date_time_utc'}, inplace=True)
+        elif 'date_time_utc' not in all_games.columns:
+            print(f"Error: No 'date_time_utc' or 'date' column found in game data for {season}. Cannot proceed with analysis.")
             return None, pd.DataFrame(), pd.DataFrame()
 
         # 3. Filter for ALL matches between conference teams for the export file.
@@ -272,23 +285,31 @@ def process_season(season, league, eastern_teams, western_teams, all_teams_df, c
     _, western_standings, western_all_matches = calculate_h2h_points(western_teams, league, SEASON, "Western", all_teams_df, client)
 
     # Export conference data to CSV in the year's subfolder
-    if eastern_standings is not None and not eastern_standings.empty:
+    if not eastern_standings.empty:
         filepath = os.path.join(SEASON, f'eastern_standings_{SEASON}.csv')
         eastern_standings.to_csv(filepath, index=False)
         print(f"\nEastern conference standings saved to {filepath}")
-    if eastern_all_matches is not None and not eastern_all_matches.empty:
+    else:
+        print(f"\nNo Eastern conference standings data to save for {SEASON}.")
+    if not eastern_all_matches.empty:
         filepath = os.path.join(SEASON, f'eastern_matches_{SEASON}.csv')
         eastern_all_matches.to_csv(filepath, index=False)
         print(f"All Eastern conference matches saved to {filepath}")
+    else:
+        print(f"No Eastern conference matches data to save for {SEASON}.")
         
-    if western_standings is not None and not western_standings.empty:
+    if not western_standings.empty:
         filepath = os.path.join(SEASON, f'western_standings_{SEASON}.csv')
         western_standings.to_csv(filepath, index=False)
         print(f"Western conference standings saved to {filepath}")
-    if western_all_matches is not None and not western_all_matches.empty:
+    else:
+        print(f"No Western conference standings data to save for {SEASON}.")
+    if not western_all_matches.empty:
         filepath = os.path.join(SEASON, f'western_matches_{SEASON}.csv')
         western_all_matches.to_csv(filepath, index=False)
         print(f"All Western conference matches saved to {filepath}")
+    else:
+        print(f"No Western conference matches data to save for {SEASON}.")
 
     # Find and export decisive matches
     print(f"\n{'='*20} ALL EAST VS. WEST DECISIVE MATCHUPS ({SEASON}) {'='*20}")
@@ -311,12 +332,12 @@ def process_season(season, league, eastern_teams, western_teams, all_teams_df, c
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print("Usage: python your_script_name.py <year> or 'all-years'")
-        sys.exit(1)
-    
-    arg = sys.argv[1]
-    
+    # Default to '2025' if no argument is provided, otherwise use the provided argument.
+    if len(sys.argv) > 1:
+        arg = sys.argv[1]
+    else:
+        print("Usage: python main.py <year> or 'all-years'. Defaulting to 2025.")
+        arg = '2025'
     LEAGUE = "mls"
     eastern_teams = ["New England Revolution", "New York Red Bulls", "D.C. United", "Columbus Crew", "Chicago Fire FC"]
     western_teams = ["LA Galaxy", "San Jose Earthquakes", "Colorado Rapids", "Sporting Kansas City", "FC Dallas"]
